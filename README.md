@@ -1,9 +1,7 @@
 # Migrate to Gatsby
 
-- Attempt to migrate the Personal Website from Jekyll to Gatsby
+- Migrating personal website to javascript based engine - Gatsby.
 - **Work in Progress!**
-
-<hr>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
