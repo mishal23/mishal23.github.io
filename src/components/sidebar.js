@@ -1,8 +1,12 @@
 import React from "react"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./stylesheets/main.css"
+import "./stylesheets/mobile.css"
+
 const SideBar = () => {
-	return (
-	<aside className="sidebar">
+  return (
+  <aside className="sidebar">
 
   <div className="sidebar-container">
     <div className="sidebar-logo">
@@ -24,7 +28,7 @@ const SideBar = () => {
     </div>
 
     <div className="sidebar-social">
-      <li className="social-items"><a href="mailto:shahmishal1998@gmail.com" className="social-links"><i className="social-icons fa fa-envelope" aria-hidden="true"></i></a></li>
+      <li className="social-items"><a href="mailto:shahmishal1998@gmail.com" className="social-links"><FontAwesomeIcon icon={['fa', 'fa-envelope']} className="social-icons" /><i className="social-icons fa fa-envelope" aria-hidden="true"></i></a></li>
       <li className="social-items"><a href="https://github.com/" className="social-links"><i className="social-icons fa fa-github" aria-hidden="true"></i></a></li>
       <li className="social-items"><a href="https://linkedin.com/" className="social-links"><i className="social-icons fa fa-linkedin" aria-hidden="true"></i></a></li>
       <li className="social-items"><a href="https://www.facebook.com/" className="social-links"><i className="social-icons fa fa-facebook" aria-hidden="true"></i></a></li>
