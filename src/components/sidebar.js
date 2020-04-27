@@ -1,8 +1,6 @@
 import React from "react"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import "./stylesheets/main.css"
-import "./stylesheets/mobile.css"
 
 const SideBar = () => {
   return (

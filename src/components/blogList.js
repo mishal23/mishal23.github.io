@@ -36,7 +36,6 @@ const BlogList = () => {
 
   return(
   <>
-  <Default></Default>
     return(
       <main role="main">
     <div className="content">
