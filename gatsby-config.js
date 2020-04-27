@@ -45,6 +45,9 @@ module.exports = {
             options: {
               inlineCodeMarker: null,
               showLineNumbers: false,
+              aliases: {
+                ".json": "json",
+              }
             }
           }
         ]
