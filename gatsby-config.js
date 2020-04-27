@@ -90,7 +90,7 @@ module.exports = {
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
       }
-    }
+    },
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {
