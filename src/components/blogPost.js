@@ -1,17 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-// import { Link } from "gatsby"
 
-// import * as S from "../components/layout.css"
 import Default from "../components/default"
 import Post from "../components/post"
 import SEO from "../components/seo"
-// import ConcatWords from "../utils/ConcatWords"
-// import formatDate from "../utils/formatDate"
+
 
 const BlogPost = ({ data }) => {
   const { markdownRemark } = data
-  // const imageSource = markdownRemark.frontmatter.image.childImageSharp.fluid.src
 
   return (
     <>
@@ -20,8 +16,12 @@ const BlogPost = ({ data }) => {
       description={markdownRemark.frontmatter.description}
     />
     <Default></Default>
-    <Post title={markdownRemark.frontmatter.title} date={markdownRemark.frontmatter.date}>
-      <p>{markdownRemark.frontmatter.description}</p>
+    <Post 
+      title={markdownRemark.frontmatter.title} 
+      date={markdownRemark.frontmatter.date} >
+      <p>
+        {markdownRemark.frontmatter.description}
+      </p>
       <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} /> 
     </Post>
     </>

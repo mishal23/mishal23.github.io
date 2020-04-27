@@ -1,11 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
-// import Default from "../components/default"
-
 
 const BlogList = () => {
   const data = useStaticQuery(
@@ -32,23 +27,22 @@ const BlogList = () => {
 )
   const { allMarkdownRemark } = data
   
-  // const { currentPage, numPages } = pageContext
   return(
   <>
-      <main role="main">
-    <div className="content">
-    {allMarkdownRemark.edges.map(({ node }) => (
-    <article class="main-article">
-      <div class="wrap-content">
-        <header class="header-article">
-          <h2 class="title-article"><a href="{}">{node.frontmatter.title}</a></h2>
-          <div class="post-date"><span>{node.frontmatter.date}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-        </header>
-        <p>{node.frontmatter.description} <Link to={node.fields.slug}>(Read more ...)</Link></p>
+    <main role="main">
+      <div className="content">
+        {allMarkdownRemark.edges.map(({ node }) => (
+          <article className="main-article">
+            <div className="wrap-content">
+              <header className="header-article">
+                <h2 className="title-article"><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h2>
+                <div className="post-date"><span>{node.frontmatter.date}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+              </header>
+              <p>{node.frontmatter.description} <Link to={node.fields.slug}>(Read more ...)</Link></p>
+            </div>
+          </article>
+        ))}
       </div>
-    </article>
-  ))}
-    </div>
     </main>
   </>
   )

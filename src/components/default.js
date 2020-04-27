@@ -1,8 +1,5 @@
 import React from "react"
-// import Header from "./header"
-// import PropTypes from "prop-types"
 import SideBar from "./sidebar"
-// import { Link } from "gatsby"
 
 import "./stylesheets/main.css"
 import "./stylesheets/mobile.css"
@@ -10,8 +7,7 @@ import "./stylesheets/mobile.css"
 
 const Default = () => {
 	return(
-		<SideBar>
-		</SideBar>
+		<SideBar/>
     )
 }
 
