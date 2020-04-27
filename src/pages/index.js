@@ -9,8 +9,6 @@ import BlogList from "../components/blogList"
 
 
 const IndexPage = () => {
-  // const { allMarkdownRemark } = data
-  // const { currentPage, numPages } = pageContext
 
   return(
   <>

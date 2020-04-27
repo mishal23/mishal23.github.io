@@ -21,7 +21,7 @@ const BlogList = () => {
           }
           frontmatter {
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
             description
           }
         }

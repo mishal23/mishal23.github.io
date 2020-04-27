@@ -8,14 +8,14 @@ description: What does it take to build confidence in your system's behaviour wh
 
 Many of us would have heard about the two major WhatsApp outages recently when it was down for about an hour each time. For the general public, WhatsApp was down for an hour. But for software engineers, WhatsApp was back within an hour. This made me wonder what it was, that enabled the engineers working at WhatsApp to restore the services so fast.
 
-![WhatsApp Outage]({{"/assets/img/whatsapp-outage.png"}})
+![WhatsApp Outage](./images/whatsapp-outage.png)
 
 What if I tell you, it was a very **normal** turbulent production failure for them. Yes, huge companies like [Netflix](https://www.netflix.com/in/), [Facebook](https://www.facebook.com/) and [Google](https://www.google.co.in/) use a method of engineering called **Chaos Engineering**.
 
 To explain Chaos Engineering in layman terms :
 To be good at something , if one practices it in extreme conditions then it would get easier for the person to perform in normal conditions. Similarly if a software engineer has seen extreme conditions in production, it becomes a challenge for him/her to code in such a way that their service fails if such an extreme condition occurs. If at all it comes, they would have experienced it before and so it becomes easy to bring the services back.
 
-![Chaos Engineering]({{"/assets/img/chaos-engineering.png"}})
+![Chaos Engineering](./images/chaos-engineering.png)
 
 ## Principle of Chaos Engineering
 

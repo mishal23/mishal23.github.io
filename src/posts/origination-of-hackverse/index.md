@@ -25,7 +25,7 @@ The aim was to make it the best technical event NITK has ever seen (beat the tec
 
 Since, it's going to be an event which would happen for the first time, it needed appropriate branding and hence we were pondering over the name and the logo. After discussing over 25+ names, trying out different designs in the logo, we settled up for the name **HackVerse** and the following logo:
 
-![HackVerse logo]({{"/assets/img/hackverse/hackverse-logo.png"}})
+![HackVerse logo](./images/hackverse-logo.png)
 
 More about HackVerse at: [https://hackverse.nitk.ac.in/](https://hackverse.nitk.ac.in/)
 
@@ -33,6 +33,6 @@ The hackathon was supported by the [Diamond Jubilee Commitee](https://dj.nitk.ac
 
 The team was definitely in-experienced in all terms (marketing, publicity, operations, hospitality, etc) for such a big event but the zeal among the members and the aim for which the hackathon was happening kept all of them going and the success had to happen. Cheers to each member in the team for all their contributions!
 
-![HackVerse Team]({{"/assets/img/hackverse/hackverse-team.JPG"}})
+![HackVerse Team](./images/hackverse-team.JPG)
 
 Full team at: [https://hackverse.nitk.ac.in/team](https://hackverse.nitk.ac.in/team)

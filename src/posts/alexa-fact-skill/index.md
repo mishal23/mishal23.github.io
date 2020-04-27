@@ -9,7 +9,7 @@ description: Learning to build voice user interface is a great skill to have as 
 ## Introduction
 Learning to build voice user interface is a great skill to have as devices like the Amazon Echo and Google Home are gaining popularity. Amazon is currently running an incentive program this July(2018) for people developing Alexa Skills. You develop a new skill and get a limited-edition Alexa developer T-shirt! If more than 100 customers enable and use your skill in the first 30 days of publication, you could also receive an Echo Dot.
 
-![July Incentive]({{"/assets/img/july-incentive.png"}})
+![July Incentive](./images/july-incentive.png)
 
 Sounds pretty cool right? Apart from the T-shirt or Echo Dot, you'll also learn developing something for voice assistant. If this seems like a good opportunity, read ahead!
 
@@ -35,13 +35,13 @@ What is a **skill**? They are basically apps(programs) that extend Echo's functi
 I'll explain how to create a fact skill in this blog post, you can dive into deeper to create some awesome skills. At the end, there is a list of amazing tutorials for you to learn more.
 
 Go to [Amazon Developer Account](https://developer.amazon.com/) and sign in, and select Alexa.
-![Alexa Amazon]({{"/assets/img/alexa-amazon.png"}})
+![Alexa Amazon](./images/alexa-amazon.png)
 
 On the Alexa Page, on the top-right, hover over the `Your Alexa Consoles` and click Skills.
-![Alexa Skills]({{"/assets/img/skill.png"}})
+![Alexa Skills](./images/skill.png)
 
 Click on the `Create Skill` button.
-![Alexa Create Skill]({{"/assets/img/create-skill.png"}})
+![Alexa Create Skill](./images/create-skill.png)
 
 Fill out the information,
 * Skill Name: Number Fact
@@ -50,11 +50,11 @@ Fill out the information,
 
 Click, Create Skill and you'll see a page similar to this.
 
-![Alexa Home]({{"/assets/img/skill-home.png"}})
+![Alexa Home](./images/skill-home.png)
 
 Now click Invocation in the left hand navigation panel, and set the Invocation Name. Invocation Name is what your user will need to say to start the skill. As the skill is number facts, setting the Invocation Name to: Number Facts, Click on Save Model and move to JSON Editor for the Interaction Model.
 
-![Skill Invocation]({{"/assets/img/skill-invocation.png"}})
+![Skill Invocation](./images/skill-invocation.png)
 
 This is now the core of the skill, Here we define,
 
@@ -66,8 +66,7 @@ This is now the core of the skill, Here we define,
 
 These are the "intents" of the Skill, which define the "intent" or purpose of something the user says to the Skill. So we may have a `GetNewFactIntent` intent, which signifies that the user wants to know an fact. They are defined in this format:
 
-{% highlight json %}
-
+```json
  {
       "intents": [
         {
@@ -87,8 +86,7 @@ These are the "intents" of the Skill, which define the "intent" or purpose of so
         }
       ]
  }
-
-{% endhighlight %}
+```
 
 The AMAZON.HelpIntent is a default Amazon intent that you can use to handle any **Help** type questions. Likewise, AMAZON.StopIntent is a inbuilt intent to handle "stop" intents.
 
@@ -110,11 +108,11 @@ For each intent, we list the maximum possible ways that users may say it:
 
 We put all this in the JSON Editor and hit Save Model, and then Build Model. Your JSON should look similar to this. You'll see a message like:
 
-![Build Progress]({{"/assets/img/build-progress.png"}}) 
+![Build Progress](./images/build-progress.png) 
 
 then 
 
-![Build Success]({{"/assets/img/build-success.png"}})
+![Build Success](./images/build-success.png)
 
 Now, it's time to set the endpoint, Click on `Endpoint` button in the left navigation bar. This where we specify where the Intent information goes when the user asks a question. The options are:
 * AWS Lambda - a Lambda endpoint
@@ -128,26 +126,26 @@ If you haven’t used AWS Lambda before, it’s a service that allows you to hos
 
 Go to [Amazon Web Services](https://aws.amazon.com/) and sign in the portal, and go to Lambda service.
 
-![AWS Home]({{"/assets/img/aws-home.png"}})
+![AWS Home](./images/aws-home.png)
 
 Once on Lambda home page, click on the orange button to create the Lambda function.
 
-![Create Lambda]({{"/assets/img/create-lambda.png"}})
+![Create Lambda](./images/create-lambda.png)
 
 Choose `Author from Scratch`, and then name your function in camelCase, for me, **numberFactFunction**.
 Choose, RunTime as Node.js 8.10, and in Role dropdown, choose, **Create a Custom Role**. This will open a new window, in that click on Allow. Read more about IAM Roles [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html).
 
-![Custom Roles]({{"/assets/img/custom-role.png"}})
+![Custom Roles](./images/custom-role.png)
 
 Then on the back on Lambda Page, select **lambda_basic_execution** in the Existing Role, and click `Create Function`.
 
 Now, we need to add Trigger, for we are developing Alexa Skill Kit, click on Alexa Skill Kit in the left navigation.
 
-![Trigger]({{"/assets/img/trigger.png"}})
+![Trigger](./images/trigger.png)
 
 In Configure trigger, copy the Skill ID from the Developer Console, and paste it here, and click on Add. Skill ID will be in the form **amzn1.ask.skill......** After this is done, click on the numberFactFunction where we added the trigger, this will show the Function Code at the bottom.
 
-![Function code]({{"/assets/img/function-code.png"}})
+![Function code](./images/function-code.png)
 
 Add the `index.js` code from [here](https://gist.github.com/mishal23/4499d20a24e3e5ce6f5db11bd02277a9), also add the `AlexaSkill.js` from the same link in the function code by creating a new file.
 
@@ -155,11 +153,11 @@ File `AlexaSkill.js` has specific event handlers. It specifies the output, promp
 
 From the right-top of the page, copy the ARN value, it's of the form `arn:aws:lambda:region:function:nameOfFunction`. Go to Amazon Developer Console, Select your skill and click on Endpoint	in the left navigation bar. Select AWS Lambda ARN and paste the ARN code copied in the default region input box. Click on Save Endpoints. And you'll see a popup similar to the below image saying Skill Manifest Saved Successfully.
 
-![Skill save]({{"/assets/img/skill-save.png"}})	
+![Skill save](./images/skill-save.png)	
 
 In the top navigation bar, click on Test tab. If the test is disabled, enable it and either speak or type the Open Invocation Name , for this skill, `Open Number Facts`, and watch Alexa speaking the fact. :D
 
-![Skill Test]({{"/assets/img/test-skill.png"}})	
+![Skill Test](./images/test-skill.png)	
 
 Enter the distribution and Certification details as required, and submit the skill for certification. It takes a few days to hear back from the Amazon Developer Team. If your Skill is approved then everything works and all of the information is agreeing to their standards. Your Skill will be certified and published and available for others to use. If not, you will receive feedback and suggestions on what you need to to to resolve any issues so you can re-submit.
 

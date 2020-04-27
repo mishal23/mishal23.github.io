@@ -7,7 +7,7 @@ description: A bit about my journey to getting accepted for GSoC 2019 with the n
 ---
 6th May, 2019. I came back to home after playing cricket with my friends at around 10:45 pm, Took a quick shower and sat to check the results at 11:30 pm. Reloaded the dashboard at 11:30 pm and there was my name. Finally! I got selected as a Student Developer in Google Summer of Code, 2019 with [The ns-3 Network Simulator Project][ns3-gsoc]. The official mail came a bit late, but the website had the results on time.
 
-![GSoC 2019 Acceptance]({{"/assets/img/gsoc/gsoc-acceptance.png"}})
+![GSoC 2019 Acceptance](./images/gsoc-acceptance.png)
 
 A bit about the major phases in this journey:
 

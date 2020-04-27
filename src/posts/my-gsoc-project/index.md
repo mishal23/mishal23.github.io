@@ -12,7 +12,7 @@ The previous post mainly covered about my journey to GSoC 2019, but didn't speak
 
 ## What is ns-3?
 
-![ns-3 org logo]({{"/assets/img/gsoc/ns-3.png"}})
+![ns-3 org logo](./images/ns-3.png)
 
 ns-3 is a discrete-event network simulator for Internet systems, targeted primarily for research and educational use. ns-3 is publicly available for research, development, and use.
 
