@@ -1,6 +1,8 @@
 import React from "react"
+import { Link } from "gatsby"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaLinkedin, FaTwitter, FaGithub, FaFacebookF, FaEnvelope } from "react-icons/fa";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SideBar = () => {
   return (
@@ -8,29 +10,29 @@ const SideBar = () => {
 
   <div className="sidebar-container">
     <div className="sidebar-logo">
-      <a href="/" className="logo">Mishal Shah</a>
+      <Link to="/" className="logo">Mishal Shah</Link>
     </div>
 
     <menu className="sidebar-menu">
-      <li className="menu-items"><a className="menu-links" href="/">Home</a></li>
-      <li className="menu-items"><a className="menu-links" href="/about/">About</a></li>
-      <li className="menu-items"><a className="menu-links" href="/projects/">Projects</a></li>
-      <li className="menu-items"><a className="menu-links" href="/contact/">Contact</a></li>
+      <li className="menu-items"><Link to="/" className="menu-links" activeClassName="active">Home</Link></li>
+      <li className="menu-items"><Link to="/about" className="menu-links" activeClassName="active">About</Link></li>
+      <li className="menu-items"><Link to="/projects" className="menu-links" activeClassName="active">Projects</Link></li>
+      <li className="menu-items"><Link to="/contact" className="menu-links" activeClassName="active">Contact</Link></li>
     </menu>
 
     <div className="btn-group">
-      <a href="/" className="mob-menu-items"><button className="navbtn">Home</button></a>
-      <a href="/about/" className="mob-menu-items"><button className="navbtn">About</button></a>
-      <a href="/projects/" className="mob-menu-items"><button className="navbtn">Projects</button></a>
-      <a href="/contact/" className="mob-menu-items"><button className="navbtn">Contact</button></a>
+      <Link to="/" className="mob-menu-items" activeClassName="active"><button className="navbtn">Home</button></Link>
+      <Link to="/about" className="mob-menu-items" activeClassName="active"><button className="navbtn">About</button></Link>
+      <Link to="/projects" className="mob-menu-items" activeClassName="active"><button className="navbtn">Projects</button></Link>
+      <Link to="/contact" className="mob-menu-items" activeClassName="active"><button className="navbtn">Contact</button></Link>
     </div>
 
     <div className="sidebar-social">
-      <li className="social-items"><a href="mailto:shahmishal1998@gmail.com" className="social-links"><FontAwesomeIcon icon={['fa', 'fa-envelope']} className="social-icons" /><i className="social-icons fa fa-envelope" aria-hidden="true"></i></a></li>
-      <li className="social-items"><a href="https://github.com/" className="social-links"><i className="social-icons fa fa-github" aria-hidden="true"></i></a></li>
-      <li className="social-items"><a href="https://linkedin.com/" className="social-links"><i className="social-icons fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li className="social-items"><a href="https://www.facebook.com/" className="social-links"><i className="social-icons fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li className="social-items"><a href="https://twitter.com/" className="social-links"><i className="social-icons fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li className="social-items"><a href="mailto:shahmishal1998@gmail.com" className="social-links" target="_blank" rel="noopener noreferrer"><FaEnvelope className="social-icons"/></a></li>
+      <li className="social-items"><a href="https://github.com/mishal23" className="social-links" target="_blank" rel="noopener noreferrer"><FaGithub className="social-icons"/></a></li>
+      <li className="social-items"><a href="https://linkedin.com/in/mishal23" className="social-links" target="_blank" rel="noopener noreferrer"><FaLinkedin className="social-icons"/></a></li>
+      <li className="social-items"><a href="https://www.facebook.com/mishal.shah.7731" className="social-links" target="_blank" rel="noopener noreferrer"><FaFacebookF className="social-icons"/></a></li>
+      <li className="social-items"><a href="https://twitter.com/@1998Mishal" className="social-links" target="_blank" rel="noopener noreferrer"><FaTwitter className="social-icons"/></a></li>
     </div>
 
   </div>

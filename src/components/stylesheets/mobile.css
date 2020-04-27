@@ -1,7 +1,12 @@
 .btn-group {
 	padding-bottom: 0.7em;
 }
-.navbtn {
+.mob-menu-items {
+	/*margin-top: 0.5em;*/
+	margin-left: 0.3em;
+}
+
+.mob-menu-items:not(.active) .navbtn {
 	background-color: #4a4545;
 	border: 1px;
 	font-weight: 700;
@@ -32,9 +37,16 @@ a.active {
 	color: #4a4545 !important;
 }
 
-button.active {
+.navbtn {
 	background-color: #15F3A8;
+	border: 1px;
+	font-weight: 700;
+	font-size: 16px;
 	color: #4a4545;
+	border-radius: .2em;
+	padding: 10px 10px 10px 10px;
+	margin-top: 2px;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {
