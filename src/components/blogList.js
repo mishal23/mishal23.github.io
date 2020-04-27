@@ -33,10 +33,8 @@ const BlogList = () => {
   const { allMarkdownRemark } = data
   
   // const { currentPage, numPages } = pageContext
-
   return(
   <>
-    return(
       <main role="main">
     <div className="content">
     {allMarkdownRemark.edges.map(({ node }) => (
@@ -52,7 +50,6 @@ const BlogList = () => {
   ))}
     </div>
     </main>
-    )
   </>
   )
 }
