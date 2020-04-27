@@ -47,7 +47,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/mishal23/gatsby-migration.git"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    # if github deploy works, this will be no longer needed
+    # "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/mishal23/gatsby-migration.git"
   },
   "repository": {
     "type": "git",
