@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 // import * as S from "../components/layout.css"
 import Default from "../components/default"
 import Post from "../components/post"
-// import Seo from "../components/seo"
+import SEO from "../components/seo"
 // import ConcatWords from "../utils/ConcatWords"
 // import formatDate from "../utils/formatDate"
 
@@ -15,6 +15,10 @@ const BlogPost = ({ data }) => {
 
   return (
     <>
+    <SEO
+      title={markdownRemark.frontmatter.title}
+      description={markdownRemark.frontmatter.description}
+    />
     <Default></Default>
     <Post title={markdownRemark.frontmatter.title} date={markdownRemark.frontmatter.date}>
       <p>{markdownRemark.frontmatter.description}</p>

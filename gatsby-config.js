@@ -1,8 +1,30 @@
 module.exports = {
   siteMetadata: {
     title: `Mishal Shah`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Mishal Shah - B.Tech in Computer Science, NITK. GSoC '19 Student, GCI '19 Mentor at ns-3, Full Stack Developer with interests in Networks, Databases, Web Security`,
+    author: `@mishal23`,
+    keywords: [
+      "mishal23",
+      "Mishal Shah",
+      "GSoC",
+      "Google Summer of Code", 
+      "ns-3", 
+      "ns-3-AppStore", 
+      "Chaos Engineering", 
+      "Backend Developer",
+      "Full Stack Developer",
+      "Alexa", 
+      "IRIS NITK", 
+      "IE NITK", 
+      "HackVerse"
+    ],
+    social: {
+      twitter: `@1998Mishal`,
+      facebook: ``,
+      github: `mishal23`,
+      email: `shahmishal1998@gmail.com`,
+      linkedin: ``,
+    }
   },
   pathPrefix: "/gatsby-migration",
   plugins: [
