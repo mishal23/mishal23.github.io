@@ -35,6 +35,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install gatsby and deploy
       run: |
-        npm install -g gatsby-cli
+        npm install
         git config user.name "mishal23" && git config user.email "shahmishal1998@gmail.com"
         npm run deploy
