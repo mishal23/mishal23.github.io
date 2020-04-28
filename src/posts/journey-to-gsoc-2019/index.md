@@ -4,6 +4,7 @@ date:   2019-05-07 21:32:40 +0530
 img:
 description: A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization.
 keywords: mishal23, gsoc, gsoc2019, journey, ns-3, ns-3-AppStore, bake, open-source, nitk, communities
+blog: true
 
 ---
 6th May, 2019. I came back to home after playing cricket with my friends at around 10:45 pm, Took a quick shower and sat to check the results at 11:30 pm. Reloaded the dashboard at 11:30 pm and there was my name. Finally! I got selected as a Student Developer in Google Summer of Code, 2019 with [The ns-3 Network Simulator Project][ns3-gsoc]. The official mail came a bit late, but the website had the results on time.

@@ -1,0 +1,22 @@
+---
+title:  "Projects"
+img: 
+description: 
+keywords: 
+blog: false
+
+---
+
+Most of my projects can be found on my [GitHub account](https://github.com/mishal23). I have worked on many group and personal projects. Most of them involved using the following technologies or languages:
+
+## Languages
+
+C, C++, Python, Erlang, JavaScript, HTML, CSS
+
+## DBMS
+
+MySQL, NoSQL (MongoDB)
+
+## Tools/Frameworks
+
+MEAN Stack, Django, Git, OpenMP, jQuery, Laravel, Ruby on Rails, STL, ns-3, Gatsby
