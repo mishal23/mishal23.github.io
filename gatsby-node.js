@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
               title
               date
               description
+              keywords
             }
             html
           }

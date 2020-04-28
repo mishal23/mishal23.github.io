@@ -14,6 +14,7 @@ const BlogPost = ({ data }) => {
     <SEO
       title={markdownRemark.frontmatter.title}
       description={markdownRemark.frontmatter.description}
+      keywords={markdownRemark.frontmatter.keywords}
     />
     <Default></Default>
     <Post 
@@ -38,6 +39,7 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        keywords
       }
     }
   }

@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "My GSoC Project"
 date:   2019-05-28 21:32:40 +0530
 img:
 description: A brief into the project, the organization and the gains out of the community bonding period.
+keywords: mishal23, gsoc, gsoc2019, project, ns-3, ns-3-AppStore, bake, open-source, tcp-nv
+
 ---
 
 Excerpt from the [previous post](../journey-to-gsoc-2019): Got accepted for GSoC 2019 with the [ns-3 organization][ns3-gsoc].

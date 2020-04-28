@@ -2,6 +2,8 @@
 title:  "Chaos Engineering"
 date:   2017-12-19 
 description: What does it take to build confidence in your system's behaviour while in production? How do companies like Netflix, Google and Twilio find unknown weaknesses in their production systems?
+keywords: chaos, netflix, mishal23, chaos-engineering
+
 ---
 
 ## Introduction

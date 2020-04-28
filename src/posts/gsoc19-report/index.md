@@ -1,9 +1,10 @@
 ---
-layout: post
 title:  "ns-3 GSoC 2019 Report"
 date:   2019-08-25 21:32:40 +0530
 img:
 description: Summarizing my GSoC 2019 Experience with the ns-3 Organization and my mentors. 
+keywords: mishal23, gsoc, gsoc2019, experience, ns-3, ns-3-AppStore, bake, open-source
+
 ---
 
 # Introduction
