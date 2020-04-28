@@ -4,15 +4,16 @@ import Default from "../components/default"
 import Post from "../components/post"
 import SEO from "../components/seo"
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import useSiteMetadata from '../utils/site-metadata';
 
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ path, data }) => {
   const { markdownRemark } = data
-  const url = window.location.href
+  const { siteUrl } = useSiteMetadata();
 
   let disqusConfig = {
-    url: url,
-    identifier: url,
+    url: `${siteUrl}${path}`,
+    identifier: `${siteUrl}${path}`,
     title: markdownRemark.frontmatter.title,
   }
 
