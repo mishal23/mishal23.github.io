@@ -26,7 +26,7 @@ module.exports = {
       linkedin: ``,
     }
   },
-  pathPrefix: "/gatsby-migration",
+  // pathPrefix: "/gatsby-migration",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
