@@ -7,8 +7,8 @@
 
 # 🚀 Steps to run
 
-```
-git clone https://github.com/mishal23.github.io/
+```bash
+git clone https://github.com/mishal23/mishal23.github.io/
 cd mishal23.github.io
 npm install
 gatsby develop
