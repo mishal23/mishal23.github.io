@@ -3,6 +3,7 @@ module.exports = {
     title: `Mishal Shah`,
     description: `Mishal Shah - B.Tech in Computer Science, NITK. GSoC '19 Student, GCI '19 Mentor at ns-3, Full Stack Developer with interests in Networks, Databases, Web Security`,
     author: `@mishal23`,
+    siteUrl: `https://mishal23.github.io`,
     keywords: [
       "mishal23",
       "Mishal Shah",
@@ -101,6 +102,12 @@ module.exports = {
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
+      }
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `mishal23`
       }
     },
     // {
