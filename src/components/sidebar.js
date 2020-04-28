@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaLinkedin, FaTwitter, FaGithub, FaFacebookF, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaGithub, FaFacebookF, FaEnvelope, FaTelegramPlane } from "react-icons/fa";
 
 
 const SideBar = () => {
@@ -32,6 +32,7 @@ const SideBar = () => {
       <li className="social-items"><a href="https://linkedin.com/in/mishal23" className="social-links" target="_blank" rel="noopener noreferrer"><FaLinkedin className="social-icons"/></a></li>
       <li className="social-items"><a href="https://www.facebook.com/mishal.shah.7731" className="social-links" target="_blank" rel="noopener noreferrer"><FaFacebookF className="social-icons"/></a></li>
       <li className="social-items"><a href="https://twitter.com/@1998Mishal" className="social-links" target="_blank" rel="noopener noreferrer"><FaTwitter className="social-icons"/></a></li>
+      <li className="social-items"><a href="https://t.me/mishal23" className="social-links" target="_blank" rel="noopener noreferrer"><FaTelegramPlane className="social-icons"/></a></li>
     </div>
 
   </div>

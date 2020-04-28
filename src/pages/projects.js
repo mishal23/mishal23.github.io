@@ -1,10 +1,8 @@
 import React from "react"
-// import { Link } from "gatsby"
-
-// import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"
+
 
 const ProjectsPage = () => (
 	<>
@@ -20,7 +18,7 @@ const ProjectsPage = () => (
 		<p>MySQL, NoSQL (MongoDB)</p>
 
 		<h3>Tools/Frameworks</h3>
-		<p>MEAN Stack, Django, Git, OpenMP, jQuery, Laravel, Ruby on Rails, STL, ns-3</p>
+		<p>MEAN Stack, Django, Git, OpenMP, jQuery, Laravel, Ruby on Rails, STL, ns-3, Gatsby</p>
     </Post>
     </>
 )

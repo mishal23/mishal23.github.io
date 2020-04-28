@@ -1,5 +1,4 @@
 import React from "react"
-
 import SEO from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"

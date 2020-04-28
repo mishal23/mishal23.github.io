@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Default from "../components/default"
 import Post from "../components/post"
 import SEO from "../components/seo"
@@ -20,9 +19,6 @@ const BlogPost = ({ data }) => {
     <Post 
       title={markdownRemark.frontmatter.title} 
       date={markdownRemark.frontmatter.date} >
-      <p>
-        {markdownRemark.frontmatter.description}
-      </p>
       <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} /> 
     </Post>
     </>
