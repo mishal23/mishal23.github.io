@@ -76,14 +76,7 @@ module.exports = {
         plugins: [
           `gatsby-remark-images`,
           {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              inlineCodeMarker: null,
-              showLineNumbers: false,
-              aliases: {
-                ".json": "json",
-              }
-            }
+            resolve: `gatsby-remark-highlight-code`,
           }
         ]
       }
@@ -110,12 +103,6 @@ module.exports = {
         shortname: `mishal23`
       }
     },
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography`,
-    //   },
-    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
