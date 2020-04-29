@@ -773,7 +773,7 @@ blockquote {
   margin: 0;
 }
 
-.highlighter-rouge {
+.highlighter-rouge, .language-text {
   color: #e74b3c;
   font-weight: 400;
   border: 1px solid #607D8B;
