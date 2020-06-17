@@ -23,6 +23,7 @@ function SEO({ description, lang, meta, title, keywords }) {
             social {
               twitter
             }
+            image
           }
         }
       }
@@ -31,6 +32,7 @@ function SEO({ description, lang, meta, title, keywords }) {
 
   const metaDescription = description || site.siteMetadata.description
   const metaKeywords = keywords || site.siteMetadata.keywords
+  const image = site.siteMetadata.image
 
   return (
     <Helmet
@@ -47,6 +49,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:image`,
+          content: image,
         },
         {
           property: `og:description`,
@@ -67,6 +73,10 @@ function SEO({ description, lang, meta, title, keywords }) {
         {
           name: `twitter:creator`,
           content: site.siteMetadata.social.twitter,
+        },
+        {
+          name: `twitter:image:src`,
+          content: image,
         },
         {
           name: `twitter:title`,
