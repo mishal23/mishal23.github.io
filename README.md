@@ -1,5 +1,6 @@
 # mishal23.github.io
 
+[![Actions Status](https://github.com/mishal23/mishal23.github.io/workflows/Build/badge.svg)](https://github.com/mishal23/mishal23.github.io/actions)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6c0dd1fcfba64074945a5b87e4526530)](https://app.codacy.com/manual/mishal23/mishal23.github.io?utm_source=github.com&utm_medium=referral&utm_content=mishal23/mishal23.github.io&utm_campaign=Badge_Grade_Dashboard)
 
 - Personal website in Gatsby.
