@@ -26,7 +26,7 @@ module.exports = {
       email: `shahmishal1998@gmail.com`,
       linkedin: ``,
     },
-    image: 'src/images/mishal.jpeg'
+    image: '/mishal.jpeg'
   },
   // pathPrefix: "/gatsby-migration",
   plugins: [
@@ -52,12 +52,12 @@ module.exports = {
         icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
         icons: [
           {
-            src: `src/images/android-chrome-192x192.png`,
+            src: `favicon/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `src/images/android-chrome-512x512.png`,
+            src: `favicon/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
