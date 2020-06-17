@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title, keywords }) {
           content: site.siteMetadata.social.twitter,
         },
         {
-          name: `twitter:image:src`,
+          name: `twitter:image`,
           content: image,
         },
         {
