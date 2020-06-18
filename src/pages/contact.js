@@ -8,7 +8,7 @@ const ContactPage = () => (
 	<>
 	<SEO title="Contact" />
   	<Default/>
-  	<Post title="Get in touch">
+  	<Post title="Get in touch 📝">
   		<p>
   			There are plenty of ways to contact me, ping me up for a chat related to open-source, 
   			software engineering (web), hackathons, speaking at events, communities, or just send a Hi 

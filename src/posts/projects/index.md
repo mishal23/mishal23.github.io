@@ -1,5 +1,5 @@
 ---
-title:  "Projects"
+title:  "Projects 👨‍💻"
 img: 
 description: 
 keywords: 
