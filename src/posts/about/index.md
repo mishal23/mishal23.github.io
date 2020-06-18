@@ -7,13 +7,14 @@ blog: false
 
 ---
 
-Hi 👋, I'm Mishal Shah, pursuing B.Tech in Computer Science at [NITK, Surathkal](http://nitk.ac.in), India. I love software development and interested in Networks, Databases, Web Security.
+Hi 👋, I'm Mishal Shah, pursuing B.Tech in Computer Science at [NITK, Surathkal](http://nitk.ac.in), India. I love software development and interested in Networks, Databases, Web Security. I strongly believe that technology can make the lives easier and thus keep exploring and learning.
 
-In the past, I have interned at [IIIT Hyderabad](https://www.iiit.ac.in/) in 2018, been [Google Summer of Code Student in 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4544832284917760/) and served as a mentor in [Google Code-in '19](https://codein.withgoogle.com/) with the [ns-3 Organization](https://nsnam.org/).
+In the past, I have interned at [IIIT Hyderabad](https://www.iiit.ac.in/) in 2018, been [Google Summer of Code Student in 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4544832284917760/), served as a mentor in [Google Code-in '19](https://codein.withgoogle.com/) and mentoring a project as a part of [GSoC '20](https://summerofcode.withgoogle.com/projects/#6502257928962048) with the [ns-3 Organization](https://nsnam.org/).
 
-I have attend some hackathons ([Smart India Hackathon 2018](https://sih.gov.in/), [code.fun.do](https://www.codefundo.io/), [InOut 6.0](https://hackinout.co/)), love helping the community, reading engineering articles of various companies and try to learn about the Internet.
+I have attend some hackathons ([Smart India Hackathon 2018](https://sih.gov.in/), [code.fun.do](https://www.codefundo.io/), [InOut 6.0](https://hackinout.co/)) and have lead organized a [National Level Hackathon - HackVerse](https://hackverse.nitk.ac.in/). I love helping the community, reading engineering articles or blogs of various companies/people and try to learn about the Web.
 
-I'm a hard-working, enthusiastic, passionate developer and love to contribute to the community. At college, I'm 
-part of various community groups: [IE NITK](https://ie.nitk.ac.in) (a technical club), [WebClub NITK](https://webclub.nitk.ac.in/) (a computer science club), [IRIS NITK](https://iris.nitk.ac.in/) (a student-led online portal for all procedures) and lead organized a [National Level Hackathon - HackVerse](https://hackverse.nitk.ac.in/).
+I'm a hard-working, enthusiastic, passionate developer. At college, I was part of various community groups. More about my college life [here](/college-life/)
 
-I love playing basketball, eating different dishes and visiting different places.
+When I'm not coding or exploring tech, I'm mostly sleeping or spending time with my parents. Other than that, I love playing basketball, eating different dishes and visiting different places.
+
+I started this site to share my personal experiences, learnings and technical knowledge. I'm aiming to expand with more quality content as I learn more.
