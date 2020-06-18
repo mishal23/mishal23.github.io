@@ -13,7 +13,7 @@ In the past, I have interned at [IIIT Hyderabad](https://www.iiit.ac.in/) in 201
 
 I have attend some hackathons ([Smart India Hackathon 2018](https://sih.gov.in/), [code.fun.do](https://www.codefundo.io/), [InOut 6.0](https://hackinout.co/)) and have lead organized a [National Level Hackathon - HackVerse](https://hackverse.nitk.ac.in/). I love helping the community, reading engineering articles or blogs of various companies/people and try to learn about the Web.
 
-I'm a hard-working, enthusiastic, passionate developer. At college, I was part of various community groups. More about my college life [here](/college-life/)
+I'm a hard-working, enthusiastic, passionate developer. I also plan to read some books on [my reading list](/reading-list). At college, I was part of various community groups. More about my college life [here](/college-life/)
 
 When I'm not coding or exploring tech, I'm mostly sleeping or spending time with my parents. Other than that, I love playing basketball, eating different dishes and visiting different places.
 
