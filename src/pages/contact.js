@@ -8,7 +8,13 @@ const ContactPage = () => (
 	<>
 	<SEO title="Contact" />
   	<Default/>
-  	<Post title="Contact">
+  	<Post title="Get in touch">
+  		<p>
+  			There are plenty of ways to contact me, ping me up for a chat related to open-source, 
+  			software engineering (web), hackathons, speaking at events, communities, or just send a Hi 
+  			<span role="img" aria-label="wave" aria-labelledby="hi"> 👋</span>, 
+  			I'll get back to you. I also love to talk about security, networking, DevOps, databases.
+  		</p>
     	<form className="form" action="https://formspree.io/shahmishal1998@gmail.com" method="POST">
   			<div className="form-item">
       			<label className="contact-label" htmlFor="name">Name:</label>
