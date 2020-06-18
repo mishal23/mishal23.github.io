@@ -15,4 +15,4 @@ At [university](https://nitk.ac.in/) I was part of various community groups:
 
 I also helped developed Website for the 2019 edition of [TEDxNITKSurathkal](https://www.tedxnitksurathkal.in/), mentored two projects as part of [Winter of Code, NITK](https://woc-nitk.github.io), and helped students applying to open-source programs like GSoC by reviewing their proposals.
 
-I also co-founded and lead organized the inaugral edition of [HackVerse](https://hackverse.nitk.ac.in) - India's biggest student-led hackathon with some of my closest friends.
+I also co-founded and lead organized the inaugural edition of [HackVerse](https://hackverse.nitk.ac.in) - India's biggest student-led hackathon with some of my closest friends.
