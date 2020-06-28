@@ -33,6 +33,9 @@ Here are the major steps:
 - Added Google Analytics & PWA support,
 - Some other fixes for overall look & feel.
 
+Here's the lighthouse report of the new website:
+![Lighthouse Report](./images/lighthouse-report.JPG)
+
 ## GitHub Actions
 
 When GitHub Actions was released in [August 2019](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/), I always wanted to give it a try for some project but didn't get enough time to try it out. While I was using Travis CI with this deployment, I thought of giving GitHub Actions a try. Finally!
