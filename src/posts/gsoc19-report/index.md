@@ -3,14 +3,14 @@ title:  "ns-3 GSoC 2019 Report"
 date:   2019-08-25 21:32:40 +0530
 img:
 description: Summarizing my GSoC 2019 Experience with the ns-3 Organization and my mentors. 
-keywords: mishal23, gsoc, gsoc2019, experience, ns-3, ns-3-AppStore, bake, open-source
+keywords: mishal23, gsoc, gsoc2019, experience, ns-3, ns-3-AppStore, Bake, open-source
 blog: true
 
 ---
 
 # Introduction
 
-Google Summer of Code has been an amazing opportunity for me to be part of the open source culture and contribute to the community. It was an amazing journey with a lot of hurdles once the college started (placements, academics, extra-curricular), but the help and support from the mentors had been amazing and could pass through it. Super thankful to my mentors [@abhijithanilkumar](https://github.com/abhijithanilkumar/) and [@adeepkit01](https://github.com/adeepkit01) for their continuous guidance and help throughout the period. I would also like to thank [@tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his valuable guidance and suggestions.
+Google Summer of Code has been a fantastic opportunity for me to be part of the open-source culture and contribute to the community. It was a fantastic journey with many hurdles once the college started (placements, academics, extra-curricular). Still, the help and support from the mentors had been amazing and could pass through it. Super thankful to my mentors [@abhijithanilkumar](https://github.com/abhijithanilkumar/) and [@adeepkit01](https://github.com/adeepkit01) for their continuous guidance and help throughout the period. I would also like to thank [@tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his valuable advice and suggestions.
 
 # Project Outline
 
@@ -18,14 +18,14 @@ Google Summer of Code has been an amazing opportunity for me to be part of the o
 
 The project plan for each period was as follows:
 
-1. **Community Bonding** - Get familiar with the codebase of the AppStore and the Bake build system.
-2. **Phase 1** - Port the ns-3-AppStore to the latest version of Django & to Python3, Build the REST API for install for bake to interact with the AppStore, and adding the `install` command to Bake.
-3. **Phase 2** - Adding the `update` command line option to Bake, Add OAuth support for Gitlab & Github to the AppStore, download statistics for each extension.
-4. **Phase 3** - Multi Threaded Commenting, Dependency Management for the Apps, Improve the Ratings UI.
+1. **Community Bonding** - Get familiar with the codebase of the AppStore, and the Bake build system.
+2. **Phase 1** - Port the ns-3-AppStore to the latest version of Django & to Python3, Build the REST API for install for Bake to interact with the AppStore, and adding the `install` command to Bake.
+3. **Phase 2** - Adding the `update` command-line option to Bake, Add OAuth support for Gitlab & Github to the AppStore, download statistics for each extension.
+4. **Phase 3** - Multi-Threaded Commenting, Dependency Management for the Apps, Improve the Rating UI.
 
 ## Pull Requests
 
-This section covers the actual work done during the GSoC Period in terms of contributed code/documentation/tests.
+This section covers the work done during the GSoC Period in terms of contributed code/documentation/tests.
 
 ### Community Bonding Period
 
@@ -35,16 +35,16 @@ This section covers the actual work done during the GSoC Period in terms of cont
 
 - [#47](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/47): This PR ported the ns-3-AppStore to the latest version of Django & to Python 3.6, and code converted to follow PEP8 Guidelines
 - [#48](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48): This PR added the install and search REST APIs for the bake command line to interact.
-- [#48](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48): Documented the REST APIs, setup rate limiting for the APIs to avoid any attacks.
-- [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR added the `getconf`, `install` and `search` options to Bake build System.
+- [#48](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48): Documented the REST APIs, setup rate-limiting for the APIs to avoid any attacks.
+- [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR added the `getconf`, `install`, and `search` options to Bake build System.
 
 ### Phase 2
 
 - [#2](https://gitlab.com/nsnam/bake/merge_requests/2): Added regression tests for the command line capabilities added in Bake.
 - [#48](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/48): This PR modified the Search API to use Pagination.
 - [#49](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/49): This PR added the filtering techniques with a minimal UI one-click for Fork/Modules/All.
-- [#52](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/52): Thus PR added the download count per release and per date for each app whenever a getconf/install option is triggered.
-- [#53](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53): This PR updated the exisiting Search API to POST Request to take the input parameters of the configured ns versions and the keyword to search
+- [#52](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/52): Thus, PR added the download count per release and per date for each app whenever a getconf/install option is triggered.
+- [#53](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53): This PR updated the existing Search API to POST Request to take the input parameters of the configured ns versions and the keyword to search
 - [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR updated the bake search functionality to get the apps based on the currently enabled ns versions. 
 
 
@@ -61,19 +61,19 @@ This section covers the actual work done during the GSoC Period in terms of cont
 - [Wiki: Weekly Updates](https://www.nsnam.org/wiki/GSOC2019AppStore): Weekly Updates of the work during the GSoC 2019 time period.
 - [Commenting Proposal](https://docs.google.com/document/d/1GBUEQYbSuYFPxoKXJLZaqhRlh0xkNwizFPmNVWEmi5Y/edit?usp=sharing): Prepared a proposal for various commenting features suitable for the ns-3-AppStore.
 - [Blog: Journey to GSoC 2019](https://mishal23.github.io/journey-to-gsoc-2019/): A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization. 
-- [Blog: My GSoC Project](https://mishal23.github.io/my-gsoc-project/): A brief into the project, the organization and the gains out of the community bonding period.
+- [Blog: My GSoC Project](https://mishal23.github.io/my-gsoc-project/): A brief into the project, the organization, and the gains out of the community bonding period.
 - [Phase 1 WorkFlow Document](https://docs.google.com/document/d/1urES5k0sJl24u2RE7dkpNdGaISCSvdvEKEDp5h5lYgA/edit?usp=sharing): A workflow document for all the tasks done during Phase 1.
 - [Phase 2 WorkFlow Document](https://docs.google.com/document/d/1PXJUNT2Er2s8jyFOE2VeAjlXGl7ZwUoQFuryH5VYfBE/edit?usp=sharing): A workflow document for all the tasks done during Phase 2.
 
-Inline code documentation was done for most of the codes, hence documentation was taken care.
+Inline code documentation was done for most of the codes, and hence documentation was taken care of.
 
 ### What is left?
 
-- Hosting Commento - A lot of effort was made to host commento locally both with nginx as well as docker, however wasn't successfull enough to get it working perfectly (locally css & js weren't loading). Hopefully, when we setup the website on the server will be able to get commento hosted and get it working fully. Will be trying to host Commento on AWS Instance as well.
+- Hosting Commento - A lot of effort was made to host commento locally both with Nginx and docker; however, it wasn't successful enough to get it working correctly (locally CSS & js weren't loading). Hopefully, when we set up the website on the server will be able to get commento hosted and get it working fully. Will be trying to host Commento on AWS Instance as well.
 
 ### Tasks done apart from the Proposed
 
-- On discussion with the mentors, they suggested to give priority to adding tests for the REST APIs, hence concentrated more on it and got it done alongwith fixing the GCI Tests since they were written in older version of Django, however for GSoC we migrated to the latest version of Django.
+- On discussion with the mentors, they suggested to give priority to adding tests for the REST APIs, hence concentrated more on it and got it done along with fixing the GCI Tests since they were written in older version of Django, however for GSoC we migrated to the latest version of Django.
 - Filters for Fork/Modules/All was something needed by the community as per the discussions in the WNS3-2019, hence added a minimal one-click UI for that.
 - Search Functionality in Bake wasn't proposed, however we felt that it would be good to have the feature and hence added that to Bake.
 
@@ -83,13 +83,13 @@ After discussion with my mentor [@abhijithanilkumar](https://github.com/abhijith
 - Deploy the updated ns-3-AppStore on the new server.
 - Add code coverage for the AppStore and add tests for the missing code.
 
-Will be glad to help out in case any issues come up or any new feature requests are needed by the ns-3 Community.
+I Will be glad to help out if any issues come up or the ns-3 community needs any new feature requests.
 
-On the bake side, although the main part of `getconf`, `install`, `search` was done, there are a lot of other functionalities expected on the Bake side which was out of scope for GSoC. Since, I've got familiar with the Bake codebase, I'll be happy to contribute the feature requests from the ns-3 Community.
+On the bake side, although the main part of `getconf`, `install`, `search` was done, there are a lot of other functionalities expected on the Bake side, which was out of scope for GSoC. Since I've got familiar with the Bake codebase, I'll be happy to contribute the feature requests from the ns-3 Community.
 
 ## Conclusion
 
-An amazing journey comes to an end. I'm very thankful to all my friends, mentors and my parents and sister who helped and kept me motivated during the entire journey. Though GSoC 2019 comes to an end, I'm looking forward to contribute to Open Source and ns-3 Bake & AppStore Project.
+An amazing journey comes to an end. I'm very thankful to all my friends, mentors, parents, and sister who helped and motivated me during the entire journey. Though GSoC 2019 comes to an end, I'm looking forward to contributing to Open Source and ns-3 Bake & AppStore Project.
 
 [ns3-gsoc]: https://summerofcode.withgoogle.com/organizations/4845767460651008/
 [gsoc-project]: https://summerofcode.withgoogle.com/projects/#5385832846852096
