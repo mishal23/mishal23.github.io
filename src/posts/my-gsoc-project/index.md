@@ -55,7 +55,6 @@ Since the ns-3-AppStore uses Python2.7 and Django 1.8, one of the tasks will als
 
 The community bonding period has ended. It mainly focused on setting up the development environment and understanding the code base of the Bake build system, testing and understanding the existing functionalities, and the workflow. My mentor also suggested that I research the various cases and develop a strong plan so that the coding period stays smooth. I also started documenting the ns-3-AppStore: user-workflow and the user-guide, which helped me better understand the existing functionalities of the AppStore.
 
-
 [ns3-gsoc]: https://summerofcode.withgoogle.com/organizations/4845767460651008/
 [gsoc-project]: https://summerofcode.withgoogle.com/projects/#5385832846852096
 [tcp-newvegas]: https://github.com/mishal23/Implementation-of-TCP-New-Vegas-in-ns3/

@@ -13,7 +13,8 @@ blog: true
 
 A bit about the major phases in this journey:
 
-## How did it start?
+## How it started
+
 I was looking forward to contributing to open source, to increase the skills and contribute to the community. I being a part of communities - [IRIS][iris], [Institution of Engineers, NITK Chapter][ienitk], [Web Enthusiasts' Club][webclub-nitk] at NITK Surathkal have contributed towards the college and the community but had never got a chance to broaden and contribute towards the larger community and thus was looking for a headstart in the open-source community and GSoC seemed to be the right place.
 
 ## Choosing the Organization & Project

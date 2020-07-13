@@ -7,15 +7,24 @@
 }
 
 .navbtn {
-  background-color: #15f3A8;
+  background-color: #15f3a8;
   border: 1px;
   font-weight: 700;
   font-size: 16px;
   color: #4a4545;
-  border-radius: .2em;
+  border-radius: 0.2em;
   padding: 10px 10px 10px 10px;
   margin-top: 2px;
   cursor: pointer;
+}
+
+.navbtn:not(:last-child) {
+  border-right: none;
+}
+
+.navbtn:hover {
+  background-color: #15f3a8;
+  color: #4a4545;
 }
 
 .mob-menu-items:not(.active) .navbtn {
@@ -30,22 +39,13 @@
   cursor: pointer;
 }
 
-.navbtn:not(:last-child) {
-  border-right: none;
-}
-
-.navbtn:hover {
-  background-color: #15f3A8;
-  color: #4a4545;
-}
-
 li.active {
-  background-color: #15f3A8;
+  background-color: #15f3a8;
   color: #4a4545 !important;
 }
 
 a.active {
-  background-color: #15f3A8;
+  background-color: #15f3a8;
   color: #4a4545 !important;
 }
 

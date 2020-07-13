@@ -8,7 +8,6 @@ blog: true
 
 ---
 
-
 I had started building my personal website in 2017 with static HTML, CSS, JS, and in 2018 based on the available options, I went ahead with Jekyll. Overall, everything was working fine with Jekyll and was smooth. Although, my Twitter feed was filled with [Gatsby](https://www.gatsbyjs.org/), and I had seen some stickers named "My Website is faster than yours" of Gatsby while interacting with them for [HackVerse Hackathon](https://hackverse.nitk.ac.in).
 
 ![gatsby quote](./images/website-faster.jpg)
@@ -49,8 +48,11 @@ Here are the steps I followed:
 ![Set Secret Token](./images/set-secret.png)
 
 - Created a file named `gh-pages-deploy.yml` in the directory ```.github/workflows/``` using the Simple Workflow template available under the Actions tab on the repository.
+
 - Since the User pages must be built from the master branch, I set my default branch as **source** on the repository and left the master branch for deployment and hence triggered the workflow only on **source** branch push,
+
 - I configured it to node.js environment with **12.x** version, cached the dependencies so that it doesn't have to be installed every time and faster CI,
+
 - Configured to initial git settings of user.name and user.email as it is required, used to **GH_TOKEN** to give the access and then made the deployment run using the following command:
 ```bash
 npm run deploy

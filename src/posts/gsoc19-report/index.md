@@ -47,7 +47,6 @@ This section covers the work done during the GSoC Period in terms of contributed
 - [#53](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53): This PR updated the existing Search API to POST Request to take the input parameters of the configured ns versions and the keyword to search
 - [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR updated the bake search functionality to get the apps based on the currently enabled ns versions. 
 
-
 ### Phase 3
 
 - [#53](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53): This PR modified the Install API to POST Request to take the input parameters of the configured ns version and the module name and the version.
@@ -67,7 +66,7 @@ This section covers the work done during the GSoC Period in terms of contributed
 
 Inline code documentation was done for most of the codes, and hence documentation was taken care of.
 
-### What is left?
+### Work to be done
 
 - Hosting Commento - A lot of effort was made to host commento locally both with Nginx and docker; however, it wasn't successful enough to get it working correctly (locally CSS & js weren't loading). Hopefully, when we set up the website on the server will be able to get commento hosted and get it working fully. Will be trying to host Commento on AWS Instance as well.
 
