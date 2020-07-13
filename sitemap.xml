@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://mishal23.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/college-life</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/my-reading-list</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/migration-to-gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/origination-of-hackverse</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/gsoc19-report</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/my-gsoc-project</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/journey-to-gsoc-2019</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/alexa-fact-skill</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/chaos-engineering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
