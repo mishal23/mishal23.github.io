@@ -50,7 +50,7 @@ Suppose your team has built the next wave of advancement the whole world has bee
 
 The truth is: You can never be sure. There will always be something that can be wrong or will go wrong. Some things aren't in your control, like denial-of-service attacks or network failures. Sometimes, bad things happen.
 
-Possibly The only solution for it is to build quality software that is resilient to failures. As the saying goes - * "Hope for the best, prepare for the worst "*
+Possibly The only solution for it is to build quality software that is resilient to failures. As the saying goes - *"Hope for the best, prepare for the worst"*
 But how can your team be sure that your system is ready for production and is prepared to face all difficulties/failures? *This is where Chaos Engineering comes into the picture.*
 
 ## Does this seem like testing

@@ -1,18 +1,19 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
-   ========================================================================== */
+   ========================================================================== 
+ */
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
 html {
   line-height: 1.5;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -287,16 +288,22 @@ button:-moz-focusring,
  */
 legend {
   box-sizing: border-box;
+  
   /* 1 */
   color: inherit;
+  
   /* 2 */
   display: table;
+  
   /* 1 */
   max-width: 100%;
+  
   /* 1 */
   padding: 0;
+  
   /* 3 */
   white-space: normal;
+  
   /* 1 */
 }
 
@@ -494,6 +501,7 @@ template {
 }
 
 /* Generic.Prompt */
+
 /* Generic.Strong */
 .highlight .gu {
   color: #030;
@@ -722,7 +730,9 @@ template {
   color: #999;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -731,11 +741,13 @@ template {
     font-size: calc(15px + 5 * ((100vw - 500px) / 900));
   }
 }
+
 @media screen and (min-width: 1400px) {
   html {
     font-size: 20px;
   }
 }
+
 body {
   color: #515151;
   margin: 0;
@@ -750,6 +762,7 @@ a {
   color: #15f3a8;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
   color: #1bdc9b;
@@ -769,7 +782,8 @@ blockquote {
   margin: 0;
 }
 
-.highlighter-rouge, .language-text, code {
+.highlighter-rouge,
+.language-text, code {
   color: #e74b3c;
   font-weight: 400;
   border: 1px solid #607d8b;
@@ -891,7 +905,7 @@ pre code {
 .page-article,
 .post {
   margin-bottom: 6rem;
-  box-shadow: 0 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 50px 110px -40px rgba(86, 119, 119, 0.68), 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-article .header-article,
@@ -920,7 +934,7 @@ pre code {
 .post .title-article,
 .post .page-title,
 .post .post-title {
-  /* font-family: 'Finger Paint', cursive;*/
+  /* font-family: 'Finger Paint', cursive; */
   margin-bottom: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -984,8 +998,8 @@ img.page-img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   text-decoration: none;
   background: #15f3a8;
-  -webkit-transition: all .35s;
-  transition: all .35s;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 .pagination a.next:hover,
@@ -1030,8 +1044,8 @@ img.page-img {
 .form-item textarea {
   width: 100%;
   margin-bottom: 15px;
-  -webkit-transition: all .7s ease;
-  transition: all .7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
   border: 1px solid #ccc;
   outline: 0;
   font-size: 0.7rem;
@@ -1055,8 +1069,8 @@ img.page-img {
   outline: 0;
   letter-spacing: 2px;
   cursor: pointer;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .form-btn:hover {
@@ -1084,7 +1098,8 @@ img.page-img {
     margin: 0 auto;
   }
 
-  .sidebar-logo, .sidebar-menu {
+  .sidebar-logo,
+  .sidebar-menu {
     margin-bottom: 3rem;
   }
 }
@@ -1094,7 +1109,8 @@ img.page-img {
     margin-bottom: 0.5rem;
   }
 
-  .previous, .next {
+  .previous,
+  .next {
     display: block;
   }
 }
