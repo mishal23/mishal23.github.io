@@ -102,10 +102,10 @@ pre {
  */
 a {
   background-color: transparent;
-  
+
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  
+
   /* 2 */
   color: #15f3a8;
   text-decoration: none;
@@ -125,10 +125,10 @@ abbr[title] {
   
   /* 1 */
   text-decoration: underline;
-  
+
   /* 2 */
   text-decoration: underline dotted;
-  
+
   /* 2 */
 }
 
@@ -160,7 +160,7 @@ samp {
   
   /* 1 */
   font-size: 1em;
-  
+
   /* 2 */
 }
 
@@ -208,6 +208,7 @@ sup {
 
 /* Embedded content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -241,6 +242,7 @@ svg:not(:root) {
 
 /* Forms
    ========================================================================== */
+
 /**
  * Remove the margin in Firefox and Safari.
  */
@@ -269,7 +271,7 @@ input {
  */
 button,
 select {
-  
+
   /* 1 */
   text-transform: none;
 }
