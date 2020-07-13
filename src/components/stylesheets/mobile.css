@@ -1,64 +1,65 @@
 .btn-group {
-	padding-bottom: 0.7em;
+  padding-bottom: 0.7em;
 }
+
 .mob-menu-items {
-	margin-left: 0.3em;
+  margin-left: 0.3em;
 }
 
 .mob-menu-items:not(.active) .navbtn {
-	background-color: #4a4545;
-	border: 1px;
-	font-weight: 700;
-	font-size: 16px;
-	color: #fff;
-	border-radius: .2em;
-	padding: 10px 10px 10px 10px;
-	margin-top: 2px;
-	cursor: pointer;
+  background-color: #4a4545;
+  border: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: .2em;
+  padding: 10px 10px 10px 10px;
+  margin-top: 2px;
+  cursor: pointer;
 }
 
 .navbtn:not(:last-child) {
- 	border-right: none; 
+  border-right: none;
 }
 
 .navbtn:hover {
-	background-color: #15F3A8;
- 	color: #4a4545;
+  background-color: #15F3A8;
+  color: #4a4545;
 }
 
 li.active {
-	background-color: #15F3A8;
-	color: #4a4545 !important;
+  background-color: #15F3A8;
+  color: #4a4545 !important;
 }
 
 a.active {
-	background-color: #15F3A8;
-	color: #4a4545 !important;
+  background-color: #15F3A8;
+  color: #4a4545 !important;
 }
 
 .navbtn {
-	background-color: #15F3A8;
-	border: 1px;
-	font-weight: 700;
-	font-size: 16px;
-	color: #4a4545;
-	border-radius: .2em;
-	padding: 10px 10px 10px 10px;
-	margin-top: 2px;
-	cursor: pointer;
+  background-color: #15F3A8;
+  border: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #4a4545;
+  border-radius: .2em;
+  padding: 10px 10px 10px 10px;
+  margin-top: 2px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {
-	.sidebar-menu {
-		display: none;
-	}
-	.btn-group {
-		display: block !important;
-	}
+  .sidebar-menu {
+    display: none;
+  }
+  .btn-group {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 3700px) {
-	.btn-group {
-		display: none;
-	}
+  .btn-group {
+    display: none;
+  }
 }
