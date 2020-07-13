@@ -1,7 +1,7 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
-   ========================================================================== 
+   ==========================================================================
  */
 
 /**
@@ -288,22 +288,22 @@ button:-moz-focusring,
  */
 legend {
   box-sizing: border-box;
-  
+
   /* 1 */
   color: inherit;
-  
+
   /* 2 */
   display: table;
-  
+
   /* 1 */
   max-width: 100%;
-  
+
   /* 1 */
   padding: 0;
-  
+
   /* 3 */
   white-space: normal;
-  
+
   /* 1 */
 }
 
@@ -783,7 +783,8 @@ blockquote {
 }
 
 .highlighter-rouge,
-.language-text, code {
+.language-text,
+code {
   color: #e74b3c;
   font-weight: 400;
   border: 1px solid #607d8b;
