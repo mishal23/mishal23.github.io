@@ -95,14 +95,17 @@ pre {
 
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
   background-color: transparent;
+  
   /* 1 */
   -webkit-text-decoration-skip: objects;
+  
   /* 2 */
   color: #15f3a8;
   text-decoration: none;
@@ -119,10 +122,13 @@ a:hover {
  */
 abbr[title] {
   border-bottom: none;
+  
   /* 1 */
   text-decoration: underline;
+  
   /* 2 */
   text-decoration: underline dotted;
+  
   /* 2 */
 }
 
@@ -151,8 +157,10 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
+  
   /* 1 */
   font-size: 1em;
+  
   /* 2 */
 }
 
@@ -250,6 +258,7 @@ textarea {
  */
 button,
 input {
+  
   /* 1 */
   overflow: visible;
 }
@@ -260,6 +269,7 @@ input {
  */
 button,
 select {
+  
   /* 1 */
   text-transform: none;
 }
