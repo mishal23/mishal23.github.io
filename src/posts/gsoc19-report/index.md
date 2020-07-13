@@ -8,11 +8,11 @@ blog: true
 
 ---
 
-# Introduction
+## Introduction
 
 Google Summer of Code has been a fantastic opportunity for me to be part of the open-source culture and contribute to the community. It was a fantastic journey with many hurdles once the college started (placements, academics, extra-curricular). Still, the help and support from the mentors had been amazing and could pass through it. Super thankful to my mentors [@abhijithanilkumar](https://github.com/abhijithanilkumar/) and [@adeepkit01](https://github.com/adeepkit01) for their continuous guidance and help throughout the period. I would also like to thank [@tomh](http://www.tomh.org/) sir - the ns-3 Organization Admin for his valuable advice and suggestions.
 
-# Project Outline
+## Project Outline
 
 **Project:** Improving the ns-3-AppStore and Linking with Bake.
 

@@ -21,6 +21,6 @@ MySQL, NoSQL (MongoDB)
 
 MEAN Stack, Django, Git, OpenMP, jQuery, Laravel, Ruby on Rails, STL, ns-3, Gatsby, AWS, pktgen-dpdk
 
---- 
+<hr> 
 
 If you've a project idea, feel free to connect and we can discuss!

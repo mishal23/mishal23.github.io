@@ -8,7 +8,7 @@
 
 ![front-page](./src/images/home-screen.png)
 
-# 🚀 Steps to run
+## 🚀 Steps to run
 
 ```bash
 git clone https://github.com/mishal23/mishal23.github.io/
