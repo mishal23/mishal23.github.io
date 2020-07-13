@@ -43,6 +43,7 @@ h1 {
 
 /* Grouping content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
@@ -83,17 +84,13 @@ hr {
  */
 pre {
   font-family: monospace, monospace;
+
   /* 1 */
   font-size: 1em;
+
   /* 2 */
   padding: 1rem 2rem;
   overflow-x: auto;
-}
-
-pre code {
-  border: 0;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 /* Text-level semantics
@@ -133,10 +130,10 @@ abbr[title] {
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 
-/*b,
+/* b,
 strong {
   font-weight: inherit;
-}*/
+} */
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -224,6 +221,7 @@ audio:not([controls]) {
  */
 img {
   border-style: none;
+  max-width: 100%;
 }
 
 /**
@@ -775,10 +773,6 @@ body {
   background-color: #ecf3f3;
 }
 
-img {
-  max-width: 100%;
-}
-
 blockquote {
   border-left: 5px solid #15f3a8;
   padding-left: 1.1rem;
@@ -801,6 +795,12 @@ code {
   border: 1px solid #607d8b;
   border-radius: 3px;
   padding: 0.1rem 0.5rem;
+}
+
+pre code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .sidebar {
