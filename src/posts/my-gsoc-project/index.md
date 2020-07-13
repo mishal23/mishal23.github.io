@@ -12,7 +12,7 @@ Excerpt from the [previous post](../journey-to-gsoc-2019): Got accepted for GSoC
 
 The previous post mainly covered my journey to GSoC 2019, but I didn't speak anything about the organization and the project. This post is targetted to cover that.
 
-## What is ns-3?
+## About ns-3
 
 ![ns-3 org logo](./images/ns-3.png)
 
@@ -24,7 +24,7 @@ I had previously worked with ns-3 to implement [TCP New Vegas in ns-3][tcp-newve
 
 The project that I'll be working on during GSoC is: [Improving the ns-3 AppStore and linking with Bake][gsoc-project]
 
-## What is ns-3 AppStore?
+## About ns-3 AppStore
 
 The ns-3 AppStore is a supplemental web site allowing users to find and learn about extensions to the mainline ns-3 releases.
 
@@ -34,7 +34,7 @@ The ns-3 AppStore is a supplemental web site allowing users to find and learn ab
 * Move the ns-3 project towards a more federated development environment with a smaller core,
 * Provide guidelines to reduce the software incompatibility between various extensions.
 
-## What is Bake?
+## About Bake
 
 Bake was developed to automate the reproducible build of ns-3, taking into account that this build may be composed of a number of interdependent projects. Bake was developed to simplify the assembly of these pieces of software in a coherent and useful way. It is a tool for coordinated software building from multiple repositories, developed for the ns-3 project.
 
@@ -59,8 +59,3 @@ The community bonding period has ended. It mainly focused on setting up the deve
 [ns3-gsoc]: https://summerofcode.withgoogle.com/organizations/4845767460651008/
 [gsoc-project]: https://summerofcode.withgoogle.com/projects/#5385832846852096
 [tcp-newvegas]: https://github.com/mishal23/Implementation-of-TCP-New-Vegas-in-ns3/
-[ns-3website]: http://nsnam.org/
-[ns-3project]: https://www.nsnam.org/wiki/GSOC2019Projects#Improving_the_ns-3_AppStore_and_linking_with_bake
-[tom]: http://www.tomh.org/
-[abhijith]: https://github.com/abhijithanilkumar/
-[ankit]: http://adeepkit01.github.io/

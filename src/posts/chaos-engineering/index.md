@@ -40,7 +40,7 @@ In layman terms, break your system, see the difference between steady-state and 
 
 Netflix, a pioneer in the field of Chaos Engineering, uses a tool called Chaos Monkey. It randomly picks a server from production deployment on AWS (Amazon Web Services) and kills it. Executives at Netflix knew that server failures are guaranteed to happen, and they wanted servers to fail during working hours so that it could be fixed in the presence of their engineers. They knew that they could rely on engineers to build resilient solutions if they were given context to expect servers to fail. If they could align their engineers with building services that survive a server failure, then it wouldn't be a big deal when it happened.
 
-## How can it help you?
+## How can it help you
 
 Suppose your team has built the next wave of advancement the whole world has been waiting for. You are to launch your service, but questions are rumbling in your mind:
 
@@ -53,7 +53,7 @@ The truth is: You can never be sure. There will always be something that can be 
 Possibly The only solution for it is to build quality software that is resilient to failures. As the saying goes - * "Hope for the best, prepare for the worst "*
 But how can your team be sure that your system is ready for production and is prepared to face all difficulties/failures? *This is where Chaos Engineering comes into the picture.*
 
-## Does this seem like testing?
+## Does this seem like testing
 
 It may indeed sound like it, but it isn't testing. Chaos Engineering is an experiment on the production environment, and there is certainly no way to accurately duplicate the production environment at scale (as in testing). The experiment itself will have a systemic effect that could change your results, so the only way to accurately build conflict in the system you have now is to experiment on it.
 

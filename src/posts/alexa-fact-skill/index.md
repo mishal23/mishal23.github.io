@@ -15,7 +15,7 @@ Learning to build a voice user interface is a great skill to have as devices lik
 
 Sounds pretty cool, right? Apart from the T-shirt or Echo Dot, you'll also learn to develop something for voice assistant. If this seems like an excellent opportunity, read ahead!
 
-## What is Alexa, and how does it work?
+## What is Alexa, and how it works
 
 Alexa is a cloud-based voice service that powers millions of voice experiences in the home. Devices Alexa powers include Amazon Echo, Echo Dot, Amazon Tap, and Amazon Fire TV.
 
@@ -26,7 +26,7 @@ What is a **skill**? They are apps(programs) that extend Echo's functionality an
 * Lambda or your own server is where the data is stored. It has code to take the intent and return the relevant response, taken from the data.
 * Echo speaks back this response to the user.
 
-## What do you need to start?
+## What do you need to start
 
 * An [Amazon Developer account](https://developer.amazon.com/), to create a skill.
 * An [Amazon AWS account](https://developer.amazon.com/), to create a Lambda function.

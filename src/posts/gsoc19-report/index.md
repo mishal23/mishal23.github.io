@@ -90,8 +90,3 @@ On the bake side, although the main part of `getconf`, `install`, `search` was d
 ## Conclusion
 
 An amazing journey comes to an end. I'm very thankful to all my friends, mentors, parents, and sister who helped and motivated me during the entire journey. Though GSoC 2019 comes to an end, I'm looking forward to contributing to Open Source and ns-3 Bake & AppStore Project.
-
-[ns3-gsoc]: https://summerofcode.withgoogle.com/organizations/4845767460651008/
-[gsoc-project]: https://summerofcode.withgoogle.com/projects/#5385832846852096
-[ns-3website]: http://nsnam.org/
-[ns-3project]: https://www.nsnam.org/wiki/GSOC2019Projects#Improving_the_ns-3_AppStore_and_linking_with_bake

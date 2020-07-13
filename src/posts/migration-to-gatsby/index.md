@@ -58,7 +58,6 @@ npm run deploy
 
 That's it! Pretty simple! Really like the simplicity of GitHub Actions. Find the complete configuration file [here](https://github.com/mishal23/mishal23.github.io/blob/source/.github/workflows/gh-pages-deploy.yml)
 
-
 ## Conclusion
 
 The migration was definitely worth it. The site is blazing fast 🚀 and, moreover, got to pick up some new skills. I would recommend anyone to migrate to gatsby. There are certain features and fixes which I plan to do in due time. If you need any further help, feel free to take a look at [the repo](https://github.com/mishal23/mishal23.github.io/) or [contact me](/contact) If there are any issues you come across, please do open up [here](https://github.com/mishal23/mishal23.github.io/issues) or would love it if you fix it :)
