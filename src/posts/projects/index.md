@@ -2,7 +2,7 @@
 title:  "Projects 👨‍💻"
 img: 
 description: 
-keywords: 
+keywords: projects, c++, python, erlang, javascript, mysql, nosql, mean, django, git, openmp, ruby-on-rails, gatsby
 blog: false
 
 ---

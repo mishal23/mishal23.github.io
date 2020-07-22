@@ -1,8 +1,8 @@
 ---
 title:  "About 🙋‍♂️"
 img: 
-description: 
-keywords: 
+description: Mishal Shah is a full-stack developer with interests in Networks, Databases, Web Security. He graduated with B. Tech in Computer Science from NITK Surathkal.
+keywords: mishal23, mishal shah, computer-science, hackathons, gsoc, communities, gci, nitk, developer, freelancing, backend. talks
 blog: false
 
 ---
