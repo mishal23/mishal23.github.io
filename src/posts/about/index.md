@@ -7,7 +7,7 @@ blog: false
 
 ---
 
-Hi 👋, I'm Mishal Shah, pursuing B.Tech in Computer Science at [NITK, Surathkal](http://nitk.ac.in), India. I love software development and interested in Networks, Databases, Web Security. I strongly believe that technology can make the lives easier and thus keep exploring and learning.
+Hi 👋, I'm Mishal Shah, a B.Tech graduate in Computer Science from [NITK, Surathkal](https://nitk.ac.in), India. I love software development and interested in Networks, Databases, Web Security. I strongly believe that technology can make the lives easier and thus keep exploring and learning.
 
 In the past, I have interned at [IIIT Hyderabad](https://www.iiit.ac.in/) in 2018, been [Google Summer of Code Student in 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4544832284917760/), served as a mentor in [Google Code-in '19](https://codein.withgoogle.com/) and mentoring a project as a part of [GSoC '20](https://summerofcode.withgoogle.com/projects/#6502257928962048) with the [ns-3 Organization](https://nsnam.org/).
 

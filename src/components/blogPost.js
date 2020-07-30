@@ -13,10 +13,16 @@ const BlogPost = ({ path, data }) => {
   const { markdownRemark } = data
   const { siteUrl } = useSiteMetadata();
 
-  let disqusConfig = {
-    url: `${siteUrl}${path}`,
-    identifier: `${siteUrl}${path}`,
-    title: markdownRemark.frontmatter.title,
+  let disqusConfig, disqusCommentCount, disqusCommentBox;
+  if (markdownRemark.frontmatter.blog) {
+    disqusConfig = {
+      url: `${siteUrl}${path}`,
+      identifier: `${siteUrl}${path}`,
+      title: markdownRemark.frontmatter.title,
+    }
+
+    disqusCommentCount = <CommentCount config={disqusConfig} placeholder={'...'} />
+    disqusCommentBox = <Disqus config={disqusConfig} />
   }
 
   return (
@@ -32,8 +38,8 @@ const BlogPost = ({ path, data }) => {
       date={markdownRemark.frontmatter.date} >
       <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
 
-      <CommentCount config={disqusConfig} placeholder={'...'} />
-      <Disqus config={disqusConfig} />
+      {disqusCommentCount}
+      {disqusCommentBox}
     </Post>
     </>
   )
@@ -50,6 +56,7 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         keywords
+        blog
       }
     }
   }
