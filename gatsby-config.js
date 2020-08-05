@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mishal Shah`,
-    description: `Mishal Shah - B.Tech in Computer Science, NITK. GSoC '19 Student, GCI '19 Mentor at ns-3, Full Stack Developer with interests in Networks, Databases, Web Security`,
+    description: `Mishal Shah - B.Tech in Computer Science, NITK. GSoC '19 Student, GCI '19, GSoC '20 Mentor at ns-3, Full Stack Developer with interests in Networks, Databases, Web Security`,
     author: `@mishal23`,
     siteUrl: `https://mishal23.github.io`,
     keywords: [
