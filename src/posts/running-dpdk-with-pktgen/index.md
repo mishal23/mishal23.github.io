@@ -61,9 +61,9 @@ end
 pktgen.stop(port);
 ```
 
-where send_for_secs is the time for which we want to send.
+where send\_for\_secs is the time for which we want to send.
 
-> 💡 Note: sleep(send_for_secs) was not used because it would block Pktgen's output refreshing. So continuous check after a second and checking until the difference reaches the send_for_secs is done here.
+> 💡 Note: sleep(send\_for\_secs) was not used because it would block Pktgen's output refreshing. So continuous check after a second and checking until the difference reaches the send\_for\_secs is done here.
 
 ### Situation 2: Different Packet Size and Rate
 
