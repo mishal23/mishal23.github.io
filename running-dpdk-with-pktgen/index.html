@@ -75,9 +75,9 @@ end
 pktgen.stop(port);</code>
         </deckgo-highlight-code>
       
-<p>where send<em>for</em>secs is the time for which we want to send.</p>
+<p>where send_for_secs is the time for which we want to send.</p>
 <blockquote>
-<p>💡 Note: sleep(send<em>for</em>secs) was not used because it would block Pktgen's output refreshing. So continuous check after a second and checking until the difference reaches the send<em>for</em>secs is done here.</p>
+<p>💡 Note: sleep(send_for_secs) was not used because it would block Pktgen's output refreshing. So continuous check after a second and checking until the difference reaches the send_for_secs is done here.</p>
 </blockquote>
 <h3>Situation 2: Different Packet Size and Rate</h3>
 <p>We also wanted to test with different packet sizes and rates (rate in pktgen-dpdk is to be given as a percentage of the line rate). Since changing the packet size or rate in the Lua script after every run is tedious, we ask for user input for the packet size and rate at runtime using the script below.</p>
