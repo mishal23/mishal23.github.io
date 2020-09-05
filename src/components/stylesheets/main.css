@@ -14,7 +14,8 @@ html {
   line-height: 1.5;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  /*font-family: 'PT Sans', Helvetica, Arial, sans-serif;*/
+  font-family: system-ui;
 }
 
 /* Sections
