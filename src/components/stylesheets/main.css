@@ -10,12 +10,13 @@
  *    IE on Windows Phone and in iOS.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 html {
   line-height: 1.5;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  /*font-family: 'PT Sans', Helvetica, Arial, sans-serif;*/
-  font-family: system-ui;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Sections
