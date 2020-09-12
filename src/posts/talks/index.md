@@ -17,5 +17,6 @@ Here are some of the previous presentations & talks that I've given:
 
 | Talk                                                |  Date         | Presentation  |
 | --------------------------------------------------- |---------------|---------------|
+| Let's talk WebSockets                             | September 12, 2020  | [Slides](https://speakerdeck.com/mishal23/lets-talk-websockets), [YouTube](https://youtu.be/2G8hrYeDM20) |
 | Introduction to Express.js & Build a basic chat app | July 21, 2020 | [Slides](https://speakerdeck.com/mishal23/introduction-to-express-dot-js-and-build-a-basic-chat-app-with-socket-dot-io), [YouTube](https://youtu.be/7sKtiW0iYQ0) |
 | Introduction to Node.js                             | May 29, 2020  | [Slides](https://speakerdeck.com/mishal23/introduction-to-node-dot-js), [YouTube](https://youtu.be/n0mCoeKRkrg) |
