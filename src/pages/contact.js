@@ -2,6 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"
+import { Link } from "gatsby"
 
 
 const ContactPage = () => (
@@ -14,6 +15,7 @@ const ContactPage = () => (
   			software engineering (web), hackathons, speaking at events, communities, or just send a Hi 
   			<span role="img" aria-label="wave" aria-labelledby="hi"> 👋</span>, 
   			I'll get back to you. I also love to talk about security, networking, DevOps, databases.
+			Alternatively, you could also block my time <Link to="https://calendly.com/mishal23/30min">here</Link>
   		</p>
     	<form className="form" action="https://formspree.io/shahmishal1998@gmail.com" method="POST">
   			<div className="form-item">
