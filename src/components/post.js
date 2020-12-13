@@ -20,10 +20,8 @@ const Post = ({ title, date, children }) => {
     )
 }
 
-
 Post.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
 
 export default Post
