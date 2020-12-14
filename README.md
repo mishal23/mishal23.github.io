@@ -6,8 +6,6 @@
 - Personal website in Gatsby.
 - The website was initially in Jekyll, source code can be found [here](https://github.com/mishal23/jekyll-blog)
 
-![front-page](./src/images/home-screen.png)
-
 ## 🚀 Steps to run
 
 ```bash
@@ -16,3 +14,6 @@ cd mishal23.github.io
 npm install
 gatsby develop
 ```
+## Source code
+
+If you like this template and want to use, it is available as a Gatsby starter -- [check it out](https://github.com/mishal23/gatsby-starter-fresh)
