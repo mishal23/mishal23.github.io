@@ -17,6 +17,7 @@ const Newsletter = () => {
                     <input type="submit" value="Subscribe" className="newsletterform-btn"/>
                 </div>
             </form>
+            <p>A monthly newsletter about software engineering, code and self-improvement.</p>
         </div>
     )
 }
