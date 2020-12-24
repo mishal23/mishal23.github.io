@@ -1,9 +1,16 @@
 import React from "react"
 
-const Newsletter = () => {
+const Newsletter = ({ data }) => {
+    let customText;
+    if(data) {
+        customText = data;
+    }
+    else {
+        customText = "Want to read more posts like the above? Sign-up to my monthly newsletter!"
+    }
     return(
         <div className="newsletter">
-            <p>Want to read more posts like the above? Sign-up to my monthly newsletter!</p>
+            <p>{customText}</p>
             <form className="form" action="https://buttondown.email/api/emails/embed-subscribe/mishal23" method="POST" target="popupwindow"
     onsubmit="window.open('https://buttondown.email/mishal23', 'popupwindow')"
     class="embeddable-buttondown-form">
@@ -17,7 +24,7 @@ const Newsletter = () => {
                     <input type="submit" value="Subscribe" className="newsletterform-btn"/>
                 </div>
             </form>
-            <p>A monthly newsletter about software engineering, code and self-improvement.</p>
+            <p>A monthly newsletter about software engineering, code, self-help and many more!</p>
         </div>
     )
 }
