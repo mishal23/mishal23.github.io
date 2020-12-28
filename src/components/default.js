@@ -5,9 +5,9 @@ import "./stylesheets/mobile.css"
 
 
 const Default = () => {
-	return(
-		<SideBar/>
-    )
+	return (
+		<SideBar />
+	)
 }
 
 

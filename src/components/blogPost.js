@@ -29,20 +29,20 @@ const BlogPost = ({ path, data }) => {
 
   return (
     <>
-    <SEO
-      title={markdownRemark.frontmatter.title}
-      description={markdownRemark.frontmatter.description}
-      keywords={markdownRemark.frontmatter.keywords}
-    />
-    <Default></Default>
-    <Post 
-      title={markdownRemark.frontmatter.title} 
-      date={markdownRemark.frontmatter.date} >
-      <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-      {newsLetterBox}
-      {disqusCommentCount}
-      {disqusCommentBox}
-    </Post>
+      <SEO
+        title={markdownRemark.frontmatter.title}
+        description={markdownRemark.frontmatter.description}
+        keywords={markdownRemark.frontmatter.keywords}
+      />
+      <Default></Default>
+      <Post
+        title={markdownRemark.frontmatter.title}
+        date={markdownRemark.frontmatter.date} >
+        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        {newsLetterBox}
+        {disqusCommentCount}
+        {disqusCommentBox}
+      </Post>
     </>
   )
 }

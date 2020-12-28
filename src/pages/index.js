@@ -6,12 +6,12 @@ import BlogList from "../components/blogList"
 
 const IndexPage = () => {
 
-  return(
-  <>
-  	<SEO title="mishal23"/>
-    <Default></Default>
-    <BlogList></BlogList>
-  </>
+  return (
+    <>
+      <SEO title="mishal23" />
+      <Default></Default>
+      <BlogList></BlogList>
+    </>
   )
 }
 
