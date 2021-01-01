@@ -6,6 +6,7 @@
 <url> <loc>https://mishal23.github.io/college-life</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mishal23.github.io/my-reading-list</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mishal23.github.io/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mishal23.github.io/year-in-review-2020</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mishal23.github.io/joining-cisco</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mishal23.github.io/talks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mishal23.github.io/running-dpdk-with-pktgen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
