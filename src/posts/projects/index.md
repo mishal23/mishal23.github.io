@@ -7,7 +7,7 @@ blog: false
 
 ---
 
-Most of my projects can be found on my [GitHub account](https://github.com/mishal23). I have worked on many group and personal projects. I've also contributed to some open source projects like [OWASP SecureTea](https://github.com/OWASP/SecureTea-Project/), [ns-3-AppStore](https://gitlab.com/nsnam/ns-3-AppStore/), [bake](https://gitlab.com/nsnam/bake). [Open Telemetry](https://github.com/open-telemetry/opentelemetry-cpp). Most of them involved using the following technologies or languages:
+Most of my projects can be found on my [GitHub account](https://github.com/mishal23). I have worked on many group and personal projects. I've also contributed to some open source projects like [OWASP SecureTea](https://github.com/OWASP/SecureTea-Project/), [ns-3-AppStore](https://gitlab.com/nsnam/ns-3-AppStore/), [bake](https://gitlab.com/nsnam/bake). [Open Telemetry](https://github.com/open-telemetry/opentelemetry-cpp). My bachelors' thesis work on DPDK power measurement is published and can be found [here](https://ieeexplore.ieee.org/document/9289896). Most of them involved using the following technologies or languages:
 
 ## Languages
 
