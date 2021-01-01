@@ -9,15 +9,15 @@ module.exports = {
       "Mishal Shah",
       "Cisco",
       "GSoC",
-      "Google Summer of Code", 
-      "ns-3", 
-      "ns-3-AppStore", 
-      "Chaos Engineering", 
+      "Google Summer of Code",
+      "ns-3",
+      "ns-3-AppStore",
+      "Chaos Engineering",
       "Backend Developer",
       "Full Stack Developer",
-      "Alexa", 
-      "IRIS NITK", 
-      "IE NITK", 
+      "Alexa",
+      "IRIS NITK",
+      "IE NITK",
       "HackVerse"
     ],
     social: {
@@ -79,6 +79,13 @@ module.exports = {
           `gatsby-remark-images`,
           {
             resolve: `gatsby-remark-highlight-code`,
+          },
+          {
+            resolve: `gatsby-remark-external-links`,
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
           }
         ]
       }
