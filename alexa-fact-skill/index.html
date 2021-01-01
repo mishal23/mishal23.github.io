@@ -35,7 +35,7 @@
 <p>Sounds pretty cool, right? Apart from the T-shirt or Echo Dot, you'll also learn to develop something for voice assistant. If this seems like an excellent opportunity, read ahead!</p>
 <h2>What is Alexa, and how it works</h2>
 <p>Alexa is a cloud-based voice service that powers millions of voice experiences in the home. Devices Alexa powers include Amazon Echo, Echo Dot, Amazon Tap, and Amazon Fire TV.</p>
-<p>What is a <strong>skill</strong>? They are apps(programs) that extend Echo's functionality and features. There are a lot of amazing skills already being developed by Alexa developers from over the world. Check them out <a href="https://www.amazon.com/alexa-skills/b?ie=UTF8&#x26;node=13727921011">here</a>. They can answer questions, play trivia games, play music, set alarms, tell jokes, and many more. Here is how it works:</p>
+<p>What is a <strong>skill</strong>? They are apps(programs) that extend Echo's functionality and features. There are a lot of amazing skills already being developed by Alexa developers from over the world. Check them out <a href="https://www.amazon.com/alexa-skills/b?ie=UTF8&#x26;node=13727921011" target="_blank" rel="nofollow">here</a>. They can answer questions, play trivia games, play music, set alarms, tell jokes, and many more. Here is how it works:</p>
 <ul>
 <li>User speaks something</li>
 <li>The skill (defined on the Amazon Developer Site) matches the question(keywords) with an Intent(what the user is trying to ask) and then sends this intent to an endpoint(an API call to the server like AWS Lambda)</li>
@@ -44,13 +44,13 @@
 </ul>
 <h2>What do you need to start</h2>
 <ul>
-<li>An <a href="https://developer.amazon.com/">Amazon Developer account</a>, to create a skill.</li>
-<li>An <a href="https://developer.amazon.com/">Amazon AWS account</a>, to create a Lambda function.</li>
+<li>An <a href="https://developer.amazon.com/" target="_blank" rel="nofollow">Amazon Developer account</a>, to create a skill.</li>
+<li>An <a href="https://developer.amazon.com/" target="_blank" rel="nofollow">Amazon AWS account</a>, to create a Lambda function.</li>
 <li>An idea! The skill you create is an app, and just like any other app in the market, your app should have a good use case.</li>
 </ul>
 <h2>Creating the skill</h2>
 <p>I'll explain how to create a fact skill in this blog post. You can dive deeper to create some excellent skills. In the end, there is a list of amazing tutorials for you to learn more.</p>
-<p>Go to <a href="https://developer.amazon.com/">Amazon Developer Account</a> and sign in, and select Alexa.
+<p>Go to <a href="https://developer.amazon.com/" target="_blank" rel="nofollow">Amazon Developer Account</a> and sign in, and select Alexa.
 <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
@@ -288,7 +288,7 @@
 <p>We'll be using AWS Lambda here.</p>
 <h2>AWS Lambda</h2>
 <p>If you haven't used AWS Lambda before, it's a service that allows you to host code with its own endpoint, without a server. More info here. Have you heard of Serverless apps?</p>
-<p>Go to <a href="https://aws.amazon.com/">Amazon Web Services</a> and sign in the portal, and go to Lambda service.</p>
+<p>Go to <a href="https://aws.amazon.com/" target="_blank" rel="nofollow">Amazon Web Services</a> and sign in the portal, and go to Lambda service.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
@@ -350,7 +350,7 @@
   </a>
     </span></p>
 <p>Choose <code>Author from Scratch</code>, and then name your function in camelCase, for me, <strong>numberFactFunction</strong>.
-Choose, RunTime as Node.js 8.10, and in the Role dropdown, choose, <strong>Create a Custom Role</strong>. This will open a new window in that click on Allow. Read more about IAM Roles <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html">here</a>.</p>
+Choose, RunTime as Node.js 8.10, and in the Role dropdown, choose, <strong>Create a Custom Role</strong>. This will open a new window in that click on Allow. Read more about IAM Roles <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html" target="_blank" rel="nofollow">here</a>.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
@@ -447,7 +447,7 @@ Choose, RunTime as Node.js 8.10, and in the Role dropdown, choose, <strong>Creat
       />
   </a>
     </span></p>
-<p>Add the <code>index.js</code> code from <a href="https://gist.github.com/mishal23/4499d20a24e3e5ce6f5db11bd02277a9">here</a>, also add the <code>AlexaSkill.js</code> from the same link in the function code by creating a new file.</p>
+<p>Add the <code>index.js</code> code from <a href="https://gist.github.com/mishal23/4499d20a24e3e5ce6f5db11bd02277a9" target="_blank" rel="nofollow">here</a>, also add the <code>AlexaSkill.js</code> from the same link in the function code by creating a new file.</p>
 <p>File <code>AlexaSkill.js</code> has specific event handlers. It specifies the output, prompt, and speech. The Index.js file lets you customize to meet the needs of your skill. Click on Save.</p>
 <p>From the right-top of the page, copy the ARN value, it's of the form <code>arn:aws:lambda:region:function:nameOfFunction</code>. Go to Amazon Developer Console, Select your skill, and click on the endpoint in the left navigation bar. Select AWS Lambda ARN and paste the ARN code copied in the default region input box. Click on Save Endpoints. And you'll see a popup similar to the below image saying Skill Manifest Saved Successfully.</p>
 <p><span
