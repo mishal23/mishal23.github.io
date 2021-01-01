@@ -5,7 +5,7 @@ import Post from "../components/post"
 import SEO from "../components/seo"
 import Newsletter from "../components/newsletter"
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
-import useSiteMetadata from '../utils/site-metadata';
+import useSiteMetadata from '../utils/siteMetadata';
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 deckDeckGoHighlightElement();
 
