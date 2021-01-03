@@ -3,7 +3,7 @@ module.exports = {
     title: `Mishal Shah`,
     description: `Mishal Shah - Software Engineer with interests in Networks, Databases, Web Security. He's currently working at Cisco. He did his bachelors in Computer Science from NITK. He's also been a GSoC '19 Student, GCI '19, GSoC '20 Mentor with the ns-3 organization`,
     author: `@mishal23`,
-    siteUrl: `https://mishal23.github.io`,
+    siteUrl: `https://mishal.dev`,
     keywords: [
       "mishal23",
       "Mishal Shah",
