@@ -38,16 +38,18 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "build-with-prefix": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "deploy-travis": "gatsby build && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/mishal23/mishal23.github.io.git",
-    "deploy-sub": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy-sub-travis": "gatsby build --prefix-paths && gh-pages -d public"
+    "add-domain": "echo \"mishal.dev\" > public/CNAME",
+    "deploy": "gh-pages -d public -b master",
+    "deploy-travis": "gh-pages -d public -b master -r https://$GH_TOKEN@github.com/mishal23/mishal23.github.io.git",
+    "deploy-sub": "gh-pages -d public",
+    "deploy-sub-travis": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
