@@ -18,7 +18,7 @@ I was working with a function in a class to get an available port dynamically an
 import random
 
 def get_random_port():
-    return random.ranint(0, 100)
+    return random.randint(0, 100)
 
 class Server:
     def __init__(self, port=get_random_port()):
@@ -51,7 +51,7 @@ However, big the problem might sound, the solution to it is very easy and small.
 import random
 
 def get_random_port():
-    return random.ranint(0, 100)
+    return random.randint(0, 100)
 
 class Server:
     def __init__(self, port=None):
