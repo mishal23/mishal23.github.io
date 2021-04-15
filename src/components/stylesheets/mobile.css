@@ -7,7 +7,7 @@
 }
 
 .navbtn {
-  background-color: #15f3a8;
+  background-color: #CCCCCC;
   border: 1px;
   font-weight: 700;
   font-size: 16px;
@@ -23,8 +23,8 @@
 }
 
 .navbtn:hover {
-  background-color: #15f3a8;
   color: #4a4545;
+  background-color: #FAF9F9;
 }
 
 .mob-menu-items:not(.active) .navbtn {
@@ -40,12 +40,12 @@
 }
 
 li.active {
-  background-color: #15f3a8;
+  background-color: #FAF9F9;
   color: #4a4545 !important;
 }
 
 a.active {
-  background-color: #15f3a8;
+  background-color: #FAF9F9;
   color: #4a4545 !important;
 }
 
