@@ -18,7 +18,7 @@ module.exports = {
       "Alexa",
       "IRIS NITK",
       "IE NITK",
-      "HackVerse"
+      "HackVerse",
     ],
     social: {
       twitter: `@1998Mishal`,
@@ -27,7 +27,7 @@ module.exports = {
       email: `shahmishal1998@gmail.com`,
       linkedin: ``,
     },
-    image: '/mishal.jpeg'
+    image: "/mishal.jpeg",
   },
   // pathPrefix: "/gatsby-migration",
   plugins: [
@@ -62,7 +62,7 @@ module.exports = {
             sizes: `512x512`,
             type: `image/png`,
           },
-        ]
+        ],
       },
     },
     {
@@ -84,11 +84,11 @@ module.exports = {
             resolve: `gatsby-remark-external-links`,
             options: {
               target: "_blank",
-              rel: "nofollow"
-            }
-          }
-        ]
-      }
+              rel: "nofollow",
+            },
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -104,17 +104,17 @@ module.exports = {
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `mishal23`
-      }
+        shortname: `mishal23`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
   ],
 }
