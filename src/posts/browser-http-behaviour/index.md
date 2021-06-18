@@ -7,7 +7,7 @@ keywords: http, multiplexing, networking, chrome, network requests
 blog: true
 ---
 
-My favourite time pass is to scroll on Twitter because I come across some good tweets (in my interests) and reading some shit-posting ;)
+My favourite time pass is to scroll on Twitter because I come across some good tweets (in my interests) and reading some shit-posts ;)
 
 So, one fine day I came across [this tweet](https://twitter.com/TmPreet/status/1381914359639773187). The tweet asked why Chrome opens multiple connections for HTTP/1.1 for the same website but uses the same connection for HTTP/2?
 
