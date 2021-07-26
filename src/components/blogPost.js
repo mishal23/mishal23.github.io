@@ -3,18 +3,18 @@ import { graphql } from "gatsby"
 import Default from "../components/default"
 import Post from "../components/post"
 import SEO from "../components/seo"
-import Newsletter from "../components/newsletter"
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
-import useSiteMetadata from '../utils/siteMetadata';
-import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
-deckDeckGoHighlightElement();
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
+import useSiteMetadata from "../utils/siteMetadata"
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
+import Footer from "./footer"
 
+deckDeckGoHighlightElement()
 
 const BlogPost = ({ path, data }) => {
   const { markdownRemark } = data
-  const { siteUrl } = useSiteMetadata();
+  const { siteUrl } = useSiteMetadata()
 
-  let disqusConfig, disqusCommentCount, disqusCommentBox, newsLetterBox;
+  let disqusConfig, disqusCommentCount, disqusCommentBox
   if (markdownRemark.frontmatter.blog) {
     disqusConfig = {
       url: `${siteUrl}${path}`,
@@ -22,9 +22,10 @@ const BlogPost = ({ path, data }) => {
       title: markdownRemark.frontmatter.title,
     }
 
-    disqusCommentCount = <CommentCount config={disqusConfig} placeholder={'...'} />
+    disqusCommentCount = (
+      <CommentCount config={disqusConfig} placeholder={"..."} />
+    )
     disqusCommentBox = <Disqus config={disqusConfig} />
-    newsLetterBox = <Newsletter />
   }
 
   return (
@@ -34,15 +35,18 @@ const BlogPost = ({ path, data }) => {
         description={markdownRemark.frontmatter.description}
         keywords={markdownRemark.frontmatter.keywords}
       />
-      <Default></Default>
-      <Post
-        title={markdownRemark.frontmatter.title}
-        date={markdownRemark.frontmatter.date} >
-        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-        {newsLetterBox}
-        {disqusCommentCount}
-        {disqusCommentBox}
-      </Post>
+      <section className="container wrap">
+        <Default></Default>
+        <Post
+          title={markdownRemark.frontmatter.title}
+          date={markdownRemark.frontmatter.date}
+        >
+          <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+          {disqusCommentCount}
+          {disqusCommentBox}
+        </Post>
+      </section>
+      <Footer />
     </>
   )
 }

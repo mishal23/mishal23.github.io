@@ -1,15 +1,14 @@
 ---
-title:  "About 🙋‍♂️"
-img: 
+title: "About 🙋‍♂️"
+img:
 description: Mishal Shah is a full-stack developer with interests in Networks, Databases, Web Security. He graduated with B. Tech in Computer Science from NITK Surathkal.
 keywords: mishal23, mishal shah, computer-science, hackathons, gsoc, communities, gci, nitk, developer, freelancing, backend, talks
 blog: false
-
 ---
 
 Hi 👋, I'm Mishal Shah, a Software Engineer. I love developing software and like to explore Networks, Databases, Web Security. I strongly believe that technology can make the lives easier and thus keep exploring and learning. I graduated in Computer Science & Engineering from [NITK, Surathkal](https://nitk.ac.in), India.
 
-I've recently [joined Cisco](/joining-cisco) as a Software Engineer. In the past, I've been [Google Summer of Code Student in 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4544832284917760/), served as a mentor in [Google Code-in '19](https://codein.withgoogle.com/) and mentored a project as a part of [GSoC '20](https://summerofcode.withgoogle.com/archive/2020/projects/4852224477364224/) with the [ns-3 Organization](https://nsnam.org/). I have also interned at [IIIT Hyderabad](https://www.iiit.ac.in/) under [Prof. Venkatesh Chopella](https://faculty.iiit.ac.in/~venkatesh.choppella/) in the summer of 2018.
+I'm working as a Software Engineer [at Cisco](/joining-cisco). In the past, I've been [Google Summer of Code Student in 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4544832284917760/), served as a mentor in [Google Code-in '19](https://codein.withgoogle.com/) and mentored a project as a part of [GSoC '20](https://summerofcode.withgoogle.com/archive/2020/projects/4852224477364224/) with the [ns-3 Organization](https://nsnam.org/). I have also interned at [IIIT Hyderabad](https://www.iiit.ac.in/) under [Prof. Venkatesh Chopella](https://faculty.iiit.ac.in/~venkatesh.choppella/) in the summer of 2018.
 
 I have attend some hackathons ([Smart India Hackathon 2018](https://sih.gov.in/), [code.fun.do](https://www.codefundo.io/), [InOut 6.0](https://hackinout.co/)) and have lead organized a [National Level Hackathon - HackVerse](https://hackverse.nitk.ac.in/). I love helping the community, reading engineering articles or blogs of various companies/people and try to learn about the Web.
 

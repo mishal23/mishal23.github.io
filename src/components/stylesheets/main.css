@@ -10,13 +10,13 @@
  *    IE on Windows Phone and in iOS.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 html {
   line-height: 1.5;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* Sections
@@ -159,7 +159,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
-  
+
   /* 1 */
   font-size: 1em;
 
@@ -262,7 +262,6 @@ textarea {
  */
 button,
 input {
-
   /* 1 */
   overflow: visible;
 }
@@ -273,7 +272,6 @@ input {
  */
 button,
 select {
-
   /* 1 */
   text-transform: none;
 }
@@ -776,7 +774,8 @@ table {
   width: 100%;
 }
 
-table td, table th {
+table td,
+table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -804,7 +803,7 @@ body {
 }
 
 blockquote {
-  border-left: 5px solid #CCCCCC;
+  border-left: 5px solid #cccccc;
   padding-left: 1.1rem;
   margin-left: 1.2rem;
   font-style: italic;
@@ -820,8 +819,8 @@ blockquote {
 .highlighter-rouge,
 .language-text,
 code {
-  color: #24292E;
-  background-color: #1B1F230D;
+  color: #24292e;
+  background-color: #1b1f230d;
   padding: 0.1rem 0.5rem;
 }
 
@@ -867,7 +866,7 @@ pre code {
   -webkit-transform: translateY(3px);
   transform: translateY(3px);
   /* background-color: #CCCCCC; */
-  background-color: #FAF9F9;
+  background-color: #faf9f9;
   color: #515151;
 }
 
@@ -891,7 +890,7 @@ pre code {
 
 .sidebar-logo .logo {
   /* font-family: 'Finger Paint', cursive; */
-  color: #faf9f9; 
+  color: #faf9f9;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 3rem;
@@ -914,7 +913,7 @@ pre code {
 .sidebar-social .social-icons {
   font-size: 2.5rem;
   padding: 0.4rem 0.5rem;
-  color: #FAF9F9;
+  color: #faf9f9;
   -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
   transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
 }
@@ -936,7 +935,8 @@ pre code {
 .page-article,
 .post {
   margin-bottom: 6rem;
-  box-shadow: 0 50px 110px -40px rgba(86, 119, 119, 0.68), 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 50px 110px -40px rgba(86, 119, 119, 0.68),
+    0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-article .header-article,
@@ -996,14 +996,14 @@ pre code {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-family: monospace;
-  color: #5F6C80;
+  color: #5f6c80;
 }
 
 .main-article .more,
 .page-article .more,
 .post .more {
   text-decoration: none;
-  color: #2D2A2A;
+  color: #2d2a2a;
 }
 
 img.post-image,
@@ -1106,7 +1106,7 @@ img.page-img {
 
 .form-btn:hover {
   color: #2d2a2a;
-  background: #CCCCCC;
+  background: #cccccc;
 }
 
 /*
@@ -1176,7 +1176,7 @@ div.newsletter {
 
 .newsletterform-btn:hover {
   color: #2d2a2a;
-  background: #CCCCCC;
+  background: #cccccc;
 }
 
 @media screen and (max-width: 960px) {
