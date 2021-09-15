@@ -35,7 +35,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://github.com/mishal23"
+            href="https://www.linkedin.com/in/mishal23/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://github.com/mishal23"
+            href="https://www.facebook.com/mishal.shah.7731/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://github.com/mishal23"
+            href="https://twitter.com/1998Mishal"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +62,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://github.com/mishal23"
+            href="https://t.me/mishal23"
             target="_blank"
             rel="noopener noreferrer"
           >
