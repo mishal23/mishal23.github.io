@@ -10,7 +10,7 @@ Most of my projects can be found on my [GitHub account](https://github.com/misha
 
 ## Languages
 
-C, C++, Python, Erlang, JavaScript, HTML, CSS
+C++, Python, Java, JavaScript, Erlang, C, HTML, CSS
 
 ## DBMS
 
