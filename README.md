@@ -16,4 +16,4 @@ gatsby develop
 ```
 ## Source code
 
-If you like this template and want to use, it is available as a Gatsby starter -- [check it out](https://github.com/mishal23/gatsby-starter-fresh)
+If you like this template and want to use, it is available as a Gatsby starter -- [check it out](https://github.com/mishal23/gatsby-starter-fresh).
