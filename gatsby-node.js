@@ -13,13 +13,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     const [month, day, year] = new Date(node.frontmatter.date)
-      .toLocaleDateString('en-EN', {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
+      .toLocaleDateString("en-EN", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
       })
-      .split('/')
-    const slug = value.replace('/posts/', '').replace(/\/$/, '')
+      .split("/")
+    const slug = value.replace("/posts/", "").replace(/\/$/, "")
     const url = `${slug}`
 
     createNodeField({
@@ -43,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
   // 2 Return the method with the query
   return graphql(`
     query blogPosts {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
         edges {
           node {
             fields {
