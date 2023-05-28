@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Mishal Shah <shahmishal1998@gmail.com>",
   "dependencies": {
-    "@deckdeckgo/highlight-code": ">1.1.4",
+    "@deckdeckgo/highlight-code": ">=1.1.4",
     "gatsby": ">2.31.1",
     "gatsby-image": ">2.7.0",
     "gatsby-plugin-disqus": ">1.2.2",
