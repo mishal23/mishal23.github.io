@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import { Seo } from "../components/seo"
 import Default from "../components/default"
 import BlogList from "../components/blogList"
 import Footer from "../components/footer"
@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 const IndexPage = () => {
   return (
     <>
-      <SEO title="mishal23" />
+      <Seo title="mishal23" />
       <section className="container wrap">
         <Default></Default>
         <BlogList></BlogList>

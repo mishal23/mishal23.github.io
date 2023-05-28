@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/seo"
+import { Seo } from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"
 import { Link } from "gatsby"
@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 
 const ContactPage = () => (
   <>
-    <SEO title="Contact" />
+    <Seo title="Contact" />
     <section className="container wrap">
       <Default />
       <Post title="Get in touch 📝">

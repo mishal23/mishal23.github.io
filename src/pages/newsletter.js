@@ -1,12 +1,12 @@
 import React from "react"
-import SEO from "../components/seo"
+import { Seo } from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"
 import Newsletter from "../components/newsletter"
 
 const NewsletterPage = () => (
   <>
-    <SEO title="Newsletter" />
+    <Seo title="Newsletter" />
     <Default />
     <Post title="Newsletter 📝">
       <Newsletter

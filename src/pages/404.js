@@ -1,12 +1,12 @@
 import React from "react"
-import SEO from "../components/seo"
+import { Seo } from "../components/seo"
 import Default from "../components/default"
 import Post from "../components/post"
 import { Link } from "gatsby"
 
 const NotFoundPage = () => (
   <>
-    <SEO title="404: Page Not Found" />
+    <Seo title="404: Page Not Found" />
     <section className="container wrap">
       <Default />
       <Post title="404 Page">

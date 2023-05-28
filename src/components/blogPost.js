@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Default from "../components/default"
 import Post from "../components/post"
-import SEO from "../components/seo"
+import { Seo } from "../components/seo"
 import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 import useSiteMetadata from "../utils/siteMetadata"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
@@ -30,7 +30,7 @@ const BlogPost = ({ path, data }) => {
 
   return (
     <>
-      <SEO
+      <Seo
         title={markdownRemark.frontmatter.title}
         description={markdownRemark.frontmatter.description}
         keywords={markdownRemark.frontmatter.keywords}
