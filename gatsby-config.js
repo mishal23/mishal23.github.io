@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mishal Shah`,
-    description: `Mishal Shah - Software Engineer with interests in Networks, Databases, Web Security. He's currently working at Cisco. He did his bachelors in Computer Science from NITK. He's also been a GSoC '19 Student, GCI '19, GSoC '20 Mentor with the ns-3 organization`,
+    description: `Mishal Shah - Software Engineer with interests in Networks, Databases, Web Security. He's currently working at Google and in the past have worked with Cisco. He did his bachelors in Computer Science from NITK. He's also been a GSoC '19 Student, GCI '19, GSoC '20 Mentor with the ns-3 organization`,
     author: `@mishal23`,
     siteUrl: `https://mishal.dev`,
     keywords: [
@@ -91,19 +91,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-110715968-2",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: false,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
+        trackingIds: ["UA-110715968-2"],
       },
     },
     {
