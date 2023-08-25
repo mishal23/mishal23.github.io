@@ -15,7 +15,7 @@ But once I had availed the No Cost EMI, I figured out all the charges associated
 
 No Cost EMI doesn't mean interest is not charged, as per RBI guidelines any loan should have an interest amount associated with it. So the vendor (from where you avail No Cost EMI) bears the interest and gives it as a discount on your total amount.
 
-For eg. As shown in figure below, the vendor gave a discount of Rs. 678 on the total amount equivalent to the interest _as per their calculation_.
+For eg. As shown in figure below, the vendor gave a discount of Rs. 678 on the total amount equivalent to the interest **as per their calculation**.
 
 ![No Cost EMI breakdown](./images/cost_breakdown.png)
 
@@ -41,7 +41,7 @@ In my case, the total interest charged to me by the bank was Rs. 915. That amoun
 
 ### GST on the interest
 
-As per RBI guidelines, you're charged 18% GST on the interest that you're charged for every EMI. Again, the vendor doesn't compensate for it.
+As per RBI guidelines, you're charged 18% GST on the interest for every EMI. Again, the vendor doesn't compensate for it.
 
 In my case, total interest was Rs. 915, so the GST was Rs. 165 (Rs. 915 \* 0.18).
 
@@ -64,7 +64,7 @@ In my case, the total amount I missed out was Rs. 978. Now the amount is not sig
 
 ## What can you do?
 
-If you still want to go ahead with the No Cost EMI, if you can preclose the loan as soon as it's generated, that way the only things that you'll just be losing out on the Processing fee and the reward points. The preclosure charges are usually Rs. 0 for such things.
+If you still want to go ahead with the No Cost EMI, _if you can_, preclose the loan as soon as it's generated, that way the only things that you'll just be losing out on the Processing fee and the reward points. The preclosure charges are usually Rs. 0 for such things.
 
 > Disclaimer:
 > All the details mentioned above were through Cleartrip vendor and the HDFC Bank credit card, charges might differ with vendors and other banks/cards. Please do due diligence.
