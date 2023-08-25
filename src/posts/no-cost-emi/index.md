@@ -7,9 +7,9 @@ keywords: mishal23, no cost emi, credit card, hdfc bank
 blog: true
 ---
 
-I recently had to make a booking and there was discount applicable on choosing the No Cost EMI option by paying through credit card, and to avail the discount I chose the option. I tried searching a lot on the details if there's any hidden cost associated by using No Cost EMI, and didn't find anything concrete.
+I recently had to make a booking and there was discount applicable on choosing the No Cost EMI option by paying through credit card, and to avail the discount I chose the option. I tried searching on the details if there's any hidden cost associated by using No Cost EMI but didn't find anything concrete.
 
-But once I had availed the No Cost EMI, I figured out all the charges associated with it, so penning it down here for anyone who would face the same dilemma.
+Once I availed the No Cost EMI, I figured out all the charges associated with it, so penning it down here for anyone who would face the same questions.
 
 ## Breakdown of a No Cost EMI transaction
 
@@ -35,7 +35,7 @@ For eg. If the credit card billing date is 15th of every month, the installment 
 
 So now, let's assume you booked your tickets/ordered an item on the 16th of July with 3 months as the No Cost EMI option, it would take 2 days for the loan to get generated, and thus your loan got registered on 18th July. Now as per credit card billing cycle, you would be charged for installments on 15th August, 15th September, 15th October and you pay the amount by the credit card due date which would be around T + 25 (T being the credit card billing date). So technically your EMI would be for greater than 3 months by around 20-25 days.
 
-The bank won't let go the interest for those extra days and charge the customer for it and thus your first interest will be significantly higher. So although the vendor gave you an discount, it doesn't account for the cycle of your credit card bill and thus that extra amount is beared by the customer.
+The bank won't let go the interest for those extra days and charge the customer for it and thus your first interest will be significantly higher. So although the vendor gave you an discount, it doesn't account for the cycle of your credit card bill and thus that extra amount needs to be paid by the customer.
 
 In my case, the total interest charged to me by the bank was Rs. 915. That amounted to me paying Rs. 237 (Rs. 915 - Rs. 678) extra on the discount that the vendor gave.
 
@@ -60,11 +60,11 @@ The overall amount that you'll be paying over the EMI is:
 - GST on the interest
 - Loss on reward points
 
-In my case, the total amount I missed out was Rs. 978. Now the amount is not significant, but when you advertise a product as a **No Cost** and charge so many hidden charges without actually clearly mentioning, it's not the best place to be in.
+In my case, the total amount I missed out was Rs. 978. Now the amount is not significant, but when you advertise a product as a **No Cost** and charge these hidden charges without clearly mentioning, it's not the best place to be in.
 
 ## What can you do?
 
-If you still want to go ahead with the No Cost EMI, _if you can_, preclose the loan as soon as it's generated, that way the only things that you'll just be losing out on the Processing fee and the reward points. The preclosure charges are usually Rs. 0 for such things.
+If you still want to go ahead with the No Cost EMI, _if you can_, preclose the loan as soon as it's generated, that way you'll be losing out only on the processing fee and the reward points. The preclosure charges are usually Rs. 0 for such things.
 
 > Disclaimer:
 > All the details mentioned above were through Cleartrip vendor and the HDFC Bank credit card, charges might differ with vendors and other banks/cards. Please do due diligence.
