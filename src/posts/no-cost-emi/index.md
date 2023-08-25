@@ -37,7 +37,7 @@ So now, let's assume you booked your tickets/ordered an item on the 16th of July
 
 The bank won't let go the interest for the extra 27 days and charge the customer for it and thus your first interest will be significantly higher. So although the vendor gave you an discount, it doesn't account for the cycle of your credit card bill and thus that extra amount is beared by the customer.
 
-In my case, the total interest charged to me by the bank was Rs. 915. Rs. 237 extra on the discount that the vendor gave (Rs. 915 - Rs. 678).
+In my case, the total interest charged to me by the bank was Rs. 915. That amounted to me paying Rs. 237 (Rs. 915 - Rs. 678) extra on the discount that the vendor gave.
 
 ### GST on the interest
 
