@@ -33,9 +33,9 @@ The vendor calculates the interest assuming the loan starts from today, but the 
 
 For eg. If the credit card billing date is 15th of every month, the installment amount will be added in that credit card bill.
 
-So now, let's assume you booked your tickets/ordered an item on the 16th of July with 3 months as the No Cost EMI option, it would take 2 days for the loan to get generated, and thus your loan got registered on 18th July. Now as per credit card billing cycle, you would be charged for installments on 15th August, 15th September, 15th October. So technically your EMI would be for 3 months and 27 days.
+So now, let's assume you booked your tickets/ordered an item on the 16th of July with 3 months as the No Cost EMI option, it would take 2 days for the loan to get generated, and thus your loan got registered on 18th July. Now as per credit card billing cycle, you would be charged for installments on 15th August, 15th September, 15th October and you pay the amount by the credit card due date which would be around T + 25 (T being the credit card billing date). So technically your EMI would be for greater than 3 months by around 20-25 days.
 
-The bank won't let go the interest for the extra 27 days and charge the customer for it and thus your first interest will be significantly higher. So although the vendor gave you an discount, it doesn't account for the cycle of your credit card bill and thus that extra amount is beared by the customer.
+The bank won't let go the interest for those extra days and charge the customer for it and thus your first interest will be significantly higher. So although the vendor gave you an discount, it doesn't account for the cycle of your credit card bill and thus that extra amount is beared by the customer.
 
 In my case, the total interest charged to me by the bank was Rs. 915. That amounted to me paying Rs. 237 (Rs. 915 - Rs. 678) extra on the discount that the vendor gave.
 
