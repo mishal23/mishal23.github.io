@@ -66,6 +66,5 @@ In my case, the total amount I missed out was Rs. 978. Now the amount is not sig
 
 If you still want to go ahead with the No Cost EMI, if you can preclose the loan as soon as it's generated, that way the only things that you'll just be losing out on the Processing fee and the reward points. The preclosure charges are usually Rs. 0 for such things.
 
-### Disclaimer
-
-All the details mentioned above were through Cleartrip vendor and the HDFC Bank credit card, charges might differ with vendors and other banks/cards. Please do due diligence.
+> Disclaimer:
+> All the details mentioned above were through Cleartrip vendor and the HDFC Bank credit card, charges might differ with vendors and other banks/cards. Please do due diligence.
