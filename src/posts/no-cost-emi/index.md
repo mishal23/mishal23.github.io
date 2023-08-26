@@ -27,6 +27,12 @@ All seems fair till here, now starts all the catch on the actual costs. We'll st
 
 The bank charges processing fee for every loan you create, and thus you're charged and the vendor doesn't compensate for you. Usually the processing fee for credit card No Cost EMIs are Rs. 199 + 18% GST = Rs. 235.
 
+### GST on the interest
+
+As per RBI guidelines, you're charged 18% GST on the interest for every EMI. Again, the vendor doesn't compensate for it.
+
+In my case, total interest was Rs. 915, so the GST was Rs. 165 (Rs. 915 \* 0.18).
+
 ### Calculation of the interest
 
 The vendor calculates the interest assuming the loan starts from today and is paid in 90 days, but the actual interest charged by the bank is little different. When we avail the no cost EMI using credit card, the amount of each installment is charged on the day of the credit card billing date and we pay the bill by the payment due date.
@@ -39,12 +45,6 @@ The bank won't let go the interest for those extra days and pass the charge to t
 
 In my case, the total interest charged to me by the bank was Rs. 915. That amounted to me paying Rs. 237 (Rs. 915 - Rs. 678) extra on the discount that the vendor gave.
 
-### GST on the interest
-
-As per RBI guidelines, you're charged 18% GST on the interest for every EMI. Again, the vendor doesn't compensate for it.
-
-In my case, total interest was Rs. 915, so the GST was Rs. 165 (Rs. 915 \* 0.18).
-
 ### No Reward points
 
 For EMI transactions, you don't get any reward points by the credit card and if you're someone who uses these reward points, you're definitely losing out on that benefit.
@@ -56,8 +56,8 @@ In my case, I get 4 reward points for every Rs. 150 spent, so I lost around 680 
 The overall amount that you'll be paying over the EMI is:
 
 - Processing fee
-- Extra interest due to billing cycle
 - GST on the interest
+- Extra interest due to billing cycle
 - Loss on reward points
 
 In my case, the total amount I missed out was Rs. 978. Now the amount is not significant, but when you advertise a product as a **No Cost** and charge these hidden charges without clearly mentioning, it's not the best place to be in.
