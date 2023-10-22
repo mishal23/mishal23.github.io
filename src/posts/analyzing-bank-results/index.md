@@ -7,7 +7,7 @@ keywords: stocks, banks, results
 blog: true
 ---
 
-I have been interested in the stock markets since quite sometime and thus documenting some of the stuff which I've been reading and understanding to analyze companies. Every sector in the stock markets needs to be analyzed in a different way and thus starting with the bank sector. Financial institutions are very important to any economy as it is a good indication of the markets.
+I have been interested in the stock markets since quite sometime and thus documenting some of the stuff which I've been reading and understanding to analyze companies. Every sector in the stock markets needs to be analyzed in a different way and thus starting with the bank sector. Financial institutions are very important to any economy as it is a good indication of the market conditions.
 
 Before going into details, let's understand how a bank makes money. Although, there are a lot of ways, one of the major ways a bank makes money is borrow money from someone at a lower rate and lend it to someone else with a higher rate. Most of our metrics will be based on this.
 
