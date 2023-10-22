@@ -60,7 +60,7 @@ Since banks gets money from people who deposit, they're liable to pay the money 
 
 ### Return on assets
 
-By now we know how the bank makes money, this ratio is calculated by dividing the total profits divided by the total assets (money lended). A higher ratio means the company is earning good amount of profits over the assets that they've in total. This is also reported in the finanical results directly.
+By now we know how the bank makes money, this ratio is calculated by dividing the total profits divided by the total assets (money lended). A higher ratio means the company is earning good amount of profits over the assets that they've in total. This is also a safety net for people depositing their money. This is also reported in the finanical results directly.
 
 ---
 
