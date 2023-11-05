@@ -104,7 +104,7 @@ To handle multiple connections, most web servers do it using the `fork()` comman
 
 Let's understand `fork()` before going into the code, when `fork()` is called, it creates a copy of the existing process. The new process is called the child and the original process is called the parent. In python, on success it would return 0 in the child. <sup>[ref](https://docs.python.org/3/library/os.html#os._exit)</sup>.
 
-Now, since when the client creates a connection with the server, because we used `fork()`, two processes got created, so we will have to intelligently handle it.
+Now, when the client creates a connection with the server, two same processes got created because we used `fork()`, so we will have to intelligently handle it.
 
 ---
 
