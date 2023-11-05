@@ -96,7 +96,7 @@ It now works :)
 
 ### Handling multiple connections
 
-The web-server wrote above cannot handle multiple connections. To prove that, after sending the response to the client, I added a sleep of 30 seconds in the code, and as you can see from the image below, the first client received the message but the other client didn't receive any response and once 30 seconds are passed, it receives the response. Thus, we know our server cannot handle multiple connections. Modified code can be found [here](https://gist.github.com/mishal23/e96ae1a967702f508171911ccd34e7b4#file-server-py)
+The web-server wrote above cannot handle multiple connections. To prove that, after sending the response to the client, I added a sleep of 30 seconds in the code, and as you can see from the image below, the first client received the message but the other client didn't receive any response and once 30 seconds are passed, it receives the response. Thus, we know our server cannot handle multiple connections. Modified code can be found [here](https://gist.github.com/mishal23/e96ae1a967702f508171911ccd34e7b4#file-server-py).
 
 ![Not working multi-connections](./images/nw-multi-connections.png)
 
@@ -161,4 +161,4 @@ Even, gunicorn uses `fork()` to handle multiple connections as it can be seen in
 
 ---
 
-This completes building a basic web server that can handle multiple connections. There are still a lot of things to handle like logging, HTTPS connections, security, caching and providing integration with web frameworks, but hope this gives you an idea on creating a basic web server. Web frameworks would handle the routing, authentication, database access, business logic etc.
+This completes building a basic web server that can handle multiple connections. There are still a lot of things to handle like logging, HTTPS connections, security, caching and providing integration with web frameworks, but hope this gives you an idea on creating a basic web server. Web frameworks would handle the routing, authentication, database access, business logic etc., and is usually not the responsibility of the server.
