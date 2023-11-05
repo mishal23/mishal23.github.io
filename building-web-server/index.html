@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.10.0"/><meta data-react-helmet="true" name="description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" property="og:title" content="Building a basic web server from scratch"/><meta data-react-helmet="true" property="og:image" content="/mishal.jpeg"/><meta data-react-helmet="true" property="og:description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" property="og:keywords" content="web server, web frameworks, concurrency, threading, HTTP"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@1998Mishal"/><meta data-react-helmet="true" name="twitter:image" content="/mishal.jpeg"/><meta data-react-helmet="true" name="twitter:title" content="Building a basic web server from scratch"/><meta data-react-helmet="true" name="twitter:description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" name="google-site-verification" content="wg6y8Zfr2js7siVPGbi0_lRuc4TzTiqRgb8LviprCZw"/><meta name="theme-color" content="#2d2a2a"/><style data-href="/styles.d879223583f07a003c31.css" data-identity="gatsby-global-css">*{box-sizing:border-box}body,html{margin:0;padding:0}body{background:#f8f8f8;color:#333;font-family:Inter,sans-serif;font-size:18px;font-weight:400;line-height:1.6em}a{color:#000;text-decoration:none;word-break:break-word}a:hover{color:#06f;text-decoration:underline;text-decoration-color:#06f;text-decoration-thickness:2px}code{background:#f4f4f4;color:#000;display:inline-block;font-size:.9em;padding:3px 5px}pre code{display:block}.post .highlight{background:#f4f4f4;padding:5px}button,html,input,select,textarea{color:#333}::selection{background:#000;color:#fff;text-shadow:none}hr{border:0;border-top:1px solid #eee;display:block;height:1px;margin:15px 0;padding:0}img{max-width:100%}a img{border:none}figure{margin:0;text-align:center}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}blockquote{background:#f6f6f6;border-left:5px solid;border-color:#000;font-style:italic;padding:5px 15px}blockquote cite{font-size:70%;opacity:.8}blockquote em{font-weight:600}h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.3em;margin:45px 0 20px}h1{font-size:2.75rem}h2{font-size:2rem}h3{font-size:1.6rem}h4{font-size:1.2rem}h5{font-size:1rem}h6{font-size:.9rem}.align-center{text-align:center}.align-left{text-align:left}.align-right{text-align:right}.float-right{float:right}figure.float-right{margin:0 15px}.text-small{font-size:.875em}ul{padding-left:15px}ul.flat{margin:0;padding:0}ul.flat li{display:inline-block;list-style:none;margin-left:0}.prevent-collapse{min-height:.1rem}.post ul li{margin-bottom:10px}.highlight pre{background-color:transparent!important;margin-bottom:0;margin-top:0;padding:20px}.wrap{background:#fff;margin:0 auto;padding:60px 75px}.container{max-width:950px;min-width:320px}.header{display:flex;flex-wrap:wrap;margin-bottom:90px}.header .logo,.header nav{flex-grow:1}.header nav{line-height:1em;text-align:right}.header .logo{font-size:1.5em;font-weight:500}.header nav a{color:#06f;display:inline-block;margin-left:30px}.header nav .feed img{height:auto;width:16px}.header .site-description nav{border:none;margin:0 0 0 15px;min-width:50px;padding:0}.header .site-description nav ul svg{max-height:15px}.section .section-header{color:#999;font-size:.75rem;font-weight:600;letter-spacing:1px;margin-bottom:20px;text-transform:uppercase}.posts .post{margin-bottom:60px}.post.blurb .post-header{margin:0 0 15px}.post.blurb .title{margin:0}.post.blurb .date{color:#888}.post .content{border-bottom:1px solid #ddd;margin-bottom:30px;padding-bottom:30px}.post .content a{color:#06f;text-decoration:underline}.post .content a:hover{color:#000;text-decoration-color:#000}.post .post-header{margin-bottom:30px}.post .draft-label{background-color:#f9f2f4;border-radius:4px;color:#000;margin-left:6px;padding:2px 4px;text-decoration:none}.post .author{display:flex;font-size:.875em;line-height:1.35em;margin-top:30px}.post .author .avatar{flex:0 0 64px}.post .author img{border-radius:100%;display:inline-block;margin-right:15px;max-width:64px}.post .author .desig{color:#888}.post .author span{display:inline-block}.post .author .date{margin-top:5px}.post .author .urls{font-size:.775em}.post .author .urls a{color:#888;margin-right:5px}.projects{margin-top:60px}.projects .item{display:flex;margin-bottom:30px}.projects .name{flex:40% 1}.projects .description{flex:60% 1}.projects h3{margin:0}.projects p{margin:0 0 10px}.projects .date{color:#999;font-size:.875em}h1.intro{margin:0 0 120px}.intro .highlight{border-bottom:5px solid #06f}code[slot=code]{display:none}.description a{color:#06f;text-decoration:underline}.footer{color:#999;font-size:.75em;margin:30px 0;text-align:center}.footer a{color:#666}.footer a:hover{color:#06f}.footer .social{margin-top:5px;padding:0}.footer ul{list-style-type:none;margin:0}.footer .social li{display:inline-block;margin-right:10px}.tag-cloud{margin-top:20px}.tag-cloud a{margin-right:15px}.tags a{border:1px solid #333;border-radius:3px;color:#333;display:inline-block;font-size:.85em;line-height:20px;margin:0 10px 0 0;padding:0 6px;text-decoration:none}.pagination{display:flex;justify-content:space-between;margin:0;padding:0;text-align:left}.pagination li{display:inline-block;list-style:none;margin:0;padding:0}.pagination .page-prev{margin-right:20px;padding-right:20px}.pagination .page-item.page-prev{text-align:left}.pagination .page-item.page-next{text-align:right}div.newsletter{background:#2d2a2a;border:3px solid #2d2a2a;border-radius:5px;color:#fff;margin:1.5em auto;padding:1.5em}.newsletterform-item label{display:inline-block;font-size:1rem;margin-bottom:.5rem;max-width:100%}.newsletterform-item input{height:2.5rem;padding:0;text-indent:.75rem}.newsletterform-item textarea{height:8rem;overflow:auto;padding:.75rem}.newsletterform-item input,.newsletterform-item textarea{border:1px solid #ccc;font-size:.9rem;margin-bottom:15px;outline:0;transition:all .7s ease;width:100%}.newsletterform-item:last-child{margin:1rem 0 2rem}.newsletterform-btn{background-color:#2d2a2a;border:0;border-radius:0;color:#faf9f9;cursor:pointer;display:inherit;font-size:.8rem;letter-spacing:2px;margin:0 auto;outline:0;padding:1rem 1.5rem;text-transform:uppercase;transition:all .4s;width:100%}.newsletterform-btn:hover{background:#ccc;color:#2d2a2a}table{border-collapse:collapse;width:100%}table td,table th{border:1px solid #ddd;padding:8px}table tr:nth-child(2n){background-color:#f2f2f2}.social-icons{font-size:1.3rem}@media (max-width:940px){.wrap{padding:30px}.posts{display:block}.posts .post{margin-bottom:60px}}@media (max-width:550px){.header{display:block}.header .nav{margin-top:30px;text-align:left}.header .nav a{margin:0 30px 0 0}.float-right{float:none}figure.float-right{margin:15px 0}}code{white-space:pre-wrap}</style><title data-react-helmet="true">Building a basic web server from scratch | Mishal Shah</title><link rel="icon" href="/favicon-32x32.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="192x192" href="/favicon/android-chrome-192x192.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="apple-touch-icon" sizes="512x512" href="/favicon/android-chrome-512x512.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><section class="container wrap"><div class="header"><div class="logo"><a href="/">Mishal Shah</a></div><nav class="nav"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/talks/">Talks</a><a href="/contact/">Contact</a></nav></div><div class="post"><div class="post-header"><h1 class="title">Building a basic web server from scratch</h1><div class="date">November 05, 2023</div></div><div class="content"><div><p>Whenever I ask this question on how to build a web server, most people misunderstand it as building a web server using one of the available frameworks like <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="nofollow">Flask</a>, <a href="https://www.djangoproject.com/" target="_blank" rel="nofollow">Django</a>, <a href="https://rubyonrails.org/" target="_blank" rel="nofollow">Ruby On Rails</a>, <a href="https://expressjs.com/" target="_blank" rel="nofollow">Express.js</a>, but the question is much more on the building blocks how to create web server and not how to use frameworks.</p>
+<p>Firstly, none of the names mentioned above (Flask, Django, Ruby On Rails, Express.js) are web servers, they're just frameworks. <a href="https://httpd.apache.org/" target="_blank" rel="nofollow">Apache</a>, <a href="https://gunicorn.org/" target="_blank" rel="nofollow">Gunicorn</a>, <a href="https://docs.nginx.com/nginx/admin-guide/web-server/" target="_blank" rel="nofollow">Nginx</a> are few examples of web servers. With that being clarified, in this blog post, we'll go over how to build a very basic web server.</p>
+<h3>What is a web server?</h3>
+<p>Web server is a software running on a hardware that would respond to the client requests made over the HTTP protocol. The client would usually be a web browser.</p>
+<hr>
+<p>Now, how would a software running (server in our case) indicate that it is open for accepting connections. Client and the server connect to each other over the network, for which they use sockets. This socket is the TCP/IP socket on Unix systems. Assuming you know about sockets, the code for server would be as follows (<em>code is self-explanatory</em>):</p>
+<deckgo-highlight-code   >
+          <code slot="code">import socket
+
+HOST = &#39;&#39;
+PORT = 8888
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
+    server_socket.bind((HOST, PORT))
+    server_socket.listen(1)
+    print(f&#39;Started HTTP server on port {PORT} ...&#39;)
+    while True:
+        client_connection, client_address = server_socket.accept()
+        with client_connection:
+            request_data = client_connection.recv(1024)
+            print(request_data.decode(&#39;utf-8&#39;))
+            http_response = b&quot;Hello World!&quot;
+            client_connection.sendall(http_response)</code>
+        </deckgo-highlight-code>
+<p>You could test the server using the <code>curl</code> command in the terminal.</p>
+<deckgo-highlight-code   >
+          <code slot="code">curl http://localhost:8888</code>
+        </deckgo-highlight-code>
+<p>We're now ready with a very basic web server.</p>
+<h3>Adhering HTTP Protocol Standards</h3>
+<p>If you start the server and connect it from the browser by entering the localhost:8888 URL from the browser, it would throw an error as for the response that we are sending from the server we are not adhering to the HTTP Protocol Standards.:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/333dd1b8be2ba85a2667797f886a1128/39f45/invalid.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.306748466257666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAArklEQVR42q2SSxKDIBBEuQgqfwQ/YHSXG3iGXCSXbwvKJJtoUiGLrikY6nUDQ3wXMIYZtu0hpC0WqRuBquZomEDDZLHIWfNl9gdggglp4Pyw76ldBUClLeI0g1bsmTbVn6/MuELXR4RpQfq8EBcY60+hp0AuNMY4ox8ndEPMVSp7ABTfJdTGQek2J0sGh2f3Hvn0yCnNQ+8MKa1wua5Yb/e8JsWzl6ZBOeg25CnYACi8Gl6B+bPtAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Invalid response"
+        title=""
+        src="/static/333dd1b8be2ba85a2667797f886a1128/a6d36/invalid.png"
+        srcset="/static/333dd1b8be2ba85a2667797f886a1128/222b7/invalid.png 163w,
+/static/333dd1b8be2ba85a2667797f886a1128/ff46a/invalid.png 325w,
+/static/333dd1b8be2ba85a2667797f886a1128/a6d36/invalid.png 650w,
+/static/333dd1b8be2ba85a2667797f886a1128/e548f/invalid.png 975w,
+/static/333dd1b8be2ba85a2667797f886a1128/3c492/invalid.png 1300w,
+/static/333dd1b8be2ba85a2667797f886a1128/39f45/invalid.png 2184w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>For a HTTP request, the protocol suggests three parts:</p>
+<ol>
+<li>One line identifying the request type and path</li>
+<li>An optional set of <a href="https://datatracker.ietf.org/doc/html/rfc822" target="_blank" rel="nofollow">RFC 822</a> headers (ref: <a href="https://datatracker.ietf.org/doc/html/rfc2616#section-4" target="_blank" rel="nofollow">RFC 2616</a>)</li>
+<li>An optional data part</li>
+</ol>
+<p>Headers and data are seperated by a blank line. The first line of the request has the form:</p>
+<p><code>&#x3C;command> &#x3C;path> &#x3C;version></code></p>
+<ul>
+<li><code>&#x3C;command></code> Case-sensitive keyword such as GET or POST or DELETE, etc.</li>
+<li><code>&#x3C;path></code> string containing path information for the request</li>
+<li><code>&#x3C;version></code> protocol version ("HTTP/1.0" or "HTTP/1.1" or higher version)</li>
+</ul>
+<p>For a HTTP response, again the protocol suggests three parts:</p>
+<ol>
+<li>One line giving the response code</li>
+<li>An optional set of <a href="https://datatracker.ietf.org/doc/html/rfc822" target="_blank" rel="nofollow">RFC 822</a> style headers</li>
+<li>The data</li>
+</ol>
+<p>Again, headers and data are seperated by a blank line. The response code line has the form:</p>
+<p><code>&#x3C;version> &#x3C;responsecode> &#x3C;responsestring></code></p>
+<ul>
+<li><code>&#x3C;version></code> protocol version ("HTTP/1.0" or "HTTP/1.1" or higher version)</li>
+<li><code>&#x3C;responsecode></code> 3-digit response code indicating success or failure of the request</li>
+<li><code>&#x3C;responsestring></code> optional human-readable string explaining what the response code means</li>
+</ul>
+<p>Thus, if you're developing a web server, you should handle these correctly. I wouldn't go into details of parsing the headers correctly, but <a href="https://github.com/benoitc/gunicorn/blob/430dcdd997b955fa1a8569a07d9cdcbac686fb35/gunicorn/http/message.py#L62" target="_blank" rel="nofollow">leaving a reference from the gunicorn web server code base on how they handle headers</a>. For the open question on the invalid response error on opening from the browser, that is easy to handle, just set the response body correctly as per the standards. Modify the <code>http_response</code> variable as below:</p>
+<deckgo-highlight-code   >
+          <code slot="code">http_response = b&quot;&quot;&quot;\
+HTTP/1.1 200 OK
+
+Hello, World!
+&quot;&quot;&quot;</code>
+        </deckgo-highlight-code>
+<p>It now works :)</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/02822e8bed89597a69eb0a690f1f937d/f7616/valid-http.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.920245398773%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA70lEQVR42uXMzU6DQBSGYa5ABoglLRTMzEBFYORPaKECpQVt4v3fzmeYuKixLpq4c/Hk5JzkvEq13WNXt3gpdyirBv1hlHuz7xFGCSKRIstLVNsaRVHhOcmQpAUegxCU+WB8843y2g5ou6OM1E2H03jGYZjw9v6BKE6RZiW6fsA4nXE8TTJcVjWewvh6kHEPnreB6z6Acw+McVDKYNsOHMfFyrKwME3cL0w5l8uVZFk27PX6ByUIAuR5Bkop4lhACAHf96CqdyBEBSEEmqZdINJ8v0YhRMPMMIyLJx26bnzRb6LModmtj78G/yr0j4Of8dIFc/6IXH4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Valid response"
+        title=""
+        src="/static/02822e8bed89597a69eb0a690f1f937d/a6d36/valid-http.png"
+        srcset="/static/02822e8bed89597a69eb0a690f1f937d/222b7/valid-http.png 163w,
+/static/02822e8bed89597a69eb0a690f1f937d/ff46a/valid-http.png 325w,
+/static/02822e8bed89597a69eb0a690f1f937d/a6d36/valid-http.png 650w,
+/static/02822e8bed89597a69eb0a690f1f937d/f7616/valid-http.png 766w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3>Handling multiple connections</h3>
+<p>The web-server wrote above cannot handle multiple connections. To prove that, after sending the response to the client, I added a sleep of 30 seconds in the code, and as you can see from the image below, the first client received the message but the other client didn't receive any response and once 30 seconds are passed, it receives the response. Thus, we know our server cannot handle multiple connections. Modified code can be found <a href="https://gist.github.com/mishal23/e96ae1a967702f508171911ccd34e7b4#file-server-py" target="_blank" rel="nofollow">here</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/43ecd11cf7fe05c95e86089cc4920274/8aace/nw-multi-connections.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52.760736196319016%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVR42t2SzY7CMAyEneXcvkRvbQWb2E1IStktv5WQEO//MoMSBKKIA4I97eGTR44ysjWm1XbAz/6Irt/BOQdrLZj5bahfreHDAo11EBEIy2eGxhiwMUj1A6Ob4V+Y/HNDrXXCGE5c9CWDqIk5hqJTMDHl68eU+BO892hDgJ9b+LlDCOFG27agfrPH73DCcj2kZtd16SHe5CPRrBHB9JuhlwfMwhZlWaKqKtR1jaIoQNJYSLzBWO8me7Zu7Od5DiKCUhMQfSU94rr/q3eYZdnIQCk10mcFv1gLd8XcNQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Not working multi-connections"
+        title=""
+        src="/static/43ecd11cf7fe05c95e86089cc4920274/a6d36/nw-multi-connections.png"
+        srcset="/static/43ecd11cf7fe05c95e86089cc4920274/222b7/nw-multi-connections.png 163w,
+/static/43ecd11cf7fe05c95e86089cc4920274/ff46a/nw-multi-connections.png 325w,
+/static/43ecd11cf7fe05c95e86089cc4920274/a6d36/nw-multi-connections.png 650w,
+/static/43ecd11cf7fe05c95e86089cc4920274/e548f/nw-multi-connections.png 975w,
+/static/43ecd11cf7fe05c95e86089cc4920274/3c492/nw-multi-connections.png 1300w,
+/static/43ecd11cf7fe05c95e86089cc4920274/8aace/nw-multi-connections.png 2732w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>To handle multiple connections, most web servers do it using the <code>fork()</code> command.</p>
+<p>Let's understand <code>fork()</code> before going into the code, when <code>fork()</code> is called, it creates a copy of the existing process. The new process is called the child and the original process is called the parent. In python, on success it would return 0 in the child. <sup><a href="https://docs.python.org/3/library/os.html#os._exit" target="_blank" rel="nofollow">ref</a></sup>.</p>
+<p>Now, since when the client creates a connection with the server, because we used <code>fork()</code>, two processes got created, so we will have to intelligently handle it.</p>
+<hr>
+<p>In the child process, we should handle the following:</p>
+<ul>
+<li>since a copy of server socket is created, we should close it in the child and let it be as it is in the parent process.</li>
+<li>once the child process is processed, it should be closed gracefully using <code>os._exit()</code> as <a href="https://docs.python.org/3/library/os.html#os._exit" target="_blank" rel="nofollow">per the docs</a>.</li>
+</ul>
+<p>In the parent process, we should handle the following:</p>
+<ul>
+<li>since a copy of client connection is created, and we're handling the request in the child process, we should close the duplicate client connection here.</li>
+</ul>
+<p>Thus, the modified server side code to handle multiple connections is as follows:</p>
+<deckgo-highlight-code   >
+          <code slot="code">import socket
+import time
+import os
+
+HOST = &#39;&#39;
+PORT = 8888
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
+    server_socket.bind((HOST, PORT))
+    server_socket.listen(1)
+    print(f&#39;Started HTTP server on port {PORT} ...&#39;)
+    while True:
+        client_connection, client_address = server_socket.accept()
+        with client_connection:
+            pid = os.fork()
+            if pid == 0:
+                server_socket.close()  # close copy of the socket
+                request_data = client_connection.recv(1024)
+                print(request_data.decode(&#39;utf-8&#39;))
+                http_response = b&quot;&quot;&quot;\
+HTTP/1.1 200 OK
+
+Hello, World!
+                &quot;&quot;&quot;
+                client_connection.sendall(http_response)
+                time.sleep(30)
+                os._exit(0)  # child exits here
+            else:
+                client_connection.close()  # close the copy of parent client connection</code>
+        </deckgo-highlight-code>
+<p>As you can see in the image below, multiple connections are now working, response was served immediately and both are waiting for 30 seconds as per the sleep in the code:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6e0899d0f08d398b66c74baa4f8bd624/36909/multi-connections.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+0lEQVR42q1SvU7DMBi0GZI5SyoFIYQYKspQ/yWxHdtNGgSilIn3f5ZDdhVEoWWgGU6WLd357r6P7N7e8bT/wPCyh3MO1lq0bftvkBACWq2hlIIQ4mIQ7z2apoGUAlLKi0GMMajrehaxJDhZnU1wLqFjh5xBcH5U7jkCFwKcMXC2PvDi/RuXaGNhugBtXRq71jqdcVCn0HUdNv0Wm/EVoR/hvYP34WvlSD+M8OMObniGMTo9xkGdEosfPa5WuL1f4uahxvXdEotFiaqqUJYliqIAiVGj/Rhjss1/xJ8qYIwhz3MQQs4jdaPUAX+UHRc/CmZZloiUXoFS+gufWnZXaPvY4CUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Working multi-connections"
+        title=""
+        src="/static/6e0899d0f08d398b66c74baa4f8bd624/a6d36/multi-connections.png"
+        srcset="/static/6e0899d0f08d398b66c74baa4f8bd624/222b7/multi-connections.png 163w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/ff46a/multi-connections.png 325w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/a6d36/multi-connections.png 650w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/e548f/multi-connections.png 975w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/3c492/multi-connections.png 1300w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/36909/multi-connections.png 2772w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>Even, gunicorn uses <code>fork()</code> to handle multiple connections as it can be seen in <a href="https://github.com/benoitc/gunicorn/blob/430dcdd997b955fa1a8569a07d9cdcbac686fb35/gunicorn/arbiter.py#L587" target="_blank" rel="nofollow">the codebase</a>.</p>
+<blockquote>
+<p>Threading shouldn't be used as it is part of the same process and sharing the same data, it can cause issues in dealing with multiple clients.</p>
+</blockquote>
+<hr>
+<p>This completes building a basic web server that can handle multiple connections. There are still a lot of things to handle like logging, HTTPS connections, security, caching and providing integration with web frameworks, but hope this gives you an idea on creating a basic web server. Web frameworks would handle the routing, authentication, database access, business logic etc.</p></div><span class="disqus-comment-count" data-disqus-identifier="https://mishal.dev/*" data-disqus-url="https://mishal.dev/*">...</span><div id="disqus_thread"></div></div></div></section><footer class="footer">Made with <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="red" style="color:red" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg> by <a href="/">Mishal Shah</a><ul class="social"><li><a href="mailto:shahmishal1998@gmail.com" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a></li><li><a href="https://github.com/mishal23" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></li><li><a href="https://www.linkedin.com/in/mishal23/" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></li><li><a href="https://www.facebook.com/mishal.shah.7731/" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a></li><li><a href="https://twitter.com/1998Mishal" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li><li><a href="https://t.me/mishal23" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="social-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></a></li></ul></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-110715968-2"></script><script>
+      
+      
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110715968-2', {"send_page_view":false});
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/building-web-server/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-ba3f7ecad36bfae7db89.js\"],\"component---cache-caches-gatsby-plugin-offline-app-shell-js\":[\"/component---cache-caches-gatsby-plugin-offline-app-shell-js-77a5baf7067fcbf0afaf.js\"],\"component---src-components-blog-post-js\":[\"/component---src-components-blog-post-js-dd640471471a01fd63cc.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-fafc881eaf7748f1a0c2.js\"],\"component---src-pages-contact-js\":[\"/component---src-pages-contact-js-56470d2bcd1628cd0515.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-6913e8040776714efbb4.js\"],\"component---src-pages-newsletter-js\":[\"/component---src-pages-newsletter-js-0c3a058c6f007d88f515.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="d839b33396fbb710aa6b";</script><script src="/webpack-runtime-c8f5085d0e69e5eef592.js" async></script><script src="/framework-60293074edda326fe89d.js" async></script><script src="/app-ba3f7ecad36bfae7db89.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
