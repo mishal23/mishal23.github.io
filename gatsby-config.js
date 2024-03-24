@@ -29,9 +29,7 @@ module.exports = {
     },
     image: "/mishal.jpeg",
   },
-  // pathPrefix: "/gatsby-migration",
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
