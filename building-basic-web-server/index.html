@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.10.0"/><meta data-react-helmet="true" name="description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" property="og:title" content="Building a basic web server from scratch"/><meta data-react-helmet="true" property="og:image" content="/mishal.jpeg"/><meta data-react-helmet="true" property="og:description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" property="og:keywords" content="web server, web frameworks, concurrency, threading, HTTP"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@1998Mishal"/><meta data-react-helmet="true" name="twitter:image" content="/mishal.jpeg"/><meta data-react-helmet="true" name="twitter:title" content="Building a basic web server from scratch"/><meta data-react-helmet="true" name="twitter:description" content="Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests."/><meta data-react-helmet="true" name="google-site-verification" content="wg6y8Zfr2js7siVPGbi0_lRuc4TzTiqRgb8LviprCZw"/><meta name="theme-color" content="#2d2a2a"/><style data-href="/styles.d879223583f07a003c31.css" data-identity="gatsby-global-css">*{box-sizing:border-box}body,html{margin:0;padding:0}body{background:#f8f8f8;color:#333;font-family:Inter,sans-serif;font-size:18px;font-weight:400;line-height:1.6em}a{color:#000;text-decoration:none;word-break:break-word}a:hover{color:#06f;text-decoration:underline;text-decoration-color:#06f;text-decoration-thickness:2px}code{background:#f4f4f4;color:#000;display:inline-block;font-size:.9em;padding:3px 5px}pre code{display:block}.post .highlight{background:#f4f4f4;padding:5px}button,html,input,select,textarea{color:#333}::selection{background:#000;color:#fff;text-shadow:none}hr{border:0;border-top:1px solid #eee;display:block;height:1px;margin:15px 0;padding:0}img{max-width:100%}a img{border:none}figure{margin:0;text-align:center}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}blockquote{background:#f6f6f6;border-left:5px solid;border-color:#000;font-style:italic;padding:5px 15px}blockquote cite{font-size:70%;opacity:.8}blockquote em{font-weight:600}h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.3em;margin:45px 0 20px}h1{font-size:2.75rem}h2{font-size:2rem}h3{font-size:1.6rem}h4{font-size:1.2rem}h5{font-size:1rem}h6{font-size:.9rem}.align-center{text-align:center}.align-left{text-align:left}.align-right{text-align:right}.float-right{float:right}figure.float-right{margin:0 15px}.text-small{font-size:.875em}ul{padding-left:15px}ul.flat{margin:0;padding:0}ul.flat li{display:inline-block;list-style:none;margin-left:0}.prevent-collapse{min-height:.1rem}.post ul li{margin-bottom:10px}.highlight pre{background-color:transparent!important;margin-bottom:0;margin-top:0;padding:20px}.wrap{background:#fff;margin:0 auto;padding:60px 75px}.container{max-width:950px;min-width:320px}.header{display:flex;flex-wrap:wrap;margin-bottom:90px}.header .logo,.header nav{flex-grow:1}.header nav{line-height:1em;text-align:right}.header .logo{font-size:1.5em;font-weight:500}.header nav a{color:#06f;display:inline-block;margin-left:30px}.header nav .feed img{height:auto;width:16px}.header .site-description nav{border:none;margin:0 0 0 15px;min-width:50px;padding:0}.header .site-description nav ul svg{max-height:15px}.section .section-header{color:#999;font-size:.75rem;font-weight:600;letter-spacing:1px;margin-bottom:20px;text-transform:uppercase}.posts .post{margin-bottom:60px}.post.blurb .post-header{margin:0 0 15px}.post.blurb .title{margin:0}.post.blurb .date{color:#888}.post .content{border-bottom:1px solid #ddd;margin-bottom:30px;padding-bottom:30px}.post .content a{color:#06f;text-decoration:underline}.post .content a:hover{color:#000;text-decoration-color:#000}.post .post-header{margin-bottom:30px}.post .draft-label{background-color:#f9f2f4;border-radius:4px;color:#000;margin-left:6px;padding:2px 4px;text-decoration:none}.post .author{display:flex;font-size:.875em;line-height:1.35em;margin-top:30px}.post .author .avatar{flex:0 0 64px}.post .author img{border-radius:100%;display:inline-block;margin-right:15px;max-width:64px}.post .author .desig{color:#888}.post .author span{display:inline-block}.post .author .date{margin-top:5px}.post .author .urls{font-size:.775em}.post .author .urls a{color:#888;margin-right:5px}.projects{margin-top:60px}.projects .item{display:flex;margin-bottom:30px}.projects .name{flex:40% 1}.projects .description{flex:60% 1}.projects h3{margin:0}.projects p{margin:0 0 10px}.projects .date{color:#999;font-size:.875em}h1.intro{margin:0 0 120px}.intro .highlight{border-bottom:5px solid #06f}code[slot=code]{display:none}.description a{color:#06f;text-decoration:underline}.footer{color:#999;font-size:.75em;margin:30px 0;text-align:center}.footer a{color:#666}.footer a:hover{color:#06f}.footer .social{margin-top:5px;padding:0}.footer ul{list-style-type:none;margin:0}.footer .social li{display:inline-block;margin-right:10px}.tag-cloud{margin-top:20px}.tag-cloud a{margin-right:15px}.tags a{border:1px solid #333;border-radius:3px;color:#333;display:inline-block;font-size:.85em;line-height:20px;margin:0 10px 0 0;padding:0 6px;text-decoration:none}.pagination{display:flex;justify-content:space-between;margin:0;padding:0;text-align:left}.pagination li{display:inline-block;list-style:none;margin:0;padding:0}.pagination .page-prev{margin-right:20px;padding-right:20px}.pagination .page-item.page-prev{text-align:left}.pagination .page-item.page-next{text-align:right}div.newsletter{background:#2d2a2a;border:3px solid #2d2a2a;border-radius:5px;color:#fff;margin:1.5em auto;padding:1.5em}.newsletterform-item label{display:inline-block;font-size:1rem;margin-bottom:.5rem;max-width:100%}.newsletterform-item input{height:2.5rem;padding:0;text-indent:.75rem}.newsletterform-item textarea{height:8rem;overflow:auto;padding:.75rem}.newsletterform-item input,.newsletterform-item textarea{border:1px solid #ccc;font-size:.9rem;margin-bottom:15px;outline:0;transition:all .7s ease;width:100%}.newsletterform-item:last-child{margin:1rem 0 2rem}.newsletterform-btn{background-color:#2d2a2a;border:0;border-radius:0;color:#faf9f9;cursor:pointer;display:inherit;font-size:.8rem;letter-spacing:2px;margin:0 auto;outline:0;padding:1rem 1.5rem;text-transform:uppercase;transition:all .4s;width:100%}.newsletterform-btn:hover{background:#ccc;color:#2d2a2a}table{border-collapse:collapse;width:100%}table td,table th{border:1px solid #ddd;padding:8px}table tr:nth-child(2n){background-color:#f2f2f2}.social-icons{font-size:1.3rem}@media (max-width:940px){.wrap{padding:30px}.posts{display:block}.posts .post{margin-bottom:60px}}@media (max-width:550px){.header{display:block}.header .nav{margin-top:30px;text-align:left}.header .nav a{margin:0 30px 0 0}.float-right{float:none}figure.float-right{margin:15px 0}}code{white-space:pre-wrap}</style><title data-react-helmet="true">Building a basic web server from scratch | Mishal Shah</title><link rel="icon" href="/favicon-32x32.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="192x192" href="/favicon/android-chrome-192x192.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="apple-touch-icon" sizes="512x512" href="/favicon/android-chrome-512x512.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><section class="container wrap"><div class="header"><div class="logo"><a href="/">Mishal Shah</a></div><nav class="nav"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/talks/">Talks</a><a href="/contact/">Contact</a></nav></div><div class="post"><div class="post-header"><h1 class="title">Building a basic web server from scratch</h1><div class="date">November 05, 2023</div></div><div class="content"><div><p>Whenever I ask this question on how to build a web server, most people misunderstand it as building a web server using one of the available frameworks like <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="nofollow">Flask</a>, <a href="https://www.djangoproject.com/" target="_blank" rel="nofollow">Django</a>, <a href="https://rubyonrails.org/" target="_blank" rel="nofollow">Ruby On Rails</a>, <a href="https://expressjs.com/" target="_blank" rel="nofollow">Express.js</a>, but the question is much more on the building blocks how to create web server and not how to use frameworks.</p>
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.10.0"/><meta name="theme-color" content="#2d2a2a"/><style data-href="/styles.d879223583f07a003c31.css" data-identity="gatsby-global-css">*{box-sizing:border-box}body,html{margin:0;padding:0}body{background:#f8f8f8;color:#333;font-family:Inter,sans-serif;font-size:18px;font-weight:400;line-height:1.6em}a{color:#000;text-decoration:none;word-break:break-word}a:hover{color:#06f;text-decoration:underline;text-decoration-color:#06f;text-decoration-thickness:2px}code{background:#f4f4f4;color:#000;display:inline-block;font-size:.9em;padding:3px 5px}pre code{display:block}.post .highlight{background:#f4f4f4;padding:5px}button,html,input,select,textarea{color:#333}::selection{background:#000;color:#fff;text-shadow:none}hr{border:0;border-top:1px solid #eee;display:block;height:1px;margin:15px 0;padding:0}img{max-width:100%}a img{border:none}figure{margin:0;text-align:center}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}blockquote{background:#f6f6f6;border-left:5px solid;border-color:#000;font-style:italic;padding:5px 15px}blockquote cite{font-size:70%;opacity:.8}blockquote em{font-weight:600}h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.3em;margin:45px 0 20px}h1{font-size:2.75rem}h2{font-size:2rem}h3{font-size:1.6rem}h4{font-size:1.2rem}h5{font-size:1rem}h6{font-size:.9rem}.align-center{text-align:center}.align-left{text-align:left}.align-right{text-align:right}.float-right{float:right}figure.float-right{margin:0 15px}.text-small{font-size:.875em}ul{padding-left:15px}ul.flat{margin:0;padding:0}ul.flat li{display:inline-block;list-style:none;margin-left:0}.prevent-collapse{min-height:.1rem}.post ul li{margin-bottom:10px}.highlight pre{background-color:transparent!important;margin-bottom:0;margin-top:0;padding:20px}.wrap{background:#fff;margin:0 auto;padding:60px 75px}.container{max-width:950px;min-width:320px}.header{display:flex;flex-wrap:wrap;margin-bottom:90px}.header .logo,.header nav{flex-grow:1}.header nav{line-height:1em;text-align:right}.header .logo{font-size:1.5em;font-weight:500}.header nav a{color:#06f;display:inline-block;margin-left:30px}.header nav .feed img{height:auto;width:16px}.header .site-description nav{border:none;margin:0 0 0 15px;min-width:50px;padding:0}.header .site-description nav ul svg{max-height:15px}.section .section-header{color:#999;font-size:.75rem;font-weight:600;letter-spacing:1px;margin-bottom:20px;text-transform:uppercase}.posts .post{margin-bottom:60px}.post.blurb .post-header{margin:0 0 15px}.post.blurb .title{margin:0}.post.blurb .date{color:#888}.post .content{border-bottom:1px solid #ddd;margin-bottom:30px;padding-bottom:30px}.post .content a{color:#06f;text-decoration:underline}.post .content a:hover{color:#000;text-decoration-color:#000}.post .post-header{margin-bottom:30px}.post .draft-label{background-color:#f9f2f4;border-radius:4px;color:#000;margin-left:6px;padding:2px 4px;text-decoration:none}.post .author{display:flex;font-size:.875em;line-height:1.35em;margin-top:30px}.post .author .avatar{flex:0 0 64px}.post .author img{border-radius:100%;display:inline-block;margin-right:15px;max-width:64px}.post .author .desig{color:#888}.post .author span{display:inline-block}.post .author .date{margin-top:5px}.post .author .urls{font-size:.775em}.post .author .urls a{color:#888;margin-right:5px}.projects{margin-top:60px}.projects .item{display:flex;margin-bottom:30px}.projects .name{flex:40% 1}.projects .description{flex:60% 1}.projects h3{margin:0}.projects p{margin:0 0 10px}.projects .date{color:#999;font-size:.875em}h1.intro{margin:0 0 120px}.intro .highlight{border-bottom:5px solid #06f}code[slot=code]{display:none}.description a{color:#06f;text-decoration:underline}.footer{color:#999;font-size:.75em;margin:30px 0;text-align:center}.footer a{color:#666}.footer a:hover{color:#06f}.footer .social{margin-top:5px;padding:0}.footer ul{list-style-type:none;margin:0}.footer .social li{display:inline-block;margin-right:10px}.tag-cloud{margin-top:20px}.tag-cloud a{margin-right:15px}.tags a{border:1px solid #333;border-radius:3px;color:#333;display:inline-block;font-size:.85em;line-height:20px;margin:0 10px 0 0;padding:0 6px;text-decoration:none}.pagination{display:flex;justify-content:space-between;margin:0;padding:0;text-align:left}.pagination li{display:inline-block;list-style:none;margin:0;padding:0}.pagination .page-prev{margin-right:20px;padding-right:20px}.pagination .page-item.page-prev{text-align:left}.pagination .page-item.page-next{text-align:right}div.newsletter{background:#2d2a2a;border:3px solid #2d2a2a;border-radius:5px;color:#fff;margin:1.5em auto;padding:1.5em}.newsletterform-item label{display:inline-block;font-size:1rem;margin-bottom:.5rem;max-width:100%}.newsletterform-item input{height:2.5rem;padding:0;text-indent:.75rem}.newsletterform-item textarea{height:8rem;overflow:auto;padding:.75rem}.newsletterform-item input,.newsletterform-item textarea{border:1px solid #ccc;font-size:.9rem;margin-bottom:15px;outline:0;transition:all .7s ease;width:100%}.newsletterform-item:last-child{margin:1rem 0 2rem}.newsletterform-btn{background-color:#2d2a2a;border:0;border-radius:0;color:#faf9f9;cursor:pointer;display:inherit;font-size:.8rem;letter-spacing:2px;margin:0 auto;outline:0;padding:1rem 1.5rem;text-transform:uppercase;transition:all .4s;width:100%}.newsletterform-btn:hover{background:#ccc;color:#2d2a2a}table{border-collapse:collapse;width:100%}table td,table th{border:1px solid #ddd;padding:8px}table tr:nth-child(2n){background-color:#f2f2f2}.social-icons{font-size:1.3rem}@media (max-width:940px){.wrap{padding:30px}.posts{display:block}.posts .post{margin-bottom:60px}}@media (max-width:550px){.header{display:block}.header .nav{margin-top:30px;text-align:left}.header .nav a{margin:0 30px 0 0}.float-right{float:none}figure.float-right{margin:15px 0}}code{white-space:pre-wrap}</style><link rel="icon" href="/favicon-32x32.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="192x192" href="/favicon/android-chrome-192x192.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="apple-touch-icon" sizes="512x512" href="/favicon/android-chrome-512x512.png?v=83c1b219b8968b6c5ed1ac2ce0eb2933"/><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><section class="container wrap"><div class="header"><div class="logo"><a href="/">Mishal Shah</a></div><nav class="nav"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/talks/">Talks</a><a href="/contact/">Contact</a></nav></div><div class="post"><div class="post-header"><h1 class="title">Building a basic web server from scratch</h1><div class="date">November 05, 2023</div></div><div class="content"><div><p>Whenever I ask this question on how to build a web server, most people misunderstand it as building a web server using one of the available frameworks like <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="nofollow">Flask</a>, <a href="https://www.djangoproject.com/" target="_blank" rel="nofollow">Django</a>, <a href="https://rubyonrails.org/" target="_blank" rel="nofollow">Ruby On Rails</a>, <a href="https://expressjs.com/" target="_blank" rel="nofollow">Express.js</a>, but the question is much more on the building blocks how to create web server and not how to use frameworks.</p>
 <p>Firstly, none of the names mentioned above (Flask, Django, Ruby On Rails, Express.js) are web servers, they're just frameworks. <a href="https://httpd.apache.org/" target="_blank" rel="nofollow">Apache</a>, <a href="https://gunicorn.org/" target="_blank" rel="nofollow">Gunicorn</a>, <a href="https://docs.nginx.com/nginx/admin-guide/web-server/" target="_blank" rel="nofollow">Nginx</a> are few examples of web servers. With that being clarified, in this blog post, we'll go over how to build a very basic web server.</p>
 <h3>What is a web server?</h3>
 <p>Web server is a software running on a hardware that would respond to the client requests made over the HTTP protocol. The client would usually be a web browser.</p>
@@ -35,26 +35,26 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/d2b89e9ab8a83f4d1d1410d6431f27cb/39f45/invalid.png"
+    href="/static/333dd1b8be2ba85a2667797f886a1128/39f45/invalid.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 50.306748466257666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAnklEQVR42pWRSw7DIAxEuUiCwZg/4dNk1xvkDL1IT1+JqJuWVkKajS2/8chmIZZcdusSKjsrxgFXLkEgCDUrNuy+HedhDojK+LD1krpmYNK2tn1ZxRWBA07EFpJiqqUdIZZSD2PDkB/DEnWue8otbjXlpsh+wfhvszaetDM2SNSDgd5kv47BAS99mC7Leruf5+MpJLHp9wIiee0KCHoBl6dTF+5+qWgAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    style="padding-bottom: 50.306748466257666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAArklEQVR42q2SSxKDIBBEuQgqfwQ/YHSXG3iGXCSXbwvKJJtoUiGLrikY6nUDQ3wXMIYZtu0hpC0WqRuBquZomEDDZLHIWfNl9gdggglp4Pyw76ldBUClLeI0g1bsmTbVn6/MuELXR4RpQfq8EBcY60+hp0AuNMY4ox8ndEPMVSp7ABTfJdTGQek2J0sGh2f3Hvn0yCnNQ+8MKa1wua5Yb/e8JsWzl6ZBOeg25CnYACi8Gl6B+bPtAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="Invalid response"
         title=""
-        src="/static/d2b89e9ab8a83f4d1d1410d6431f27cb/a6d36/invalid.png"
-        srcset="/static/d2b89e9ab8a83f4d1d1410d6431f27cb/222b7/invalid.png 163w,
-/static/d2b89e9ab8a83f4d1d1410d6431f27cb/ff46a/invalid.png 325w,
-/static/d2b89e9ab8a83f4d1d1410d6431f27cb/a6d36/invalid.png 650w,
-/static/d2b89e9ab8a83f4d1d1410d6431f27cb/e548f/invalid.png 975w,
-/static/d2b89e9ab8a83f4d1d1410d6431f27cb/3c492/invalid.png 1300w,
-/static/d2b89e9ab8a83f4d1d1410d6431f27cb/39f45/invalid.png 2184w"
+        src="/static/333dd1b8be2ba85a2667797f886a1128/a6d36/invalid.png"
+        srcset="/static/333dd1b8be2ba85a2667797f886a1128/222b7/invalid.png 163w,
+/static/333dd1b8be2ba85a2667797f886a1128/ff46a/invalid.png 325w,
+/static/333dd1b8be2ba85a2667797f886a1128/a6d36/invalid.png 650w,
+/static/333dd1b8be2ba85a2667797f886a1128/e548f/invalid.png 975w,
+/static/333dd1b8be2ba85a2667797f886a1128/3c492/invalid.png 1300w,
+/static/333dd1b8be2ba85a2667797f886a1128/39f45/invalid.png 2184w"
         sizes="(max-width: 650px) 100vw, 650px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -103,24 +103,24 @@ Hello, World!
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/5f49b49789c7f6c0e8f2f22efe4b2b36/f7616/valid-http.png"
+    href="/static/02822e8bed89597a69eb0a690f1f937d/f7616/valid-http.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 50.920245398773%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVR42tXL3U6DMBjG8V6BvNCMho+BaQsTgcqXFMosjA10ifd/PSZLdEYPTPTIX/6Hz4Nkt++Vfmz7Vg7TYemVHvZTmhWZKKu6lZ1qGvlQVEXZ3CUpZTHju4/Qk571eOyVVsN4Ws6HeX1+ec3ysqzacZqX9Xw8rbJTrVT3af71zHgURbswvOU8YoxTynw/CILQ9TybkI1NbEIcx3Uc1/N8f7v9HEqSpK4rSmmeCyFEHEeGcQNgAIB5BaYJ3yEAE8DEGL/vLMvCl36G8IX1K8j6g396fgOvMD4sa7UxvAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 50.920245398773%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA70lEQVR42uXMzU6DQBSGYa5ABoglLRTMzEBFYORPaKECpQVt4v3fzmeYuKixLpq4c/Hk5JzkvEq13WNXt3gpdyirBv1hlHuz7xFGCSKRIstLVNsaRVHhOcmQpAUegxCU+WB8843y2g5ou6OM1E2H03jGYZjw9v6BKE6RZiW6fsA4nXE8TTJcVjWewvh6kHEPnreB6z6Acw+McVDKYNsOHMfFyrKwME3cL0w5l8uVZFk27PX6ByUIAuR5Bkop4lhACAHf96CqdyBEBSEEmqZdINJ8v0YhRMPMMIyLJx26bnzRb6LModmtj78G/yr0j4Of8dIFc/6IXH4AAAAASUVORK5CYII='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="Valid response"
         title=""
-        src="/static/5f49b49789c7f6c0e8f2f22efe4b2b36/a6d36/valid-http.png"
-        srcset="/static/5f49b49789c7f6c0e8f2f22efe4b2b36/222b7/valid-http.png 163w,
-/static/5f49b49789c7f6c0e8f2f22efe4b2b36/ff46a/valid-http.png 325w,
-/static/5f49b49789c7f6c0e8f2f22efe4b2b36/a6d36/valid-http.png 650w,
-/static/5f49b49789c7f6c0e8f2f22efe4b2b36/f7616/valid-http.png 766w"
+        src="/static/02822e8bed89597a69eb0a690f1f937d/a6d36/valid-http.png"
+        srcset="/static/02822e8bed89597a69eb0a690f1f937d/222b7/valid-http.png 163w,
+/static/02822e8bed89597a69eb0a690f1f937d/ff46a/valid-http.png 325w,
+/static/02822e8bed89597a69eb0a690f1f937d/a6d36/valid-http.png 650w,
+/static/02822e8bed89597a69eb0a690f1f937d/f7616/valid-http.png 766w"
         sizes="(max-width: 650px) 100vw, 650px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -136,26 +136,26 @@ Hello, World!
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/5574bda324eafc76c1d9d1d2d54cb4f1/8aace/nw-multi-connections.png"
+    href="/static/43ecd11cf7fe05c95e86089cc4920274/8aace/nw-multi-connections.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 52.760736196319016%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAs0lEQVR42s3QzQ6CMAwA4E7P8BLcgKhry0Y3QREREhPj+z+NYQnEn8SEePE7ND206Q+cuuHQ36rmYq01xtAS0JxacfvCWGZm4mXNiEg4ouWAfvDnzToIz6GQjLTWQISEmhDHZwf8QUS8c1IaKa2beO+hOffH4V63g3OuqirvvX0lIgXzZke6vm5dl6ZplmV5nidJAlwYNnaM08y3nZk5jmMAUGoNsIJnOPlycxRFc71Sak4ebO182Ow7JwkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    style="padding-bottom: 52.760736196319016%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVR42t2SzY7CMAyEneXcvkRvbQWb2E1IStktv5WQEO//MoMSBKKIA4I97eGTR44ysjWm1XbAz/6Irt/BOQdrLZj5bahfreHDAo11EBEIy2eGxhiwMUj1A6Ob4V+Y/HNDrXXCGE5c9CWDqIk5hqJTMDHl68eU+BO892hDgJ9b+LlDCOFG27agfrPH73DCcj2kZtd16SHe5CPRrBHB9JuhlwfMwhZlWaKqKtR1jaIoQNJYSLzBWO8me7Zu7Od5DiKCUhMQfSU94rr/q3eYZdnIQCk10mcFv1gLd8XcNQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="Not working multi-connections"
         title=""
-        src="/static/5574bda324eafc76c1d9d1d2d54cb4f1/a6d36/nw-multi-connections.png"
-        srcset="/static/5574bda324eafc76c1d9d1d2d54cb4f1/222b7/nw-multi-connections.png 163w,
-/static/5574bda324eafc76c1d9d1d2d54cb4f1/ff46a/nw-multi-connections.png 325w,
-/static/5574bda324eafc76c1d9d1d2d54cb4f1/a6d36/nw-multi-connections.png 650w,
-/static/5574bda324eafc76c1d9d1d2d54cb4f1/e548f/nw-multi-connections.png 975w,
-/static/5574bda324eafc76c1d9d1d2d54cb4f1/3c492/nw-multi-connections.png 1300w,
-/static/5574bda324eafc76c1d9d1d2d54cb4f1/8aace/nw-multi-connections.png 2732w"
+        src="/static/43ecd11cf7fe05c95e86089cc4920274/a6d36/nw-multi-connections.png"
+        srcset="/static/43ecd11cf7fe05c95e86089cc4920274/222b7/nw-multi-connections.png 163w,
+/static/43ecd11cf7fe05c95e86089cc4920274/ff46a/nw-multi-connections.png 325w,
+/static/43ecd11cf7fe05c95e86089cc4920274/a6d36/nw-multi-connections.png 650w,
+/static/43ecd11cf7fe05c95e86089cc4920274/e548f/nw-multi-connections.png 975w,
+/static/43ecd11cf7fe05c95e86089cc4920274/3c492/nw-multi-connections.png 1300w,
+/static/43ecd11cf7fe05c95e86089cc4920274/8aace/nw-multi-connections.png 2732w"
         sizes="(max-width: 650px) 100vw, 650px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -215,26 +215,26 @@ Hello, World!
     >
       <a
     class="gatsby-resp-image-link"
-    href="/static/af6a867082e93e02436d2f90bb034d64/36909/multi-connections.png"
+    href="/static/6e0899d0f08d398b66c74baa4f8bd624/36909/multi-connections.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA2klEQVR42qXRPW/CMBAG4AtDMmcJUqoKVR0QMHD+SM7n2CYhqFX5mPr//wsyEVVbWAKPPL4nv2fD/nDaHb+7z6NzzlpLY0AIgYzRWsvxwHtf17VSUo0HzFxVlXoIDAUeHFZPuNwsUArx8wy3IREjKHAdk1KKaxgMW26CsY6IjDFEVN9ommbTbjf9V2h77533YfhXaLve93vXfTAbay0z/5skotVyOXufvy6ql7f5dFqUZVkURZ7nEEvgWiAOTcSv/sMKiJhlGdwVd9I6nnu01oiYpikAJMkk+esMLnF8Ne+7UIsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    style="padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+0lEQVR42q1SvU7DMBi0GZI5SyoFIYQYKspQ/yWxHdtNGgSilIn3f5ZDdhVEoWWgGU6WLd357r6P7N7e8bT/wPCyh3MO1lq0bftvkBACWq2hlIIQ4mIQ7z2apoGUAlLKi0GMMajrehaxJDhZnU1wLqFjh5xBcH5U7jkCFwKcMXC2PvDi/RuXaGNhugBtXRq71jqdcVCn0HUdNv0Wm/EVoR/hvYP34WvlSD+M8OMObniGMTo9xkGdEosfPa5WuL1f4uahxvXdEotFiaqqUJYliqIAiVGj/Rhjss1/xJ8qYIwhz3MQQs4jdaPUAX+UHRc/CmZZloiUXoFS+gufWnZXaPvY4CUAAAAASUVORK5CYII='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="Working multi-connections"
         title=""
-        src="/static/af6a867082e93e02436d2f90bb034d64/a6d36/multi-connections.png"
-        srcset="/static/af6a867082e93e02436d2f90bb034d64/222b7/multi-connections.png 163w,
-/static/af6a867082e93e02436d2f90bb034d64/ff46a/multi-connections.png 325w,
-/static/af6a867082e93e02436d2f90bb034d64/a6d36/multi-connections.png 650w,
-/static/af6a867082e93e02436d2f90bb034d64/e548f/multi-connections.png 975w,
-/static/af6a867082e93e02436d2f90bb034d64/3c492/multi-connections.png 1300w,
-/static/af6a867082e93e02436d2f90bb034d64/36909/multi-connections.png 2772w"
+        src="/static/6e0899d0f08d398b66c74baa4f8bd624/a6d36/multi-connections.png"
+        srcset="/static/6e0899d0f08d398b66c74baa4f8bd624/222b7/multi-connections.png 163w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/ff46a/multi-connections.png 325w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/a6d36/multi-connections.png 650w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/e548f/multi-connections.png 975w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/3c492/multi-connections.png 1300w,
+/static/6e0899d0f08d398b66c74baa4f8bd624/36909/multi-connections.png 2772w"
         sizes="(max-width: 650px) 100vw, 650px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
