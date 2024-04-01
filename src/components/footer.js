@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   FaTwitter,
   FaGithub,
-  FaFacebookF,
   FaEnvelope,
   FaTelegramPlane,
   FaHeart,
@@ -40,15 +39,6 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin className="social-icons" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/mishal.shah.7731/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFacebookF className="social-icons" />
           </a>
         </li>
         <li>
