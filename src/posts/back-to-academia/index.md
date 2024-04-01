@@ -7,6 +7,10 @@ keywords: mishal23, masters, gatech, omscs, mscso, ut austin, georgia tech, cs
 blog: false
 ---
 
+I am planning to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
+
+> Note: I will update the blog with more details as and when I get admits :)
+
 ## Reasons to pursue masters
 
 It has been 4 years since I did my undergrad (2020 grad), and after 4 years, I plan to do masters in Computer Science. For those with whom I've talked, know that I wasn't someone who was inclined to do masters. That is one of the biggest reasons to write this blog—to describe what changed. A few reasons:
@@ -48,7 +52,3 @@ The application process to the online masters is as rigorous as the offline prog
 The following GitHub repository is a great collection of resources: [shaily99/advice](https://github.com/shaily99/advice)
 
 Please reach out if you need any help.
-
-## Note
-
-I will update the blog with more details as and when I get admits :)
