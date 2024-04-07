@@ -24,7 +24,7 @@ I could have learned these things on my own, but wanted a more systematic and st
 
 There are three main reasons for me:
 
-- **Learning was the goal**: Masters is considered one of the most standard ways to enter the US and settle there. While there is nothing wrong with that, for me, learning is the main goal with masters. I am not inclined to settle in the US at this point
+- **Learning was the goal**: Masters is considered one of the most standard ways to enter the US and settle there. While there is nothing wrong with that, for me, learning is the main goal with masters. I am not inclined to settle in the US at this point.
 - **Uncertain tech market**: With everything happening in the tech market, I didn't feel leaving my job would be a wise decision. Also, I like the work at my current job. That's when I came to know about the online masters program and felt like it was the right thing to do.
 - **No distinction of degree**: Most universities in the US offering online masters didn't differentiate in the degree given. It is the same for both the on-campus program, and the online program.
 
