@@ -54,9 +54,9 @@
 <p>When GitHub Actions was released in <a href="https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/" target="_blank" rel="nofollow">August 2019</a>, I always wanted to give it a try for some project but didn't get enough time to try it out. While I was using Travis CI with this deployment, I thought of giving GitHub Actions a try. Finally!</p>
 <p>Here are the steps I followed:</p>
 <ul>
-<li>Generated a New Token from GitHub <code>Settings -> Developer Settings -> Personal access tokens</code> with <strong>repo</strong> access scope.</li>
-</ul>
-<p><span
+<li>
+<p>Generated a New Token from GitHub <code>Settings -> Developer Settings -> Personal access tokens</code> with <strong>repo</strong> access scope.
+<span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
     >
@@ -88,10 +88,10 @@
       />
   </a>
     </span></p>
-<ul>
-<li>I was deploying on my root github.io, so the name of my repo is mishal23.github.io, I added the token in the repository <code>Settings -> Secrets</code> with the name <code>GH_TOKEN</code></li>
-</ul>
-<p><span
+</li>
+<li>
+<p>I was deploying on my root github.io, so the name of my repo is mishal23.github.io, I added the token in the repository <code>Settings -> Secrets</code> with the name <code>GH_TOKEN</code>
+<span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
     >
@@ -123,7 +123,7 @@
       />
   </a>
     </span></p>
-<ul>
+</li>
 <li>
 <p>Created a file named <code>gh-pages-deploy.yml</code> in the directory <code>.github/workflows/</code> using the Simple Workflow template available under the Actions tab on the repository.</p>
 </li>

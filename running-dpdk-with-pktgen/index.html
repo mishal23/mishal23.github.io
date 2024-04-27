@@ -8,7 +8,7 @@
 </ul>
 <p>We weren't able to find a lot of resources for setting up these tests and with this blog, we aim to bridge the gap.</p>
 <h2>DPDK and Pktgen-DPDK</h2>
-<p>The Data Plane Development Kit is an Open source software project managed by the Linux Foundation. It provides a set of data plane libraries and network interface controller polling-mode drivers running in userspace. This way, the NIC is directly accessible by the DPDK application.  The advantage of using DPDK is that you're able to utilize the link speed completely whereas, in the standard packet processing, the link goes underutilized. Thus, high performance can be achieved with DPDK.</p>
+<p>The Data Plane Development Kit is an Open source software project managed by the Linux Foundation. It provides a set of data plane libraries and network interface controller polling-mode drivers running in userspace. This way, the NIC is directly accessible by the DPDK application. The advantage of using DPDK is that you're able to utilize the link speed completely whereas, in the standard packet processing, the link goes underutilized. Thus, high performance can be achieved with DPDK.</p>
 <p>Pktgen-DPDK is a software-based traffic generator powered by DPDK. Traffic generators are often used to simulate various situations and test the performance of the application.</p>
 <h2>Test Setup</h2>
 <p>All the tests were done with two systems, one as the <strong>System Under Test</strong> which is a bare metal server, and the other one as a <strong>generator</strong> which is a VM. The SUT has two NUMA sockets where each socket has two 14-core Intel Xeon Gold 5120 2.20 GHz processors, which has four Intel I350 10 Gigabit NICs and four Ethernet Controller X710/X557-AT 10GBASE-T NICs. The generator has two 12-core Intel Xeon Gold 5120 2.20 GHz processors, 94GB memory, and one Intel 82540EM Gigabit NIC and Ethernet Controller X710/X557-AT 10GBASE-T NICs. Each system runs Ubuntu 20.04 LTS.</p>
@@ -153,7 +153,7 @@ pktgen.start(port2);
 -- code to check time to run
 
 pktgen.stop(port0);
-pktgen.stop(port2); </code>
+pktgen.stop(port2);</code>
         </deckgo-highlight-code>
 <h3>l3fwd</h3>
 <p>A layer 3 forwarder matches the destination IP of an incoming packet to the entries stored in its forwarding table and updates the layer 2 header before sending the packet to the next-hop.</p>
