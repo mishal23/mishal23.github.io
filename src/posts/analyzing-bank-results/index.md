@@ -2,7 +2,7 @@
 title: "Analyzing bank sector results"
 date: 2023-10-21 19:30:00 +0530
 img:
-description: Some of the metrics that can be used to fundamentally analyze bank sector results
+description: Some of the metrics that can be used to fundamentally analyze bank sector results.
 keywords: stocks, banks, results
 blog: true
 ---

@@ -1,20 +1,20 @@
 ---
-title:  "Origination of HackVerse"
-date:   2020-04-04 21:32:40 +0530
+title: "Origination of HackVerse"
+date: 2020-04-04 21:32:40 +0530
 img:
-description: Story behind the idea of a National Level Hackathon (HackVerse) at NITK, Surathkal which became one of India's finest and biggest student-run hackathon
+description: Story behind the idea of a National Level Hackathon (HackVerse) at NITK, Surathkal which became one of India's finest and biggest student-run hackathon.
 keywords: mishal23, hackverse, hackathon, devfolio, inout, nitk, ienitk, national-level-hackathon, diamond-jubilee, india, community
 blog: true
-
 ---
 
 I had attended various hackathons before - major ones being [code.fun.do](https://www.codefundo.io/), [Smart India Hackathon](https://www.sih.gov.in/), [HackInOut](https://hackinout.co/) and was part of organizing some small ones organized by the technical clubs in college. In the pre-final year, our team didn't get selected for Smart India Hackathon. That's when we came to know about student-run hackathons in India. Honestly, it was a new concept for all of us and seeing the sponsors, plan, and all seemed very promising. We applied to various hackathons, got selected; however, we couldn't attend any of those due to some of the other reasons.
 
 Meanwhile, the semester was near the ending, and Core Transfer happened for a Technical Club named [IE NITK](http://ie.nitk.ac.in) for which I was a part. We discussed different possible solutions on how we could make a better impact on our events on the college's technical community and possibly nation-wide. That's when I remembered about the student-run hackathons. Hackathons were excellent means to make an impact in the lives of the students. The learning curve students get by hackathons is immense and not to forget the experience - one of a lifetime in students' academics life!
 
-That's when we pitched about the nation-wide hackathon in college to the core members. One of the junior core members raised a question: "Isn't this too much that you're aiming?". I replied saying, "If so many other colleges could do, why not us?" That's when we faintly discussed a nation-wide hackathon to happen in the college. The initial team was formed of diverse people in terms of skills needed for it to be a national level hackathon and not a small one. That was when I read a lot of blogs & resources online to organize hackathons of a nation-wide scale. Meanwhile, another member of the team, Namrata contacted various friends in other colleges who organized such hackathons to get an idea of the process. 
+That's when we pitched about the nation-wide hackathon in college to the core members. One of the junior core members raised a question: "Isn't this too much that you're aiming?". I replied saying, "If so many other colleges could do, why not us?" That's when we faintly discussed a nation-wide hackathon to happen in the college. The initial team was formed of diverse people in terms of skills needed for it to be a national level hackathon and not a small one. That was when I read a lot of blogs & resources online to organize hackathons of a nation-wide scale. Meanwhile, another member of the team, Namrata contacted various friends in other colleges who organized such hackathons to get an idea of the process.
 
 We decided on the following things for HackVerse:
+
 - Completely free for all hackers
 - Host around 250 hackers from all over India
 - Have some technical talks & workshops

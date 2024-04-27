@@ -1,10 +1,9 @@
 ---
-title:  "Life @ NITK, Surathkal 🎓"
-img: 
-description: About Mishal Shah's university communities contributions
+title: "Life @ NITK, Surathkal 🎓"
+img:
+description: About Mishal Shah's university communities contributions.
 keywords: nitk, college, university, ienitk, web-club, iris, mishal23, mishal shah
 blog: false
-
 ---
 
 At [university](https://nitk.ac.in/) I was part of various community groups:

@@ -1,11 +1,10 @@
 ---
-title:  "Python Default Arguments Blunder"
-date:   2021-01-09 19:30:00 +0530
-img: 
-description: Sharing a common Python mistake I faced related to mutuable default arguments and how to not make the same mistake
+title: "Python Default Arguments Blunder"
+date: 2021-01-09 19:30:00 +0530
+img:
+description: Sharing a common Python mistake I faced related to mutuable default arguments and how to not make the same mistake.
 keywords: python, python3, default arguments, bugfix, mutuable default arguments, common mistakes
 blog: true
-
 ---
 
 It feels bad trying to debug a code for quite some time and then it turns out to be a very small mistake or a ~~bug~~ feature in the language. So, I thought of sharing it with all, which I feel other developers could also make unknowingly.

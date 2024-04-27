@@ -1,17 +1,16 @@
 ---
 title: "Year in a Review - 2020"
-date:   2020-12-31
+date: 2020-12-31
 description: I look back at 2020, and note down few things that were memorable.
 keywords: mishal23, year review, 2020, trips, hackathons, conferences, software engineer, cisco
 blog: true
-
 ---
 
 The end of the most different year in all our lives is here. I thought it's a good time to look back at the year and see how my life has been!
 
 ### January
 
-I (along with my friends) organized a [nationwide hackathon - HackVerse](https://hackverse.nitk.ac.in) of a scale none of us had done before. It was really amazing and I personally learned so much about communities and picked up quite some non-technical skills. 
+I (along with my friends) organized a [nationwide hackathon - HackVerse](https://hackverse.nitk.ac.in) of a scale none of us had done before. It was really amazing and I personally learned so much about communities and picked up quite some non-technical skills.
 
 ### February, March (before lockdown)
 
@@ -37,7 +36,7 @@ Oh yes, and I graduated! 🎓
 
 I started a job at Cisco as a software engineer in the IoT group on the Edge Intelligence project on August 5. The amount of things I've learned, hitting up with impostor syndrome, working in a corporate environment, connecting with people virtually, and not at all in real life has been totally different and am still coping up with a lot of things. More about it soon.
 
-I also traveled back to my college for the last time amidst COVID to get all the leftover luggage from the hostel room back. 
+I also traveled back to my college for the last time amidst COVID to get all the leftover luggage from the hostel room back.
 
 While all this happened, I got to stay with my parents for such a long time, and I'm really happy about that.
 

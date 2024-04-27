@@ -2,7 +2,7 @@
 title: "Definitions of atomicity"
 date: 2023-09-18 20:00:00 +0530
 img:
-description: The two definitions of atomicity in the world of computer science
+description: The two definitions of atomicity in the world of computer science.
 keywords: mishal23, atomicity, programming, computer science, databases, concurrency
 blog: false
 ---
