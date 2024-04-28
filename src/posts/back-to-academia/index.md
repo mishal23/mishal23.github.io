@@ -7,7 +7,7 @@ keywords: mishal23, masters, gatech, omscs, mscso, ut austin, georgia tech, cs, 
 blog: true
 ---
 
-I am planning to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
+I plan to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
 
 > Note: I will update the blog with more details as and when I get admits :)
 
@@ -55,6 +55,6 @@ For the statement of purpose, talk about your internships, research projects, wo
 
 ## Outro
 
-I'm hoping to get accepted and looking forward to start this journey from August 2024. Balancing work, academics, and personal time will be a challenge, but I'm approaching it with optimism and a can-do attitude. I hope to write more about the program and the learnings.
+I hope to get accepted and looking forward to start this journey from August 2024. Balancing work, academics, and personal time will be a challenge, but I'm approaching it with optimism and a can-do attitude. I hope to write more about the program and the learnings.
 
 Thank you for reading!
