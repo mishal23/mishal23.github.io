@@ -14,7 +14,6 @@ const AllTagsList = () => {
       }
     `
   )
-  console.log(data)
   const { allMarkdownRemark } = data
 
   return (

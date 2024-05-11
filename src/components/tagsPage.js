@@ -7,11 +7,10 @@ const TagsPage = ({ pageContext, data }) => {
   const { tag } = pageContext
 
   const { allMarkdownRemark } = data
-  console.log("Queried data")
-  console.log(data)
 
   return (
     <>
+      <Seo title="mishal23" />
       <section className="container wrap">
         <Default></Default>
         <h2 class="tag-header">{tag}</h2>
