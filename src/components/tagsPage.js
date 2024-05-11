@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Default from "./default"
 import Footer from "./footer"
+import { Seo } from "../components/seo"
 
 const TagsPage = ({ pageContext, data }) => {
   const { tag } = pageContext

@@ -5,7 +5,7 @@ const TagsList = ({ tags }) => {
   return (
     <div className="tags">
       <ul className="flat">
-        {tags.map(tagName => (
+        {tags?.map(tagName => (
           <li>
             <Link to={`/tags/${tagName}`}>{tagName}</Link>
           </li>
