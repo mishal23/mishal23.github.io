@@ -1,14 +1,15 @@
 ---
-title:  "Alexa Fact Skill"
-date:   2018-07-25 21:32:40 +0530
-img: 
+title: "Alexa Fact Skill"
+date: 2018-07-25 21:32:40 +0530
+img:
 description: Learning to build a voice user interface is a great skill to have as devices like the Amazon Echo, and Google Home are gaining popularity. Find out more about how to develop a basic fact skill for Amazon Alexa.
 keywords: alexa, alexa-developer, mishal23, skills, aws, aws lambda, serverless
+tags: ["software"]
 blog: true
-
 ---
 
 ## Introduction
+
 Learning to build a voice user interface is a great skill to have as devices like the Amazon Echo, and Google Home are gaining popularity. Amazon is currently running an incentive program this July(2018) for people developing Alexa Skills. You develop a new skill and get a limited-edition Alexa developer T-shirt! If more than 100 customers enable and use your skill in the first 30 days of publication, you could also receive an Echo Dot.
 
 ![July Incentive](./images/july-incentive.png)
@@ -21,16 +22,16 @@ Alexa is a cloud-based voice service that powers millions of voice experiences i
 
 What is a **skill**? They are apps(programs) that extend Echo's functionality and features. There are a lot of amazing skills already being developed by Alexa developers from over the world. Check them out [here](https://www.amazon.com/alexa-skills/b?ie=UTF8&node=13727921011). They can answer questions, play trivia games, play music, set alarms, tell jokes, and many more. Here is how it works:
 
-* User speaks something
-* The skill (defined on the Amazon Developer Site) matches the question(keywords) with an Intent(what the user is trying to ask) and then sends this intent to an endpoint(an API call to the server like AWS Lambda)
-* Lambda or your own server is where the data is stored. It has code to take the intent and return the relevant response, taken from the data.
-* Echo speaks back this response to the user.
+- User speaks something
+- The skill (defined on the Amazon Developer Site) matches the question(keywords) with an Intent(what the user is trying to ask) and then sends this intent to an endpoint(an API call to the server like AWS Lambda)
+- Lambda or your own server is where the data is stored. It has code to take the intent and return the relevant response, taken from the data.
+- Echo speaks back this response to the user.
 
 ## What do you need to start
 
-* An [Amazon Developer account](https://developer.amazon.com/), to create a skill.
-* An [Amazon AWS account](https://developer.amazon.com/), to create a Lambda function.
-* An idea! The skill you create is an app, and just like any other app in the market, your app should have a good use case.
+- An [Amazon Developer account](https://developer.amazon.com/), to create a skill.
+- An [Amazon AWS account](https://developer.amazon.com/), to create a Lambda function.
+- An idea! The skill you create is an app, and just like any other app in the market, your app should have a good use case.
 
 ## Creating the skill
 
@@ -46,9 +47,10 @@ Click on the `Create Skill` button.
 ![Alexa Create Skill](./images/create-skill.png)
 
 Fill out the information,
-* Skill Name: Number Fact
-* Skill Model: Custom
-* Skill Language: English(U.S.)
+
+- Skill Name: Number Fact
+- Skill Model: Custom
+- Skill Language: English(U.S.)
 
 Click, Create skill, and you'll see a page similar to this.
 
@@ -60,34 +62,34 @@ Now click Invocation in the left-hand navigation panel, and set the Invocation N
 
 This is now the core of the skill, Here we define,
 
-* an Intent Schema
-* Custom Slot Types
-* Sample Utterances
+- an Intent Schema
+- Custom Slot Types
+- Sample Utterances
 
 ### Intent Schema
 
 These are the "intents" of the skill, which define the "intent" or purpose of something the user says to the skill. So we may have a `GetNewFactIntent` intent, which signifies that the user wants to know a fact. They are defined in this format:
 
 ```json
- {
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent"
-        },
-        {
-          "name": "AMAZON.HelpIntent"
-        },
-        {
-          "name": "AMAZON.StopIntent"
-        },
-        {
-          "name": "AMAZON.FallbackIntent"
-        },
-        {
-          "name": "GetNewFactIntent"
-        }
-      ]
- }
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent"
+    },
+    {
+      "name": "AMAZON.HelpIntent"
+    },
+    {
+      "name": "AMAZON.StopIntent"
+    },
+    {
+      "name": "AMAZON.FallbackIntent"
+    },
+    {
+      "name": "GetNewFactIntent"
+    }
+  ]
+}
 ```
 
 The AMAZON.HelpIntent is a default Amazon intent that you can use to handle any **Help** type questions. Likewise, AMAZON.StopIntent is an inbuilt intent to handle "stop" intents.
@@ -110,15 +112,16 @@ For each intent, we list the maximum possible ways that users may say it:
 
 We put all this in the JSON Editor and hit Save Model, and then Build Model. Your JSON should look similar to this. You'll see a message like:
 
-![Build Progress](./images/build-progress.png) 
+![Build Progress](./images/build-progress.png)
 
-then 
+then
 
 ![Build Success](./images/build-success.png)
 
 Now, it's time to set the endpoint, Click on `Endpoint` button in the left navigation bar. This where we specify where the Intent information goes when the user asks a question. The options are:
-* AWS Lambda - a Lambda endpoint
-* HTTPS - your own endpoint
+
+- AWS Lambda - a Lambda endpoint
+- HTTPS - your own endpoint
 
 We'll be using AWS Lambda here.
 
@@ -155,11 +158,11 @@ File `AlexaSkill.js` has specific event handlers. It specifies the output, promp
 
 From the right-top of the page, copy the ARN value, it's of the form `arn:aws:lambda:region:function:nameOfFunction`. Go to Amazon Developer Console, Select your skill, and click on the endpoint in the left navigation bar. Select AWS Lambda ARN and paste the ARN code copied in the default region input box. Click on Save Endpoints. And you'll see a popup similar to the below image saying Skill Manifest Saved Successfully.
 
-![Skill save](./images/skill-save.png)  
+![Skill save](./images/skill-save.png)
 
 In the top navigation bar, click on the Test tab. If the test is disabled, enable it and either speak or type the Open Invocation Name, for this skill, `Open Number Facts`, and watch Alexa speaking the fact. :D
 
-![Skill Test](./images/test-skill.png)  
+![Skill Test](./images/test-skill.png)
 
 Enter the distribution and Certification details as required, and submit the skill for certification. It takes a few days to hear back from the Amazon Developer Team. If your skill is approved, then everything works, and all of the information is agreeing to their standards. Your skill will be certified and published and available for others to use. If not, you will receive feedback and suggestions on what you need to to to resolve any issues so you can re-submit.
 

@@ -4,6 +4,7 @@ date: 2023-11-05 19:30:00 +0530
 img:
 description: Build a basic web server from scratch alongwith handling HTTP requests and concurrent requests.
 keywords: web server, web frameworks, concurrency, threading, HTTP
+tags: ["software", "computer-science"]
 blog: true
 ---
 

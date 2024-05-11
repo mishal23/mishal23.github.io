@@ -4,6 +4,7 @@ date: 2020-04-28 16:00:00 +0530
 img:
 description: Steps to migrate Jekyll Blog to Gatsby and deploying Site using GitHub Actions to GitHub Pages.
 keywords: mishal23, gatsby, jekyll, migration, static-site-generator, fast, modern, frameworks, react, graphql, github-actions, github, ci-cd
+tags: ["software"]
 blog: true
 ---
 

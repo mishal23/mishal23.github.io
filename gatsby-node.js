@@ -38,6 +38,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   // 1.2 Tell which layout Gatsby should use to thse pages
   const blogLayout = path.resolve(`./src/components/blogPost.js`)
+  const tagsPage = path.resolve(`./src/components/tagsPage.js`)
   const blogListLayout = path.resolve(`./src/pages/index.js`)
 
   // 2 Return the method with the query
@@ -54,6 +55,7 @@ exports.createPages = ({ graphql, actions }) => {
               date
               description
               keywords
+              tags
             }
             html
           }
@@ -73,20 +75,43 @@ exports.createPages = ({ graphql, actions }) => {
     const numPages = Math.ceil(posts.length / postsPerPage)
 
     // Creating blog list with pagination
-    Array.from({ length: numPages }).forEach((_, i) => {
+    // Update: removing since pagination is not added currently
+    // Array.from({ length: numPages }).forEach((_, i) => {
+    //   createPage({
+    //     path: i === 0 ? `/` : `/page/${i + 1}`,
+    //     component: blogListLayout,
+    //     context: {
+    //       limit: postsPerPage,
+    //       skip: i * postsPerPage,
+    //       currentPage: i + 1,
+    //       numPages,
+    //     },
+    //   })
+    // })
+
+    // Unique list of tags
+    const tags = new Set()
+    posts.forEach(post => {
+      const tagArray = post.node.frontmatter.tags
+      if (tagArray?.length > 0) {
+        tagArray.forEach(tag => {
+          tags.add(tag.trim())
+        })
+      }
+    })
+
+    // Creating page for each tag
+    tags.forEach(tag => {
       createPage({
-        path: i === 0 ? `/` : `/page/${i + 1}`,
-        component: blogListLayout,
+        path: "tags/" + tag,
+        component: tagsPage,
         context: {
-          limit: postsPerPage,
-          skip: i * postsPerPage,
-          currentPage: i + 1,
-          numPages,
+          tag: tag,
         },
       })
     })
 
-    // 3 Loop throught all posts
+    // 3 Loop through all posts
     posts.forEach((post, index) => {
       // 3.1 Finally create posts
       createPage({

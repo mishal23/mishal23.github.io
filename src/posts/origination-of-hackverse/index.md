@@ -4,6 +4,7 @@ date: 2020-04-04 21:32:40 +0530
 img:
 description: Story behind the idea of a National Level Hackathon (HackVerse) at NITK, Surathkal which became one of India's finest and biggest student-run hackathon.
 keywords: mishal23, hackverse, hackathon, devfolio, inout, nitk, ienitk, national-level-hackathon, diamond-jubilee, india, community
+tags: ["hackverse"]
 blog: true
 ---
 

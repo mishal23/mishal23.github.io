@@ -3,6 +3,7 @@ title: "Projects 👨‍💻"
 img:
 description:
 keywords: projects, c++, python, erlang, javascript, mysql, nosql, mean, django, git, react, openmp, ruby-on-rails, gatsby
+tags:
 blog: false
 ---
 

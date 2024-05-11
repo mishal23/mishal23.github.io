@@ -4,6 +4,7 @@ date: 2020-07-15 12:32:40 +0530
 img:
 description: Running DPDK l2fwd, l3fwd, l3fwd-power forwarding applications using pktgen-dpdk as traffic generator with customized flows.
 keywords: dpdk, pktgen-dpdk, lua, l2fwd, l3fwd, l3fwd-lpm, l3fwd-em, l3fwd-power, NFV, flows, networking
+tags: ["computer-science", "software"]
 blog: true
 ---
 

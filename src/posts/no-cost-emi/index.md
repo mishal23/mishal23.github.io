@@ -4,6 +4,7 @@ date: 2023-08-25 20:00:00 +0530
 img:
 description: Diving into all the costs behind a No Cost EMI transaction through a HDFC Bank Credit Card.
 keywords: mishal23, no cost emi, credit card, hdfc bank
+tags: ["finance"]
 blog: true
 ---
 

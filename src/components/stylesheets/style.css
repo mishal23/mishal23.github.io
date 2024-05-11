@@ -247,6 +247,11 @@ ul.flat li {
   max-height: 15px;
 }
 
+.anchor-force-highlight {
+  color: #0066ff;
+  text-decoration: underline;
+}
+
 .section .section-header {
   font-size: 0.75rem;
   font-weight: 600;
@@ -411,9 +416,13 @@ code[slot="code"] {
   padding: 0px 6px;
   color: #333;
   line-height: 20px;
-  font-size: 0.85em;
+  font-size: 0.95em;
   text-decoration: none;
   margin: 0 10px 0 0;
+}
+
+.tag-header {
+  text-align: center;
 }
 
 .pagination {

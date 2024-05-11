@@ -3,6 +3,7 @@ title: "Year in a Review - 2020"
 date: 2020-12-31
 description: I look back at 2020, and note down few things that were memorable.
 keywords: mishal23, year review, 2020, trips, hackathons, conferences, software engineer, cisco
+tags: ["life"]
 blog: true
 ---
 

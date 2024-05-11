@@ -4,6 +4,7 @@ date: 2020-07-21 12:32:40 +0530
 img:
 description: Talks given by Mishal Shah
 keywords: mishal23, talks, oss, javascript, web-development, speaker, hackathons
+tags:
 blog: false
 ---
 

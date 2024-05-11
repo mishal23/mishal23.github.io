@@ -4,6 +4,7 @@ date: 2021-01-09 19:30:00 +0530
 img:
 description: Sharing a common Python mistake I faced related to mutuable default arguments and how to not make the same mistake.
 keywords: python, python3, default arguments, bugfix, mutuable default arguments, common mistakes
+tags: ["software"]
 blog: true
 ---
 

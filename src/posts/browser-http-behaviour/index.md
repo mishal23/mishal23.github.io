@@ -4,6 +4,7 @@ date: 2021-06-18 19:30:00 +0530
 img:
 description: Understand the behaviour by most modern browsers for serving HTTP/1.1 and HTTP/2 websites.
 keywords: http, multiplexing, networking, chrome, network requests
+tags: ["computer-science"]
 blog: true
 ---
 

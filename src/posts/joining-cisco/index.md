@@ -4,6 +4,7 @@ date: 2020-08-05 21:32:40 +0530
 img:
 description: The beginning of a student to professional career as a Software Engineer at Cisco.
 keywords: mishal23, cisco, software-engineer, IoT, engineering, WeAreCisco, cse, nitk
+tags: ["life"]
 blog: true
 ---
 

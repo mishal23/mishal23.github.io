@@ -1,12 +1,13 @@
 ---
-title:  "Journey to GSoC 2019"
-date:   2019-05-07 21:32:40 +0530
+title: "Journey to GSoC 2019"
+date: 2019-05-07 21:32:40 +0530
 img:
 description: A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization.
 keywords: mishal23, GSoC, gsoc2019, journey, ns-3, ns-3-AppStore, bake, open-source, nitk, communities
+tags: ["gsoc"]
 blog: true
-
 ---
+
 6th May 2019. After playing cricket with my friends at around 10:45 pm, I came back home, took a quick shower, and sat to check the results at 11:30 pm. Reloaded the dashboard at 11:30 pm, and there was my name. Finally! I got selected as a Student Developer in Google Summer of Code, 2019, with [The ns-3 Network Simulator Project][ns3-gsoc]. The official mail came a bit late, but the website had the results on time.
 
 ![GSoC 2019 Acceptance](./images/gsoc-acceptance.png)
@@ -24,8 +25,9 @@ I started looking for previous years' selected organizations for GSoC based on m
 I started looking into the projects of OWASP initially, and started contributing to their [SecureTea Project][securetea] and got quite a few PRs merged. I was also a bit familiar with [ns-3][ns-3website] because of the course projects in Computer Networks and Advanced Computer Networks courses.
 
 When Google released the list of selected organizations, both OWASP and ns-3 were selected. I had now to make a choice which one to apply. It wasn't going to be both since I wanted to focus on one properly rather than both. I chose to go ahead with ns-3 because:
-* The project was very much aligning to my interests,
-* I wanted to dive deeper into the networking field and systems.
+
+- The project was very much aligning to my interests,
+- I wanted to dive deeper into the networking field and systems.
 
 ## Involving with the Community
 

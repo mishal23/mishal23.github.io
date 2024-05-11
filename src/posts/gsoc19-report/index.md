@@ -1,11 +1,11 @@
 ---
-title:  "ns-3 GSoC 2019 Report"
-date:   2019-08-25 21:32:40 +0530
+title: "ns-3 GSoC 2019 Report"
+date: 2019-08-25 21:32:40 +0530
 img:
-description: Summarizing my GSoC 2019 Experience with the ns-3 Organization and my mentors. 
+description: Summarizing my GSoC 2019 Experience with the ns-3 Organization and my mentors.
 keywords: mishal23, gsoc, gsoc2019, experience, ns-3, ns-3-AppStore, Bake, open-source
+tags: ["gsoc"]
 blog: true
-
 ---
 
 ## Introduction
@@ -45,7 +45,7 @@ This section covers the work done during the GSoC Period in terms of contributed
 - [#49](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/49): This PR added the filtering techniques with a minimal UI one-click for Fork/Modules/All.
 - [#52](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/52): Thus, PR added the download count per release and per date for each app whenever a getconf/install option is triggered.
 - [#53](https://github.com/abhijithanilkumar/ns-3-AppStore/pull/53): This PR updated the existing Search API to POST Request to take the input parameters of the configured ns versions and the keyword to search
-- [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR updated the bake search functionality to get the apps based on the currently enabled ns versions. 
+- [#2](https://gitlab.com/nsnam/bake/merge_requests/2): This PR updated the bake search functionality to get the apps based on the currently enabled ns versions.
 
 ### Phase 3
 
@@ -59,7 +59,7 @@ This section covers the work done during the GSoC Period in terms of contributed
 
 - [Wiki: Weekly Updates](https://www.nsnam.org/wiki/GSOC2019AppStore): Weekly Updates of the work during the GSoC 2019 time period.
 - [Commenting Proposal](https://docs.google.com/document/d/1GBUEQYbSuYFPxoKXJLZaqhRlh0xkNwizFPmNVWEmi5Y/edit?usp=sharing): Prepared a proposal for various commenting features suitable for the ns-3-AppStore.
-- [Blog: Journey to GSoC 2019](https://mishal23.github.io/journey-to-gsoc-2019/): A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization. 
+- [Blog: Journey to GSoC 2019](https://mishal23.github.io/journey-to-gsoc-2019/): A bit about my journey to getting accepted for GSoC 2019 with the ns-3 organization.
 - [Blog: My GSoC Project](https://mishal23.github.io/my-gsoc-project/): A brief into the project, the organization, and the gains out of the community bonding period.
 - [Phase 1 WorkFlow Document](https://docs.google.com/document/d/1urES5k0sJl24u2RE7dkpNdGaISCSvdvEKEDp5h5lYgA/edit?usp=sharing): A workflow document for all the tasks done during Phase 1.
 - [Phase 2 WorkFlow Document](https://docs.google.com/document/d/1PXJUNT2Er2s8jyFOE2VeAjlXGl7ZwUoQFuryH5VYfBE/edit?usp=sharing): A workflow document for all the tasks done during Phase 2.
@@ -79,6 +79,7 @@ Inline code documentation was done for most of the codes, and hence documentatio
 ### Future Work
 
 After discussion with my mentor [@abhijithanilkumar](https://github.com/abhijithanilkumar/), the possible future work for the ns-3-AppStore is as follows:
+
 - Deploy the updated ns-3-AppStore on the new server.
 - Add code coverage for the AppStore and add tests for the missing code.
 

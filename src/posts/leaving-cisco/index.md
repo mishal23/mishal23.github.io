@@ -4,6 +4,7 @@ date: 2021-10-24 21:32:40 +0530
 img:
 description: 24th October 2021 was my last day at Cisco, a short writeup reflecting on my experience and why I left.
 keywords: mishal23, cisco, software-engineer, IoT, engineering, WeAreCisco, cse, nitk
+tags: ["life"]
 blog: true
 ---
 
