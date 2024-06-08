@@ -56,8 +56,8 @@ For the statement of purpose, talk about your internships, research projects, wo
 
 Here is the statement of purpose and resume that I wrote while applying:
 
-- [Statement of Purpose](./resources/mishal-ut-sop.pdf)
-- [Resume](./resources/mishal-masters-resume.pdf)
+- [Statement of Purpose](https://drive.google.com/file/d/1seNL70LG-AwA77VomCWLoHKH4Pwm_QIz/view?usp=drive_link)
+- [Resume](https://drive.google.com/file/d/1NpY1JBBW-8s2glL_Vx7qR-K5qeu0AUaj/view?usp=drive_link)
 
 ## Outro
 
