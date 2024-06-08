@@ -10,7 +10,7 @@ blog: true
 
 I plan to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
 
-> Note: I will update the blog with more details as and when I get admits :)
+> Got admitted to both the Masters in Computer Science programs I applied to: [GaTech OMSCS](https://omscs.gatech.edu/) and [UT Austin MSCSO](https://omscs.gatech.edu/)! I haven't decided on which university I will pick yet.
 
 ## Reasons to pursue masters
 
@@ -53,6 +53,11 @@ Different univerisites have different requirements, but overall, you need the fo
 - GRE (optional)
 
 For the statement of purpose, talk about your internships, research projects, work experience, intent to do masters, areas of interest, why choosing the university. The following GitHub repository has a great collection of resources: [shaily99/advice](https://github.com/shaily99/advice). Please feel free to reach out to me if you need any help.
+
+Here is the statement of purpose and resume that I wrote while applying:
+
+- [Statement of Purpose](./resources/mishal-ut-sop.pdf)
+- [Resume](./resources/mishal-masters-resume.pdf)
 
 ## Outro
 
