@@ -10,7 +10,7 @@ blog: true
 
 I plan to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
 
-> Got admitted to both the Masters in Computer Science programs I applied to: [GaTech OMSCS](https://omscs.gatech.edu/) and [UT Austin MSCSO](https://omscs.gatech.edu/)! I haven't decided on which university I will pick yet.
+> **Results update:** Got admitted to both the Masters in Computer Science programs I applied to: [GaTech OMSCS](https://omscs.gatech.edu/) and [UT Austin MSCSO](https://omscs.gatech.edu/)! I haven't decided on which university I will pick yet.
 
 ## Reasons to pursue masters
 
