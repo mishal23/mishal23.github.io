@@ -10,7 +10,7 @@ blog: true
 
 I plan to go back to academics and the post describes few thoughts on pursuing masters and the process/documents needed.
 
-> **July 27, 2024 - Decision:** I have decided to pursue the [OMSCS program from GaTech](https://omscs.gatech.edu/).
+> **July 27, 2024 - Decision:** I have decided to pursue the [OMSCS program from GaTech](https://omscs.gatech.edu/), because of better variety of courses available for the Computing Systems specialization.
 
 > **June 9, 2024 - Results update**: Got admitted to both the Masters in Computer Science programs I applied to: [GaTech OMSCS](https://omscs.gatech.edu/) and [UT Austin MSCSO](https://omscs.gatech.edu/)! I haven't decided on which university I will pick yet.
 
