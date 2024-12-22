@@ -45,7 +45,7 @@ I applied to OMSCS and MSCSO programs because of the affordability and both of t
 
 The application process to the online masters is as rigorous as the offline program. Applying for masters programs is a marathon and not a sprint. Things will take time, it will be slow, so be patient! For context, it took me almost a month and several iterations to write the statement of purpose.
 
-Different univerisites have different requirements, but overall, you need the following for the applications:
+Different universities have different requirements, but overall, you need the following for the applications:
 
 - Three Letters of Recommendations
 - Statement of Purpose
