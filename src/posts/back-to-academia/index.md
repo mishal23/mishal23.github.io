@@ -4,7 +4,7 @@ date: 2024-03-30 20:00:00 +0530
 img:
 description: Thoughts on why I decided to pursue masters in CS and a bit about the application process.
 keywords: mishal23, masters, gatech, omscs, mscso, ut austin, georgia tech, cs, computer science
-tags: ["life", "computer-science"]
+tags: ["life", "computer-science", "omscs"]
 blog: true
 ---
 
