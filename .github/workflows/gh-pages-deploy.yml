@@ -45,5 +45,4 @@ jobs:
           git config --global user.name "mishal23"
           git remote set-url origin https://${{ secrets.GH_PAT }}@github.com/mishal23/mishal23.github.io.git
           npm run build
-          npm run add-domain
           npm run deploy
